@@ -27,7 +27,7 @@ export class WordItem extends React.PureComponent {
     `;
     const MyFuriFury = styled(ReactFuri.Text)`
       font-family: Chig;
-      font-size: 50px; 
+      font-size: 70px; 
      `;
 
     const MyFuriText = styled(ReactFuri.Furi)`
