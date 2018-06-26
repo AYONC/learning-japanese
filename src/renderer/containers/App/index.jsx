@@ -22,7 +22,7 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        <TopBar title="LJ" />
+        <TopBar title="" />
         <div className={styles.body}>
           <p className={styles.message}>
             Let's enjoy Japanese study.

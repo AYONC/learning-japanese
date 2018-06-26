@@ -4,7 +4,7 @@ import path from 'path';
 import { dataPath } from 'main/Path';
 
 const timeout = 1000 * 10;
-const base = 'https://api.github.com/repos/DavinAhn/learning-japanese';
+const base = 'https://api.github.com/repos/ayonc/learning-japanese';
 
 const fetchData = (dataSHA, updated, error) => {
   axios.get(`${base}/contents/data?ref=master`, { timeout })

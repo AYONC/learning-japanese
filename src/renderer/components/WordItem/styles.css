@@ -1,9 +1,8 @@
 .item {
-  display: inline;
+  display: block;
   float: left;
   list-style-type: none;
-  width: 320px;
-  padding: 20px 0px;
+  width: 100%;
 }
 
 .word {
