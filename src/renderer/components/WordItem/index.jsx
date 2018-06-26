@@ -20,7 +20,6 @@ export class WordItem extends React.PureComponent {
       font-family: Chig;
       text-align: center;
       vertical-align: middle;
-      margin: 15px 0;
     `;
     const MyFuriPair = styled(ReactFuri.Pair)`
       font-family: Chig;
@@ -39,10 +38,11 @@ export class WordItem extends React.PureComponent {
     const { word, sound } = item;
     console.log(item);
     return <div className={styles.item}>
+      <div className={styles.card}>
       <ReactFuri
         word={word}
         reading={sound[0].ja}
-        className={styles.item}
+        className={styles.card}
         render={({ pairs }) => (
           <MyWrapper lang="ja">
             {pairs.map(([furigana, text], index) => (
@@ -56,6 +56,7 @@ export class WordItem extends React.PureComponent {
       </ReactFuri>
       <div className={styles.mean}>
         {this.getMean()}
+      </div>
       </div>
     </div>;
   }
