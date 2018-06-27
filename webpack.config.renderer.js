@@ -23,7 +23,7 @@ const config = {
   },
 
   resolve: {
-    extensions: ['.css', '.ttf', 'otf', '.png', '.jpg', '.jpeg', '.gif', '.svg']
+    extensions: ['.css', '.ttf', '.woff2', '.png', '.jpg', '.jpeg', '.gif', '.svg']
   },
 
   module: {
@@ -60,7 +60,7 @@ const config = {
         })
       },
       {
-        test: /\.(ttf|otf)$/,
+        test: /\.(ttf|woff2)$/,
         exclude: /node_modules/,
         loader: 'file-loader',
         options: {
