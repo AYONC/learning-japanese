@@ -36,7 +36,6 @@ export class WordItem extends React.PureComponent {
 
     const { item } = this.props;
     const { word, sound } = item;
-    console.log(item);
     return <div className={styles.item}>
       <div className={styles.card}>
       <ReactFuri

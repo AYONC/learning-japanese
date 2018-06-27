@@ -1,12 +1,10 @@
 .button {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 17px;
-  font-weight: var(--font-regular);
+  padding: 15px 30px 17px 30px;
+  font-family: Noto Sans KR, Roboto, sans-serif;
+  font-weight: 100;
   color: var(--white);
   text-align: center;
-  font-size: 17px;
+  font-size: 30px;
   min-width: 220px;
 }
 

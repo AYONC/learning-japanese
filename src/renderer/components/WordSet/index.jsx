@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { WordSection } from 'renderer/components/WordSection';
 import * as styles from './styles.css';
 
-const orders = [
+export const HiraganaOrder = [
   "a", "i", "u", "e", "o",
   "ka", "ki", "ku", "ke", "ko",
   "sa", "si", "su", "se", "so",
@@ -30,7 +30,7 @@ export class WordSet extends React.PureComponent {
 
   getCount() {
     const { set } = this.props;
-    return orders
+    return HiraganaOrder
       .map((key) => (set[key] || []).length)
       .reduce((l1, l2) => l1 + l2, 0);
   }
@@ -41,7 +41,7 @@ export class WordSet extends React.PureComponent {
     }
     const { set } = this.props;
     let sections = [];
-    orders.forEach((key, idx) => {
+    HiraganaOrder.forEach((key, idx) => {
       const list = set[key];
       if (list) {
         sections.push((

@@ -43,7 +43,7 @@ export default class Window {
   static loadMainWindow() {
     const filePath = path.resolve(__dirname, 'dist', 'index.html');
     const window = this.create(filePath, {
-      resizable: false,
+      resizable: true,
     });
     window.on('closed', () => {
       // Dereference the window object, usually you would store windows
