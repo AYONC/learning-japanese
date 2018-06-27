@@ -60,17 +60,8 @@ export class Card extends React.Component {
           this.props.history.goBack();
         }}/>
         <div className={styles.body}>
-
-          <Scrollbars
-            autoHeight
-            autoHeightMin={windowMaxHeight - barHeight}
-            autoHeightMax={windowMaxHeight - barHeight}
-            renderThumbHorizontal={props => <div {...props} className={styles.scrollThumb}/>}
-            renderThumbVertical={props => <div {...props} className={styles.scrollThumb}/>}
-          >
           {this.renderItem()}
           {/*<WordList list={this.props.wordMap}/>*/}
-          </Scrollbars>
         </div>
       </div>
     );
