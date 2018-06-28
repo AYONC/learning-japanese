@@ -5,7 +5,6 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-scrolling: touch;
-  justify-content: center;
   align-items: center;
   & > * {
     flex: 0 0 auto;
