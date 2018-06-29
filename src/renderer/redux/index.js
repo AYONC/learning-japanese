@@ -1,4 +1,4 @@
-import { routerReducer, RouterState } from 'react-router-redux';
+import { routerReducer } from 'react-router-redux';
 import { combineReducers } from 'redux';
 import { appReducer } from 'renderer/redux/reducers/App';
 
@@ -7,4 +7,4 @@ export const rootReducer = combineReducers({
   router: routerReducer,
 });
 
-export { RouterState };
+export default { rootReducer };
