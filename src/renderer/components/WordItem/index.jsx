@@ -35,7 +35,7 @@ export class WordItem extends React.PureComponent {
 
     const { item } = this.props;
     const { word, sound, furi } = item;
-    let props = { word };
+    const props = { word };
     if (furi) {
       props.furi = furi;
     } else {
@@ -52,18 +52,22 @@ export class WordItem extends React.PureComponent {
               <Wrapper lang="ja">
                 {pairs.map(([furigana, text], index) => (
                   <Pair key={index}>
-                    <Text>{furigana}</Text>
-                    <Furi>{text}</Furi>
+                    <Text>
+                      {furigana}
+                    </Text>
+                    <Furi>
+                      {text}
+                    </Furi>
                   </Pair>
                 ))}
               </Wrapper>
-            )}>
-          </ReactFuri>
+            )}
+          />
           <div className={styles.mean}>
             {this.getMean()}
           </div>
         </div>
       </div>
-    )
+    );
   }
 }

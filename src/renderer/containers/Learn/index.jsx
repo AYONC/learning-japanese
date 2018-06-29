@@ -43,10 +43,10 @@ export class Learn extends React.Component {
             autoHeight
             autoHeightMin={windowMaxHeight - barHeight}
             autoHeightMax={windowMaxHeight - barHeight}
-            renderThumbHorizontal={props => <div {...props} className={styles.scrollThumb}/>}
-            renderThumbVertical={props => <div {...props} className={styles.scrollThumb}/>}
+            renderThumbHorizontal={props => <div {...props} className={styles.scrollThumb} />}
+            renderThumbVertical={props => <div {...props} className={styles.scrollThumb} />}
           >
-            <WordList list={state.app.list}/>
+            <WordList list={state.app.list} />
           </Scrollbars>
         </div>
       </div>

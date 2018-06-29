@@ -7,14 +7,14 @@ const IconType = {
   CLOSE: 'close',
   MINIMIZE: 'minimize',
   BACK: 'back',
-}
+};
 
 class IconButton extends BaseComponent {
   static propTypes = {
     label: PropTypes.string,
     isDisabled: PropTypes.bool,
     color: PropTypes.oneOf([
-      IconType.CLOSE, 
+      IconType.CLOSE,
       IconType.MINIMIZE,
       IconType.BACK,
     ]),
@@ -44,7 +44,7 @@ class IconButton extends BaseComponent {
         onClick={this.handleClick}
         disabled={isDisabled}
       >
-        {children ? children : label}
+        {children || label}
       </button>
     );
   }
@@ -53,4 +53,4 @@ class IconButton extends BaseComponent {
 export {
   IconButton,
   IconType,
-}
+};

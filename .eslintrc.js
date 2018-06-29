@@ -22,6 +22,8 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': OFF,
     'jsx-a11y/anchor-is-valid': OFF,
     'jsx-a11y/no-noninteractive-element-interactions': OFF,
+    "react/no-access-state-in-setstate": OFF,
+    "react/destructuring-assignment": OFF,
   },
   "settings": { "import/resolver": { "node": { "paths": ["src", 'src/main', 'src/renderer'] } } },
   'env': {

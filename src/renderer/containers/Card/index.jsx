@@ -8,20 +8,19 @@ import * as AppActions from 'renderer/redux/actions/App';
 import { barHeight, windowMaxHeight } from 'Constant';
 import Event from 'Event';
 import { HiraganaOrder } from 'renderer/components/WordSet';
+import PropTypes from 'prop-types';
 import * as styles from './styles.css';
 
 const { ipcRenderer } = window.require('electron');
 
 export class Card extends React.Component {
   static propTypes = {
-    state: object,
+    state: PropTypes.object,
   };
 
   constructor(props, context) {
     super(props, context);
-    ipcRenderer.on(Event.SENDLIST, (event, args) =>
-      this.props.updateList(args),
-    );
+    ipcRenderer.on(Event.SENDLIST, (event, args) => this.props.updateList(args));
     ipcRenderer.send(Event.REQUESTLIST);
     const window = remote.getCurrentWindow();
     const bounds = window.getBounds();
@@ -46,7 +45,7 @@ export class Card extends React.Component {
       Object.keys(wordMap).forEach(key => {
         const listItem = wordMap[key];
         listItem.forEach((item, idx) => {
-          result.push(<WordItem key={`WordItem_${key}_${idx}`} item={item}/>);
+          result.push(<WordItem key={`WordItem_${key}_${idx}`} item={item} />);
         });
       });
     }
@@ -66,7 +65,7 @@ export class Card extends React.Component {
         />
         <div className={styles.body}>
           {this.renderItem()}
-           <WordList list={this.props.wordMap}/>
+          <WordList list={this.props.wordMap} />
         </div>
       </div>
     );

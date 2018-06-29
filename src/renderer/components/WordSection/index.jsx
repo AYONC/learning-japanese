@@ -20,10 +20,17 @@ export class WordSection extends React.PureComponent {
     const { label, list } = this.props;
     return (
       <ul className={styles.section}>
-        <div className={styles.sectionTitle} onClick={() => {
-          this.setState({ shown: !this.state.shown })
-        }}>
-          {label} ({list.length})
+        <div
+          className={styles.sectionTitle}
+          onClick={() => {
+            this.setState({ shown: !this.state.shown });
+          }}
+        >
+          {label}
+          {' '}
+(
+          {list.length}
+)
         </div>
         <hr />
         {this.state.shown ? list.map((item, idx) => (

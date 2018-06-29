@@ -8,6 +8,7 @@ import * as AppActions from 'renderer/redux/actions/App';
 import Event from 'Event';
 import * as styles from './styles.css';
 import { ButtonColor } from '../../components/Button';
+import PropTypes from 'prop-types';
 
 const { ipcRenderer } = window.require('electron');
 
@@ -27,20 +28,20 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        <TopBar title=""/>
+        <TopBar title="" />
         <div className={styles.body}>
           <p className={styles.message}>
             암기보다 개발이 쉬웠어요
           </p>
           <Link to="/dictionary">
-            <Button label="전체보기"/>
+            <Button label="전체보기" />
           </Link>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+          <br />
+          <br />
+          <br />
+          <br />
           <Link to="/card">
-            <Button label="암기모드" color={ButtonColor.SECONDARY}/>
+            <Button label="암기모드" color={ButtonColor.SECONDARY} />
           </Link>
         </div>
       </div>

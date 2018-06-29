@@ -7,14 +7,14 @@ const ButtonColor = {
   PRIMARY: 'primary',
   SECONDARY: 'secondary',
   WHITE: 'white',
-}
+};
 
 class Button extends BaseComponent {
   static propTypes = {
     label: PropTypes.string,
     isDisabled: PropTypes.bool,
     color: PropTypes.oneOf([
-      ButtonColor.PRIMARY, 
+      ButtonColor.PRIMARY,
       ButtonColor.SECONDARY,
       ButtonColor.WHITE,
     ]),
@@ -44,7 +44,7 @@ class Button extends BaseComponent {
         onClick={this.handleClick}
         disabled={isDisabled}
       >
-        {children ? children : label}
+        {children || label}
       </button>
     );
   }
@@ -53,4 +53,4 @@ class Button extends BaseComponent {
 export {
   Button,
   ButtonColor,
-}
+};
