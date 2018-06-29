@@ -26,11 +26,9 @@ export class WordSection extends React.PureComponent {
           {label} ({list.length})
         </div>
         <hr />
-        <div className={styles.section}>
         {this.state.shown ? list.map((item, idx) => (
           <WordItem key={`WordItem_${idx}`} item={item} />
         )) : ''}
-        </div>
       </ul>
     );
   }

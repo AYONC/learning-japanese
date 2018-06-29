@@ -13,9 +13,11 @@ export default class Window {
       x: undefined,
       y: undefined,
       width: windowMaxWidth,
+      minWidth: windowMaxWidth,
       height: windowMaxHeight,
+      minHeight: windowMaxHeight,
       minimizable: true,
-      maximizable: true,
+      maximizable: false,
       fullscreenable: false,
       show: false,
       frame: false,
@@ -43,7 +45,7 @@ export default class Window {
   static loadMainWindow() {
     const filePath = path.resolve(__dirname, 'dist', 'index.html');
     const window = this.create(filePath, {
-      resizable: true,
+      resizable: false,
     });
     window.on('closed', () => {
       // Dereference the window object, usually you would store windows

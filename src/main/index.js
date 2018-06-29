@@ -1,5 +1,5 @@
 import aesjs from 'aes-js';
-import { app, Menu, ipcMain, ipcRenderer } from 'electron';
+import { app, Menu, ipcMain } from 'electron';
 import settings from 'electron-settings';
 import fs from 'fs';
 import API from 'main/API';
@@ -11,18 +11,20 @@ const isDev = process.env.ELECTRON_ENV === 'development';
 let watcher = null;
 
 const loadDevToolsIfNeeded = () => {
-  const window = Window.getMainWindow();
-  window.webContents.openDevTools();
-  const { default: installExtension, REACT_DEVELOPER_TOOLS, REDUX_DEVTOOLS } = require('electron-devtools-installer');
-  [REACT_DEVELOPER_TOOLS, REDUX_DEVTOOLS].forEach(extension => {
-    installExtension(extension)
-      .then((name) => console.log(`Added Extension: ${name}`))
-      .catch((err) => console.log(`An error occurred: ${err}`));
-  });
-  watcher = require('chokidar').watch(`${__dirname}/dist`);
-  watcher.on('change', () => {
-    window.reload();
-  });
+  if (isDev) {
+    const window = Window.getMainWindow();
+    window.webContents.openDevTools();
+    const { default: installExtension, REACT_DEVELOPER_TOOLS, REDUX_DEVTOOLS } = require('electron-devtools-installer');
+    [REACT_DEVELOPER_TOOLS, REDUX_DEVTOOLS].forEach(extension => {
+      installExtension(extension)
+        .then((name) => console.log(`Added Extension: ${name}`))
+        .catch((err) => console.log(`An error occurred: ${err}`));
+    });
+    watcher = require('chokidar').watch(`${__dirname}/dist`);
+    watcher.on('change', () => {
+      window.reload();
+    });
+  }
 };
 
 const fetchData = (completion) => {

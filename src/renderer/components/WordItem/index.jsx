@@ -1,8 +1,8 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import * as styles from './styles.css';
 import ReactFuri from 'react-furi';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import * as styles from './styles.css';
 
 export class WordItem extends React.PureComponent {
   static propTypes = {
@@ -14,50 +14,56 @@ export class WordItem extends React.PureComponent {
   }
 
   render() {
-    const MyWrapper = styled(ReactFuri.Wrapper)`
+    const Wrapper = styled(ReactFuri.Wrapper)`
       width: 100%;
       display: block;
       font-family: Chig;
       text-align: center;
       vertical-align: middle;
-    `;
-    const MyFuriPair = styled(ReactFuri.Pair)`
+      `;
+    const Pair = styled(ReactFuri.Pair)`
       font-family: Chig;
-    `;
-    const MyFuriFury = styled(ReactFuri.Text)`
+      `;
+    const Text = styled(ReactFuri.Text)`
       font-family: Chig;
-      font-size: 70px; 
-     `;
-
-    const MyFuriText = styled(ReactFuri.Furi)`
+      font-size: 20px; 
+      `;
+    const Furi = styled(ReactFuri.Furi)`
       font-family: Chig;
-      font-size: 20px;
-    `;
+      font-size: 70px;
+      `;
 
     const { item } = this.props;
-    const { word, sound } = item;
-    return <div className={styles.item}>
-      <div className={styles.card}>
-      <ReactFuri
-        word={word}
-        reading={sound[0].ja}
-        className={styles.card}
-        render={({ pairs }) => (
-          <MyWrapper lang="ja">
-            {pairs.map(([furigana, text], index) => (
-              <MyFuriPair key={index}>
-                <MyFuriText>{furigana}</MyFuriText>
-                <MyFuriFury>{text}</MyFuriFury>
-              </MyFuriPair>
-            ))}
-          </MyWrapper>
-        )}>
-      </ReactFuri>
-      <div className={styles.mean}>
-        {this.getMean()}
-      </div>
-      </div>
-    </div>;
-  }
+    const { word, sound, furi } = item;
+    let props = { word };
+    if (furi) {
+      props.furi = furi;
+    } else {
+      props.reading = sound[0];
+    }
 
+    return (
+      <div className={styles.item}>
+        <div className={styles.card}>
+          <ReactFuri
+            className={styles.card}
+            {...props}
+            render={({ pairs }) => (
+              <Wrapper lang="ja">
+                {pairs.map(([furigana, text], index) => (
+                  <Pair key={index}>
+                    <Text>{furigana}</Text>
+                    <Furi>{text}</Furi>
+                  </Pair>
+                ))}
+              </Wrapper>
+            )}>
+          </ReactFuri>
+          <div className={styles.mean}>
+            {this.getMean()}
+          </div>
+        </div>
+      </div>
+    )
+  }
 }

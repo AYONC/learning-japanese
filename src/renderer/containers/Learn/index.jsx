@@ -14,9 +14,9 @@ const { ipcRenderer } = window.require('electron');
 export class Learn extends React.Component {
   constructor(props, context) {
     super(props, context);
-    ipcRenderer.on(Event.SENDLIST, (event, args) =>
-      this.props.updateList(args)
-    );
+    ipcRenderer.on(Event.SENDLIST, (event, args) => {
+      this.props.updateList(args);
+    });
     ipcRenderer.send(Event.REQUESTLIST);
   }
 
@@ -31,10 +31,10 @@ export class Learn extends React.Component {
             autoHeight
             autoHeightMin={windowMaxHeight - barHeight}
             autoHeightMax={windowMaxHeight - barHeight}
-            renderThumbHorizontal={props => <div {...props} className={styles.scrollThumb}/>}
-            renderThumbVertical={props => <div {...props} className={styles.scrollThumb}/>}
+            renderThumbHorizontal={props => <div {...props} className={styles.scrollThumb} />}
+            renderThumbVertical={props => <div {...props} className={styles.scrollThumb} />}
           >
-            <WordList list={this.props.state.app.list}/>
+            <WordList list={this.props.state.app.list} />
           </Scrollbars>
         </div>
       </div>
