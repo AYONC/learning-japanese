@@ -5,10 +5,10 @@ import { withRouter } from 'react-router-dom';
 import { TopBar } from 'renderer/containers/TopBar';
 import { WordList } from 'renderer/components/WordList';
 import * as AppActions from 'renderer/redux/actions/App';
-import { barHeight, windowMaxHeight } from 'Constant';
 import Event from 'Event';
 import { HiraganaOrder } from 'renderer/components/WordSet';
 import PropTypes from 'prop-types';
+import { WordItem } from 'renderer/components/WordItem';
 import * as styles from './styles.css';
 
 const { ipcRenderer } = window.require('electron');
@@ -20,7 +20,9 @@ export class Card extends React.Component {
 
   constructor(props, context) {
     super(props, context);
-    ipcRenderer.on(Event.SENDLIST, (event, args) => this.props.updateList(args));
+    ipcRenderer.on(Event.SENDLIST, (event, args) =>
+      this.props.updateList(args),
+    );
     ipcRenderer.send(Event.REQUESTLIST);
     const window = remote.getCurrentWindow();
     const bounds = window.getBounds();
@@ -65,7 +67,7 @@ export class Card extends React.Component {
         />
         <div className={styles.body}>
           {this.renderItem()}
-          <WordList list={this.props.wordMap} />
+          <WordList list={this.props.state.app.list} />
         </div>
       </div>
     );
