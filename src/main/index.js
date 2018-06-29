@@ -14,12 +14,18 @@ const loadDevToolsIfNeeded = () => {
   if (isDev) {
     const window = Window.getMainWindow();
     window.webContents.openDevTools();
-    const { default: installExtension, REACT_DEVELOPER_TOOLS, REDUX_DEVTOOLS } = require('electron-devtools-installer');
+    const {
+      default: installExtension,
+      REACT_DEVELOPER_TOOLS,
+      REDUX_DEVTOOLS,
+      // eslint-disable-next-line global-require,import/no-extraneous-dependencies
+    } = require('electron-devtools-installer');
     [REACT_DEVELOPER_TOOLS, REDUX_DEVTOOLS].forEach(extension => {
       installExtension(extension)
-        .then((name) => console.log(`Added Extension: ${name}`))
-        .catch((err) => console.log(`An error occurred: ${err}`));
+        .then(name => console.log(`Added Extension: ${name}`))
+        .catch(err => console.log(`An error occurred: ${err}`));
     });
+    // eslint-disable-next-line global-require,import/no-extraneous-dependencies
     watcher = require('chokidar').watch(`${__dirname}/dist`);
     watcher.on('change', () => {
       window.reload();
@@ -27,40 +33,45 @@ const loadDevToolsIfNeeded = () => {
   }
 };
 
-const fetchData = (completion) => {
+const fetchData = completion => {
   const dataSHA = settings.get('app.dataSHA');
-  API.fetchData(dataSHA, (updated, sha) => {
-    if (updated) {
-      settings.set('app', {
-        dataSHA: sha,
-      });
-    }
-    fs.readFile(dataPath, (error, encryptedBytes) => {
-      if (error) {
+  API.fetchData(
+    dataSHA,
+    (updated, sha) => {
+      if (updated) {
         settings.set('app', {
-          dataSHA: null,
+          dataSHA: sha,
         });
-        completion([], error);
-        return;
       }
-      const secretKeyBytes = aesjs.utils.utf8.toBytes('9fd6591ffc2f42e7');
-      const aes = new aesjs.ModeOfOperation.cbc(secretKeyBytes);
-      const decryptedBytes = aes.decrypt(encryptedBytes);
-      const strippedbytes = aesjs.padding.pkcs7.strip(decryptedBytes);
-      const decryptedString = aesjs.utils.utf8.fromBytes(strippedbytes);
-      try {
-        completion(JSON.parse(decryptedString));
-      } catch (e) {
-        completion([], e);
-      }
-    });
-  }, (error) => {
-    completion([], error);
-  });
+      fs.readFile(dataPath, (error, encryptedBytes) => {
+        if (error) {
+          settings.set('app', {
+            dataSHA: null,
+          });
+          completion([], error);
+          return;
+        }
+        const secretKeyBytes = aesjs.utils.utf8.toBytes('9fd6591ffc2f42e7');
+        // eslint-disable-next-line new-cap
+        const aes = new aesjs.ModeOfOperation.cbc(secretKeyBytes);
+        const decryptedBytes = aes.decrypt(encryptedBytes);
+        const strippedbytes = aesjs.padding.pkcs7.strip(decryptedBytes);
+        const decryptedString = aesjs.utils.utf8.fromBytes(strippedbytes);
+        try {
+          completion(JSON.parse(decryptedString));
+        } catch (e) {
+          completion([], e);
+        }
+      });
+    },
+    error => {
+      completion([], error);
+    },
+  );
 };
 
 const subscribeEvents = () => {
-  ipcMain.on(Event.REQUESTLIST, (event, args) => {
+  ipcMain.on(Event.REQUESTLIST, event => {
     fetchData((list, error) => {
       if (error) {
         console.log(error);

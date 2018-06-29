@@ -12,6 +12,10 @@ import { ButtonColor } from '../../components/Button';
 const { ipcRenderer } = window.require('electron');
 
 export class App extends React.Component {
+  static propTypes = {
+    updateList: PropTypes.func,
+  }
+
   constructor(props, context) {
     super(props, context);
     ipcRenderer.on(Event.SENDLIST, (event, args) => {
@@ -23,16 +27,19 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        <TopBar title="" />
+        <TopBar title=""/>
         <div className={styles.body}>
           <p className={styles.message}>
             암기보다 개발이 쉬웠어요
           </p>
-          <Link to={'/dictionary'}>
-            <Button label="전체보기" />
+          <Link to="/dictionary">
+            <Button label="전체보기"/>
           </Link>
-          <br /><br /><br /><br />
-          <Link to={'/card'}>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <Link to="/card">
             <Button label="암기모드" color={ButtonColor.SECONDARY}/>
           </Link>
         </div>
@@ -41,11 +48,11 @@ export class App extends React.Component {
   }
 }
 
-const mapStateToProps = (state) => ({ state });
+const mapStateToProps = state => ({ state });
 
 // TODO refac using bindActionCreators
-const mapDispatchToProps = (dispatch) => ({
-  updateList: (list) => dispatch(AppActions.updateList(list)),
+const mapDispatchToProps = dispatch => ({
+  updateList: list => dispatch(AppActions.updateList(list)),
 });
 
 export const ConnectedApp = withRouter(connect(

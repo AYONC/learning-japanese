@@ -1,18 +1,30 @@
 {
   "presets": [
     [
-      "@babel/env",
-      {
-        "targets": {
-          "browsers": "last 2 Chrome versions",
-          "node": "current"
-        }
-      }
+      "@babel/preset-es2017"
     ],
-    "@babel/react"
+    [
+      "@babel/preset-react",
+      {
+        "pragma": "dom",
+        "pragmaFrag": "DomFrag",
+        "throwIfNamespace": false
+      }
+    ]
   ],
   "plugins": [
-    "transform-object-rest-spread",
-    "transform-class-properties"
+    ["@babel/plugin-proposal-class-properties"],
+    ["@babel/plugin-proposal-object-rest-spread"],
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "main": "./src/main",
+          "renderer": "./src/renderer"
+        }
+      }
+    ]
   ]
 }
+

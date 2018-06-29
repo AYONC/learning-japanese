@@ -9,22 +9,22 @@ const config = {
 
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
-    extensions: ['.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json'],
   },
 
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production')
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
     }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
-  ]
+  ],
 };
 
 if (isDev) {
   config.watchOptions = {
     aggregateTimeout: 300,
-    poll: 1000
+    poll: 1000,
   };
 } else {
   config.plugins = [
@@ -37,16 +37,16 @@ if (isDev) {
           eval: true,
           properties: {
             builtins: true,
-            regex: /secretKey|fromBytes|toBytes|ModeOfOperation|cbc|padding|ecb|pkcs7|encrypt|decrypt/i
-          }
+            regex: /secretKey|fromBytes|toBytes|ModeOfOperation|cbc|padding|ecb|pkcs7|encrypt|decrypt/i,
+          },
         },
         compress: true,
         output: {
           comments: false,
-          beautify: false
-        }
-      }
-    })
+          beautify: false,
+        },
+      },
+    }),
   ];
 }
 

@@ -30,11 +30,13 @@ export default class Window {
       ...this.getDefaultConfig(),
       ...(config || {}),
     });
-    window.loadURL(url.format({
-      pathname: filePath,
-      protocol: 'file:',
-      slashes: true,
-    }));
+    window.loadURL(
+      url.format({
+        pathname: filePath,
+        protocol: 'file:',
+        slashes: true,
+      }),
+    );
     return window;
   }
 

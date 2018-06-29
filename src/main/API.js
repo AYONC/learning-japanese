@@ -10,41 +10,45 @@ const base = 'https://api.github.com/repos/ayonc/learning-japanese';
 const fetchData = (dataSHA, updated, error) => {
   isOnline({ timeout: 1000 }).then(online => {
     if (online) {
-      axios.get(`${base}/contents/data?ref=master`, { timeout })
-        .then((response) => {
-          const fileInfo = response.data.find(item => item.name === path.basename(dataPath));
+      axios
+        .get(`${base}/contents/data?ref=master`, { timeout })
+        .then(response => {
+          const fileInfo = response.data.find(
+            item => item.name === path.basename(dataPath),
+          );
           if (!fileInfo) {
             error('Invaild fileinfo.');
             return;
           }
-    
-          const sha = fileInfo.sha;
+
+          const { sha } = fileInfo;
           if (dataSHA && dataSHA === sha) {
             updated(false, sha);
             return;
           }
-    
+
           const downloadURL = fileInfo.download_url;
           if (!downloadURL) {
             error('Invaild download url.');
             return;
           }
-    
-          axios.get(downloadURL, { timeout, responseType: 'stream' })
-            .then((response) => {
-              const stream = response.data.pipe(fs.createWriteStream(dataPath));
+
+          axios
+            .get(downloadURL, { timeout, responseType: 'stream' })
+            .then(res => {
+              const stream = res.data.pipe(fs.createWriteStream(dataPath));
               stream.on('finish', () => {
                 updated(true, sha);
               });
-              stream.on('error', (e) => {
+              stream.on('error', e => {
                 error(e);
               });
             })
-            .catch((e) => {
+            .catch(e => {
               error(e);
             });
         })
-        .catch((e) => {
+        .catch(e => {
           error(e);
         });
     } else {
@@ -53,4 +57,4 @@ const fetchData = (dataSHA, updated, error) => {
   });
 };
 
-export default { fetchData }
+export default { fetchData };
