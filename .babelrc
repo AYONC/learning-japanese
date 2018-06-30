@@ -1,19 +1,32 @@
 {
   "presets": [
     [
-      "@babel/preset-es2017"
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >= 7"
+          ]
+        }
+      }
     ],
-    [
-      "@babel/preset-react"
+    ["@babel/preset-es2017"],
+    ["@babel/preset-react",
+      {
+        "throwIfNamespace": false
+      }
     ]
   ],
   "plugins": [
     ["@babel/plugin-proposal-class-properties"],
     ["@babel/plugin-proposal-object-rest-spread"],
-    [
-      "module-resolver",
+    ["@babel/plugin-transform-react-jsx"],
+    ["module-resolver",
       {
-        "root": ["./src"],
+        "root": [
+          "./src"
+        ],
         "alias": {
           "main": "./src/main",
           "renderer": "./src/renderer"
