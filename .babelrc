@@ -1,22 +1,7 @@
 {
   "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "browsers": [
-            "last 2 versions",
-            "safari >= 7"
-          ]
-        }
-      }
-    ],
     ["@babel/preset-es2017"],
-    ["@babel/preset-react",
-      {
-        "throwIfNamespace": false
-      }
-    ]
+    ["@babel/preset-react"]
   ],
   "plugins": [
     ["@babel/plugin-proposal-class-properties"],

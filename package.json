@@ -122,7 +122,6 @@
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.51",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.51",
     "@babel/plugin-transform-react-jsx": "^7.0.0-beta.51",
-    "@babel/preset-env": "^7.0.0-beta.51",
     "@babel/preset-es2017": "^7.0.0-beta.51",
     "@babel/preset-react": "^7.0.0-beta.51",
     "ajv": "^6.4.0",
