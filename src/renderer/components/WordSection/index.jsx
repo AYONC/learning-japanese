@@ -7,7 +7,7 @@ export class WordSection extends React.PureComponent {
   static propTypes = {
     label: PropTypes.string.isRequired,
     list: PropTypes.array.isRequired,
-  }
+  };
 
   constructor(props, context) {
     super(props, context);
@@ -26,16 +26,16 @@ export class WordSection extends React.PureComponent {
             this.setState({ shown: !this.state.shown });
           }}
         >
-          {label}
-          {' '}
-(
+          {label} (
           {list.length}
-)
+          )
         </div>
         <hr />
-        {this.state.shown ? list.map((item, idx) => (
-          <WordItem key={`WordItem_${idx}`} item={item} />
-        )) : ''}
+        {this.state.shown
+          ? list.map((item, idx) => (
+              <WordItem key={`WordItem_${idx}`} item={item} show={true} />
+            ))
+          : ''}
       </ul>
     );
   }

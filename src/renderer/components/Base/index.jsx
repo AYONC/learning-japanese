@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export class BaseComponent extends React.PureComponent {
   static propTypes = {
     onClick: PropTypes.func,
-  }
+  };
 
   constructor(props, context) {
     super(props, context);

@@ -13,12 +13,8 @@ class IconButton extends BaseComponent {
   static propTypes = {
     label: PropTypes.string,
     isDisabled: PropTypes.bool,
-    color: PropTypes.oneOf([
-      IconType.CLOSE,
-      IconType.MINIMIZE,
-      IconType.BACK,
-    ]),
-  }
+    color: PropTypes.oneOf([IconType.CLOSE, IconType.MINIMIZE, IconType.BACK]),
+  };
 
   static defaultProps = {
     label: '',
@@ -28,10 +24,7 @@ class IconButton extends BaseComponent {
 
   getClassName() {
     const { icon } = this.props;
-    return super.getClassName(
-      styles.button,
-      styles[icon],
-    );
+    return super.getClassName(styles.button, styles[icon]);
   }
 
   render() {
@@ -50,7 +43,4 @@ class IconButton extends BaseComponent {
   }
 }
 
-export {
-  IconButton,
-  IconType,
-};
+export { IconButton, IconType };

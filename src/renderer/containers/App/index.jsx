@@ -2,7 +2,6 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
 // import { bindActionCreators } from 'redux';
-import { TopBar } from 'renderer/containers/TopBar';
 import { Button } from 'renderer/components/Button';
 import * as AppActions from 'renderer/redux/actions/App';
 import Event from 'Event';
@@ -15,7 +14,7 @@ const { ipcRenderer } = window.require('electron');
 export class App extends React.Component {
   static propTypes = {
     updateList: PropTypes.func,
-  }
+  };
 
   constructor(props, context) {
     super(props, context);
@@ -28,11 +27,8 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        <TopBar title="" />
         <div className={styles.body}>
-          <p className={styles.message}>
-            암기보다 개발이 쉬웠어요
-          </p>
+          <p className={styles.message}>암기보다 개발이 쉬웠어요</p>
           <Link to="/dictionary">
             <Button label="전체보기" />
           </Link>
@@ -56,9 +52,11 @@ const mapDispatchToProps = dispatch => ({
   updateList: list => dispatch(AppActions.updateList(list)),
 });
 
-export const ConnectedApp = withRouter(connect(
-  mapStateToProps,
-  mapDispatchToProps,
-  null,
-  { pure: false },
-)(App));
+export const ConnectedApp = withRouter(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps,
+    null,
+    { pure: false },
+  )(App),
+);

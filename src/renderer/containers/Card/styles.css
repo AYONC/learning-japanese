@@ -11,6 +11,9 @@
   }
 }
 
+.root {
+  padding: 5%;
+}
 .scrollThumb {
   background: var(--blueGray70);
 }

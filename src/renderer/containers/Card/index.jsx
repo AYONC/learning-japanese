@@ -2,13 +2,11 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { remote } from 'electron';
 import { withRouter } from 'react-router-dom';
-import { TopBar } from 'renderer/containers/TopBar';
-import { WordList } from 'renderer/components/WordList';
 import * as AppActions from 'renderer/redux/actions/App';
 import Event from 'Event';
 import { HiraganaOrder } from 'renderer/components/WordSet';
 import PropTypes from 'prop-types';
-import { WordItem } from 'renderer/components/WordItem';
+import { CardItem } from 'renderer/components/CardItem';
 import * as styles from './styles.css';
 
 const { ipcRenderer } = window.require('electron');
@@ -25,8 +23,10 @@ export class Card extends React.Component {
     );
     ipcRenderer.send(Event.REQUESTLIST);
     const window = remote.getCurrentWindow();
-    const bounds = window.getBounds();
-    window.setBounds(Object.assign(bounds, { width: 350, height: 350 }));
+    // const bounds = window.getBounds();
+    const screenBound = remote.screen.getPrimaryDisplay().bounds;
+    // window.setFullScreen(true);
+    window.setBounds(screenBound);
   }
 
   renderItem() {
@@ -47,7 +47,9 @@ export class Card extends React.Component {
       Object.keys(wordMap).forEach(key => {
         const listItem = wordMap[key];
         listItem.forEach((item, idx) => {
-          result.push(<WordItem key={`WordItem_${key}_${idx}`} item={item} />);
+          result.push(
+            <CardItem key={`CardItem_${key}_${idx}`} item={item} show />,
+          );
         });
       });
     }
@@ -56,20 +58,20 @@ export class Card extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     return (
-      <div>
-        <TopBar
-          title="암기"
-          onBack={() => {
-            this.props.history.goBack();
+      <>
+        <div
+          className={styles.root}
+          style={{
+            height: '100%',
+            maxHeight: '200%',
+            display: 'block',
+            overflow: 'scroll',
           }}
-        />
-        <div className={styles.body}>
-          {this.renderItem()}
-          <WordList list={this.props.state.app.list} />
+        >
+          <div>{this.renderItem()}</div>
         </div>
-      </div>
+      </>
     );
   }
 }

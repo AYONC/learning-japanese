@@ -10,43 +10,43 @@
 }
 
 @font-face {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    src: resolve('fonts/Roboto-Light.woff2') format("woff2");
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  src: resolve('fonts/Roboto-Light.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: Noto Sans KR;
-    font-style: normal;
-    font-weight: 100;
-    src: resolve('fonts/NotoSansKR-Thin.woff2') format("woff2");
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 100;
+  src: resolve('fonts/NotoSansKR-Thin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: Noto Sans KR;
-    font-style: normal;
-    font-weight: 300;
-    src: resolve('fonts/NotoSansKR-Light.woff2') format("woff2");
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 300;
+  src: resolve('fonts/NotoSansKR-Light.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: Noto Sans KR;
-    font-style: normal;
-    font-weight: 400;
-    src: resolve('fonts/NotoSansKR-Regular.woff2') format("woff2");
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 400;
+  src: resolve('fonts/NotoSansKR-Regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: Noto Sans KR;
-    font-style: normal;
-    font-weight: 500;
-    src: resolve('fonts/NotoSansKR-Medium.woff2') format("woff2");
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  src: resolve('fonts/NotoSansKR-Medium.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: Noto Sans KR;
-    font-style: normal;
-    font-weight: 700;
-    src: resolve('fonts/NotoSansKR-Bold.woff2') format("woff2");
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 700;
+  src: resolve('fonts/NotoSansKR-Bold.woff2') format('woff2');
 }

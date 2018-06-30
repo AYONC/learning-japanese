@@ -18,7 +18,7 @@ class Button extends BaseComponent {
       ButtonColor.SECONDARY,
       ButtonColor.WHITE,
     ]),
-  }
+  };
 
   static defaultProps = {
     label: '',
@@ -28,10 +28,7 @@ class Button extends BaseComponent {
 
   getClassName() {
     const { color } = this.props;
-    return super.getClassName(
-      styles.button,
-      styles[color],
-    );
+    return super.getClassName(styles.button, styles[color]);
   }
 
   render() {
@@ -50,7 +47,4 @@ class Button extends BaseComponent {
   }
 }
 
-export {
-  Button,
-  ButtonColor,
-};
+export { Button, ButtonColor };

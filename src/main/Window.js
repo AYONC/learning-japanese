@@ -1,28 +1,30 @@
 import { BrowserWindow } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
-import { windowMaxWidth, windowMaxHeight } from 'Constant';
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
 let mainWindow = null;
+
+const windowMinWidth = 720;
+const windowMinHeight = 1080;
+
+const baseConfig = {
+  x: undefined,
+  y: undefined,
+  width: windowMinWidth,
+  minWidth: windowMinWidth,
+  height: windowMinHeight,
+  minHeight: windowMinHeight,
+  minimizable: true,
+  maximizable: true,
+  fullscreenable: true,
+  show: false,
+  frame: true,
+  backgroundColor: 'transparent',
+};
 
 export default class Window {
   static getDefaultConfig() {
-    return {
-      x: undefined,
-      y: undefined,
-      width: windowMaxWidth,
-      minWidth: windowMaxWidth,
-      height: windowMaxHeight,
-      minHeight: windowMaxHeight,
-      minimizable: true,
-      maximizable: false,
-      fullscreenable: false,
-      show: false,
-      frame: false,
-      backgroundColor: '#e6e8eb',
-    };
+    return baseConfig;
   }
 
   static create(filePath, config) {
@@ -46,9 +48,7 @@ export default class Window {
 
   static loadMainWindow() {
     const filePath = path.resolve(__dirname, 'dist', 'index.html');
-    const window = this.create(filePath, {
-      resizable: false,
-    });
+    const window = this.create(filePath);
     window.on('closed', () => {
       // Dereference the window object, usually you would store windows
       // in an array if your app supports multi windows, this is the time

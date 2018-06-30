@@ -4,9 +4,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import * as styles from './styles.css';
 
-export class WordItem extends React.PureComponent {
+export class CardItem extends React.PureComponent {
   static propTypes = {
     item: PropTypes.object.isRequired,
+    show: PropTypes.bool.isRequired,
   };
 
   getMean() {
@@ -30,12 +31,13 @@ export class WordItem extends React.PureComponent {
     `;
     const Furi = styled(ReactFuri.Furi)`
       font-family: Chig;
-      font-size: 70px;
+      font-size: 30px;
     `;
 
-    const { item } = this.props;
+    const { item, show } = this.props;
     const { word, sound, furi } = item;
     const props = { word };
+    props.showFuri = false;
     if (furi) {
       props.furi = furi;
     } else {
@@ -47,19 +49,20 @@ export class WordItem extends React.PureComponent {
         <div className={styles.card}>
           <ReactFuri
             className={styles.card}
+            showFuri={show}
             {...props}
             render={({ pairs }) => (
               <Wrapper lang="ja">
                 {pairs.map(([furigana, text], index) => (
                   <Pair key={index}>
-                    <Text>{furigana}</Text>
+                    {show ? <Text>{furigana}</Text> : undefined}
                     <Furi>{text}</Furi>
                   </Pair>
                 ))}
               </Wrapper>
             )}
           />
-          <div className={styles.mean}>{this.getMean()}</div>
+          <div className={styles.mean}>{show ? this.getMean() : undefined}</div>
         </div>
       </div>
     );

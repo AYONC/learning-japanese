@@ -81,9 +81,7 @@ export class WordSet extends React.PureComponent {
       const list = set[gana];
       if (list) {
         const key = `WordSection_${idx}`;
-        sections.push(
-          <WordSection key={key} label={gana} list={list} />,
-        );
+        sections.push(<WordSection key={key} label={gana} list={list} />);
       }
     });
     if (sections.length) {
