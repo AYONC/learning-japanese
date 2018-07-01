@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 // import { bindActionCreators } from 'redux';
 import { Button } from 'renderer/components/Button';
 import * as AppActions from 'renderer/redux/actions/App';
 import Event from 'Event';
-import * as styles from './styles.css';
 import { ButtonColor } from '../../components/Button';
-import PropTypes from 'prop-types';
+import * as styles from './styles.css';
 
 const { ipcRenderer } = window.require('electron');
 
@@ -34,6 +34,9 @@ export class App extends React.Component {
           </Link>
           <br />
           <br />
+          <Link to={'/test'}>
+            <Button label="테스트" />
+          </Link>
           <br />
           <br />
           <Link to="/card">

@@ -10,7 +10,7 @@ export class WordItem extends React.PureComponent {
   };
 
   getMean() {
-    return this.props.item.mean.join(', ');
+    return this.props.item.meanings.join(', ');
   }
 
   render() {
@@ -34,12 +34,12 @@ export class WordItem extends React.PureComponent {
     `;
 
     const { item } = this.props;
-    const { word, sound, furi } = item;
+    const { word, readings, furi } = item;
     const props = { word };
     if (furi) {
       props.furi = furi;
     } else {
-      props.reading = sound[0];
+      props.reading = readings[0];
     }
 
     return (
