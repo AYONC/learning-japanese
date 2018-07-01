@@ -11,7 +11,7 @@ export class CardItem extends React.PureComponent {
   };
 
   getMean() {
-    return this.props.item.mean.join(', ');
+    return this.props.item.meanings.join(', ');
   }
 
   render() {

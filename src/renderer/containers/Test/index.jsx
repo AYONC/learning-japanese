@@ -1,10 +1,8 @@
 import * as React from 'react';
-import Scrollbars from 'react-custom-scrollbars';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import { seedrandom } from 'seedrandom';
 import { BaseContainer, mapDispatchToProps, mapStateToProps, } from 'renderer/containers/Base';
-import { barHeight, windowMaxHeight } from 'Constant';
 import { Button } from 'renderer/components/Button';
 import { ProblemItem } from 'renderer/components/ProblemItem';
 import { TopBar } from 'renderer/containers/TopBar';
@@ -54,10 +52,14 @@ export class Test extends BaseContainer {
       const problem = problems[idx];
       const score = { reading: false, meaning: false };
       if (answer.reading) {
-        score.reading = problem.readings.find(reading => normalize(answer.reading) === normalize(reading)) !== undefined;
+        score.reading = problem.readings.find(
+          reading => normalize(answer.reading) === normalize(reading),
+        ) !== undefined;
       }
       if (answer.meaning) {
-        score.meaning = problem.meanings.find(meaning => normalize(answer.meaning) === normalize(meaning)) !== undefined;
+        score.meaning = problem.meanings.find(
+          meaning => normalize(answer.meaning) === normalize(meaning),
+        ) !== undefined;
       }
       scorecard.push(score);
     });
@@ -95,7 +97,7 @@ export class Test extends BaseContainer {
       isSubmit, score, seed, problems,
     } = this.state;
     return (
-      <div>
+      <>
         <TopBar
           title={`Test - (${seed})`}
           onBack={() => {
@@ -103,48 +105,36 @@ export class Test extends BaseContainer {
           }}
         />
         <div className={styles.body}>
-          <Scrollbars
-            autoHeight
-            autoHeightMin={windowMaxHeight - barHeight}
-            autoHeightMax={windowMaxHeight - barHeight}
-            renderThumbHorizontal={props => (
-              <div {...props} className={styles.scrollThumb} />
-            )}
-            renderThumbVertical={props => (
-              <div {...props} className={styles.scrollThumb} />
-            )}
-          >
-            <ul className={styles.list}>
-              {problems.map((problem, idx) => (
-                <ProblemItem {...this.makeProblemItemProps(problem, idx)} />
-              ))}
-            </ul>
-            <div className={styles.footer}>
-              {isSubmit ? (
-                <div>
-                  <div className={styles.score}>
-                    {score}
-점
-                  </div>
-                  <Button
-                    label="확인 완료"
-                    onClick={() => {
-                      history.goBack();
-                    }}
-                  />
+          <ul className={styles.list}>
+            {problems.map((problem, idx) => (
+              <ProblemItem {...this.makeProblemItemProps(problem, idx)} />
+            ))}
+          </ul>
+          <div className={styles.footer}>
+            {isSubmit ? (
+              <div>
+                <div className={styles.score}>
+                  {score}
+                  점
                 </div>
-              ) : (
                 <Button
-                  label="제출"
+                  label="확인 완료"
                   onClick={() => {
-                    this.marking();
+                    history.goBack();
                   }}
                 />
-              )}
-            </div>
-          </Scrollbars>
+              </div>
+            ) : (
+              <Button
+                label="제출"
+                onClick={() => {
+                  this.marking();
+                }}
+              />
+            )}
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 }

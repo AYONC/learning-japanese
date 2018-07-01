@@ -8,6 +8,7 @@ import { HiraganaOrder } from 'renderer/components/WordSet';
 import PropTypes from 'prop-types';
 import { CardItem } from 'renderer/components/CardItem';
 import * as styles from './styles.css';
+import { TopBar } from 'renderer/containers/TopBar';
 
 const { ipcRenderer } = window.require('electron');
 
@@ -58,8 +59,15 @@ export class Card extends React.Component {
   }
 
   render() {
+    const { history } = this.props;
     return (
       <>
+        <TopBar
+          title={`Card`}
+          onBack={() => {
+            history.goBack();
+          }}
+        />
         <div
           className={styles.root}
           style={{
