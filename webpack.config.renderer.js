@@ -1,3 +1,4 @@
+const { CheckerPlugin } = require('awesome-typescript-loader');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
@@ -6,32 +7,49 @@ const path = require('path');
 const pkg = require('read-pkg').sync();
 const base = require('./webpack.config');
 
-const cssLocalIdentName = (isDev) => {
-  return isDev ? '[folder]__[local]--[hash:base64:5]' : '[hash:base64:10]';
-};
+const cssLocalIdentName = isDev => (isDev ? '[folder]__[local]--[hash:base64:5]' : '[hash:base64:10]');
+
+const atsLoader = () => ({
+  test: /\.tsx?$/,
+  exclude: [/node_modules/],
+  loader: 'awesome-typescript-loader',
+  options: {
+    configFileName: './tsconfig.renderer.json',
+    useCache: true,
+  },
+});
 
 const config = {
   target: 'electron-renderer',
 
   entry: {
-    index: './src/renderer/index.jsx'
+    index: './src/renderer/index.jsx',
   },
 
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
 
   resolve: {
-    extensions: ['.css', '.ttf', '.woff2', '.png', '.jpg', '.jpeg', '.gif', '.svg']
+    extensions: ['.css', '.ttf', '.woff2', '.png', '.jpg', '.jpeg', '.gif', '.svg'],
   },
 
   module: {
     rules: [
       {
+        test: /\.tsx?$/,
+        enforce: 'pre',
+        loader: 'tslint-loader',
+        options: {
+          tsConfigFile: './tsconfig.renderer.json',
+        },
+      },
+      atsLoader(),
+      {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: ["babel-loader"]
+        use: ['babel-loader'],
       },
       {
         test: /\.css$/,
@@ -45,19 +63,19 @@ const config = {
                 sourceMap: base.isDev,
                 importLoaders: 1,
                 localIdentName: cssLocalIdentName(base.isDev),
-                minimize: !base.isDev
-              }
+                minimize: !base.isDev,
+              },
             },
             {
               loader: 'postcss-loader',
               options: {
                 config: {
-                  path: './postcss.config.js'
+                  path: './postcss.config.js',
                 },
-              }
-            }
-          ]
-        })
+              },
+            },
+          ],
+        }),
       },
       {
         test: /\.(ttf|woff2)$/,
@@ -65,8 +83,8 @@ const config = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: './assets/fonts/'
-        }
+          outputPath: './assets/fonts/',
+        },
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/,
@@ -74,10 +92,10 @@ const config = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: './assets/images/'
-        }
-      }
-    ]
+          outputPath: './assets/images/',
+        },
+      },
+    ],
   },
 
   plugins: [
@@ -85,14 +103,15 @@ const config = {
     new HtmlWebpackPlugin({
       title: pkg.productName,
       filename: './index.html',
-      template: './src/renderer/index.html'
-    })
-  ]
+      template: './src/renderer/index.html',
+    }),
+  ],
 };
 
 if (base.isDev) {
   config.plugins = [
     ...(config.plugins || []),
+    new CheckerPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
   ];

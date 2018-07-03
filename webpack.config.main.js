@@ -11,22 +11,31 @@ const config = {
   target: 'electron-main',
 
   entry: {
-    index: './src/main/index.js'
+    index: './src/main/index.js',
+    indexts: './src/main/index.ts',
   },
 
   output: {
     path: path.join(__dirname),
-    filename: 'index.js'
+    filename: 'index.js',
   },
 
   module: {
     rules: [
       {
+        test: /\.tsx?$/,
+        enforce: 'pre',
+        loader: 'tslint-loader',
+        options: {
+          tsConfigFile: './tsconfig.main.json',
+        },
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
+        use: ['babel-loader'],
+      },
+    ],
   },
 
   node: {
@@ -36,10 +45,10 @@ const config = {
      * https://github.com/webpack/webpack/issues/2010
      */
     __dirname: false,
-    __filename: false
+    __filename: false,
   },
 
-  externals: [nodeExternals()]
+  externals: [nodeExternals()],
 };
 
 module.exports = merge.smart(base.config, config);

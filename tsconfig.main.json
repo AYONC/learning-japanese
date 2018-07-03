@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig",
+  "include": [
+    "./main",
+    "./types"
+  ],
+  "outFile": "index.js"
+}
