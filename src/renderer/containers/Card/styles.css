@@ -14,6 +14,21 @@
 .root {
   padding: 5%;
 }
+
 .scrollThumb {
   background: var(--blueGray70);
+}
+
+.section {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  width: 100%;
+}
+
+.input {
+  vertical-align: baseline;
+  line-height: 6.2em;
+  height: 16px;
+  margin: 2px;
 }

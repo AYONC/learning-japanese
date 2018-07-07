@@ -7,7 +7,8 @@ import * as styles from './styles.css';
 export class CardItem extends React.PureComponent {
   static propTypes = {
     item: PropTypes.object.isRequired,
-    show: PropTypes.bool.isRequired,
+    showFuri: PropTypes.bool.isRequired,
+    showMean: PropTypes.bool.isRequired,
   };
 
   getMean() {
@@ -34,7 +35,7 @@ export class CardItem extends React.PureComponent {
       font-size: 30px;
     `;
 
-    const { item, show } = this.props;
+    const { item, showFuri, showMean } = this.props;
     const { word, readings, furi } = item;
     const props = { word };
     props.showFuri = false;
@@ -49,20 +50,20 @@ export class CardItem extends React.PureComponent {
         <div className={styles.card}>
           <ReactFuri
             className={styles.card}
-            showFuri={show}
+            showFuri={showFuri}
             {...props}
             render={({ pairs }) => (
               <Wrapper lang="ja">
                 {pairs.map(([furigana, text], index) => (
                   <Pair key={index}>
-                    {show ? <Text>{furigana}</Text> : undefined}
+                    {showFuri ? <Text>{furigana}</Text> : undefined}
                     <Furi>{text}</Furi>
                   </Pair>
                 ))}
               </Wrapper>
             )}
           />
-          <div className={styles.mean}>{show ? this.getMean() : undefined}</div>
+          <div className={styles.mean}>{showMean ? this.getMean() : undefined}</div>
         </div>
       </div>
     );
