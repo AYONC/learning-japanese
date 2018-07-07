@@ -1,10 +1,10 @@
 import aesjs from 'aes-js';
-import {app, ipcMain, Menu} from 'electron';
+import { app, Menu, ipcMain } from 'electron';
 import settings from 'electron-settings';
-import Event from 'Event';
 import * as fs from 'fs';
 import API from 'main/API';
-import {dataPath} from 'main/Path';
+import { dataPath } from 'main/Path';
+import Event from 'Event';
 import Window from 'main/Window';
 
 const isDev = process.env.ELECTRON_ENV === 'development';

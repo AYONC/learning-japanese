@@ -11,8 +11,7 @@ const config = {
   target: 'electron-main',
 
   entry: {
-    index: './src/main/index.js',
-    indexts: './src/main/index.ts',
+    index: './src/main/index.ts',
   },
 
   output: {
