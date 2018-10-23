@@ -1,0 +1,8401 @@
+[
+  {
+    "id": 1,
+    "a": [
+      {
+        "id": 1,
+        "word": "あ",
+        "readings": ["あ"],
+        "level": 3,
+        "meanings": ["아!"]
+      },
+      {
+        "id": 2,
+        "word": "ああ",
+        "readings": ["ああ"],
+        "level": 3,
+        "meanings": ["저런", "저렇게", "저처럼", "아~!"]
+      },
+      {
+        "id": 3,
+        "word": "愛",
+        "readings": ["あい"],
+        "level": 3,
+        "meanings": ["사랑", "애정"]
+      },
+      {
+        "id": 4,
+        "word": "挨拶",
+        "readings": ["あいさつ"],
+        "furi": "0:あい;1:さつ",
+        "level": 3,
+        "meanings": ["인사", "인사말", "중재"]
+      },
+      {
+        "id": 5,
+        "word": "愛情",
+        "readings": ["あいじょう"],
+        "furi": "0:あい;1:じょう",
+        "level": 3,
+        "meanings": ["애정", "사랑"]
+      },
+      {
+        "id": 6,
+        "word": "合図",
+        "readings": ["あいず"],
+        "furi": "0:あい;1:ず",
+        "level": 3,
+        "meanings": ["신호"]
+      },
+      {
+        "id": 7,
+        "word": "間",
+        "readings": ["あいだ"],
+        "level": 3,
+        "meanings": ["사이"]
+      },
+      {
+        "id": 8,
+        "word": "相手",
+        "readings": ["あいて"],
+        "furi": "0:あい;1:て",
+        "level": 3,
+        "meanings": ["상대자", "상대"]
+      },
+      {
+        "id": 9,
+        "word": "青",
+        "readings": ["あお"],
+        "level": 3,
+        "meanings": ["파랑", "파랑색", "청색"]
+      },
+      {
+        "id": 10,
+        "word": "赤",
+        "readings": ["あか"],
+        "level": 3,
+        "meanings": ["빨강", "빨강색", "적색"]
+      },
+      {
+        "id": 11,
+        "word": "赤ちゃん",
+        "readings": ["あかちゃん"],
+        "furi": "0:あか",
+        "level": 3,
+        "meanings": ["갓난아기", "아기"]
+      },
+      {
+        "id": 12,
+        "word": "赤ん坊",
+        "readings": ["あかんぼう"],
+        "furi": "0:あか;2:ぼう",
+        "level": 3,
+        "meanings": ["갓난아기", "아기"]
+      },
+      {
+        "id": 13,
+        "word": "秋",
+        "readings": ["あき"],
+        "level": 3,
+        "meanings": ["가을"]
+      },
+      {
+        "id": 14,
+        "word": "朝",
+        "readings": ["あさ"],
+        "level": 3,
+        "meanings": ["아침"]
+      },
+      {
+        "id": 15,
+        "word": "朝御飯",
+        "readings": ["あさごはん"],
+        "furi": "0:あさ;1:ご;2:はん",
+        "level": 3,
+        "meanings": ["아침밥", "아침 식사", "조반"]
+      },
+      {
+        "id": 16,
+        "word": "明後日",
+        "readings": ["あさって"],
+        "level": 3,
+        "meanings": ["모레"]
+      },
+      {
+        "id": 17,
+        "word": "朝寝坊",
+        "readings": ["あさねぼう"],
+        "furi": "0:あさ;1:ね;2:ぼう",
+        "level": 3,
+        "meanings": ["늦잠", "늦잠꾸러기"]
+      },
+      {
+        "id": 18,
+        "word": "足",
+        "readings": ["あし"],
+        "level": 3,
+        "meanings": ["발", "다리", "걸음", "보조"]
+      },
+      {
+        "id": 19,
+        "word": "味",
+        "readings": ["あじ"],
+        "level": 3,
+        "meanings": ["맛"]
+      },
+      {
+        "id": 20,
+        "word": "明日",
+        "readings": ["あした", "あす"],
+        "level": 3,
+        "meanings": ["내일", "명일"]
+      },
+      {
+        "id": 21,
+        "word": "あそこ",
+        "readings": ["あそこ"],
+        "level": 3,
+        "meanings": ["저기", "저쪽", "거기", "그쪽"]
+      },
+      {
+        "id": 22,
+        "word": "遊び",
+        "readings": ["あそび"],
+        "furi": "0:あそ",
+        "level": 3,
+        "meanings": ["놀이", "장난", "노는 일", "놂", "유흥"]
+      },
+      {
+        "id": 23,
+        "word": "頭",
+        "readings": ["あたま"],
+        "level": 3,
+        "meanings": ["머리"]
+      },
+      {
+        "id": 24,
+        "word": "あちら",
+        "readings": ["あちら"],
+        "level": 3,
+        "meanings": ["저쪽", "저기", "저것"]
+      },
+      {
+        "id": 25,
+        "word": "あっち",
+        "readings": ["あっち"],
+        "level": 3,
+        "meanings": ["저쪽", "저기", "저리"]
+      },
+      {
+        "id": 26,
+        "word": "後",
+        "readings": ["あと"],
+        "level": 3,
+        "meanings": ["뒤", "나중", "후", "나머지", "뒤쪽", "후방"]
+      },
+      {
+        "id": 27,
+        "word": "あなた",
+        "readings": ["あなた"],
+        "level": 3,
+        "meanings": ["당신", "귀하", "여보"]
+      },
+      {
+        "id": 28,
+        "word": "兄",
+        "readings": ["あに"],
+        "level": 3,
+        "meanings": ["형", "오빠", "시아주버니", "손위 처남", "매형"]
+      },
+      {
+        "id": 29,
+        "word": "姉",
+        "readings": ["あね"],
+        "level": 3,
+        "meanings": ["누나", "언니", "손위 누이", "손위 시누이", "처형", "형수"]
+      },
+      {
+        "id": 30,
+        "word": "あの",
+        "readings": ["あの"],
+        "level": 3,
+        "meanings": ["저", "그"]
+      },
+      {
+        "id": 31,
+        "word": "余り",
+        "readings": ["あまり"],
+        "furi": "0:あま",
+        "level": 3,
+        "meanings": ["그다지", "너무", "남은 것", "여분"]
+      },
+      {
+        "id": 32,
+        "word": "雨",
+        "readings": ["あめ"],
+        "level": 3,
+        "meanings": ["비", "우천"]
+      },
+      {
+        "id": 33,
+        "word": "飴",
+        "readings": ["あめ"],
+        "level": 3,
+        "meanings": ["엿", "조청"]
+      },
+      {
+        "id": 34,
+        "word": "あれ",
+        "readings": ["あれ"],
+        "level": 3,
+        "meanings": ["저것", "그것", "거기", "저기"]
+      },
+      {
+        "id": 35,
+        "word": "安心",
+        "readings": ["あんしん"],
+        "furi": "0:あん;1:しん",
+        "level": 3,
+        "meanings": ["안심"]
+      },
+      {
+        "id": 36,
+        "word": "安全",
+        "readings": ["あんぜん"],
+        "furi": "0:あん;1:ぜん",
+        "level": 3,
+        "meanings": ["안전"],
+        "desc": "주로 명사로 사용되지만 な형용사로도 사용"
+      },
+      {
+        "id": 37,
+        "word": "あんな",
+        "readings": ["あんな"],
+        "level": 3,
+        "meanings": ["저런", "그런"]
+      },
+      {
+        "id": 38,
+        "word": "案内",
+        "readings": ["あんない"],
+        "furi": "0:あん;1:ない",
+        "level": 3,
+        "meanings": ["안내", "통지"]
+      }
+    ],
+    "i": [
+      {
+        "id": 39,
+        "word": "いいえ",
+        "readings": ["いいえ"],
+        "level": 3,
+        "meanings": ["아니요"]
+      },
+      {
+        "id": 40,
+        "word": "家",
+        "readings": ["いえ", "うち"],
+        "level": 3,
+        "meanings": ["집", "댁", "주택", "자택"]
+      },
+      {
+        "id": 41,
+        "word": "以下",
+        "readings": ["いか"],
+        "furi": "0:い;1:か",
+        "level": 3,
+        "meanings": ["이하"]
+      },
+      {
+        "id": 42,
+        "word": "以外",
+        "readings": ["いがい"],
+        "furi": "0:い;1:がい",
+        "level": 3,
+        "meanings": ["이외", "그 밖"]
+      },
+      {
+        "id": 43,
+        "word": "いかが",
+        "readings": ["いかが"],
+        "level": 3,
+        "meanings": ["어떠하다"]
+      },
+      {
+        "id": 44,
+        "word": "医学",
+        "readings": ["いがく"],
+        "furi": "0:い;1:がく",
+        "level": 3,
+        "meanings": ["의학"]
+      },
+      {
+        "id": 45,
+        "word": "幾つ",
+        "readings": ["いくつ"],
+        "furi": "0:いく",
+        "level": 3,
+        "meanings": ["몇 살", "몇 개"]
+      },
+      {
+        "id": 46,
+        "word": "いくら",
+        "readings": ["いくら"],
+        "level": 3,
+        "meanings": ["아무리 ~ 하더라도", "얼마", "어느 정도"]
+      },
+      {
+        "id": 47,
+        "word": "池",
+        "readings": ["いけ"],
+        "level": 3,
+        "meanings": ["연못", "못"]
+      },
+      {
+        "id": 48,
+        "word": "意見",
+        "readings": ["いけん"],
+        "furi": "0:い;1:けん",
+        "level": 3,
+        "meanings": ["의견"]
+      },
+      {
+        "id": 49,
+        "word": "石",
+        "readings": ["いし"],
+        "level": 3,
+        "meanings": ["돌"]
+      },
+      {
+        "id": 50,
+        "word": "医者",
+        "readings": ["いしゃ"],
+        "furi": "0:い;1:しゃ",
+        "level": 3,
+        "meanings": ["의사"]
+      },
+      {
+        "id": 51,
+        "word": "以上",
+        "readings": ["いじょう"],
+        "furi": "0:い;1:じょう",
+        "level": 3,
+        "meanings": ["이상"]
+      },
+      {
+        "id": 52,
+        "word": "いす",
+        "readings": ["いす"],
+        "level": 3,
+        "meanings": ["의자", "자리"]
+      },
+      {
+        "id": 53,
+        "word": "一",
+        "readings": ["いち"],
+        "level": 3,
+        "meanings": ["일", "하나", "1"]
+      },
+      {
+        "id": 54,
+        "word": "一度",
+        "readings": ["いちど"],
+        "furi": "0:いち;1:ど",
+        "level": 3,
+        "meanings": ["한 번", "일 회", "1번", "1회"]
+      },
+      {
+        "id": 55,
+        "word": "一日",
+        "readings": ["いちにち", "ついたち"],
+        "furi": "0:いち;1:にち",
+        "level": 3,
+        "meanings": ["하루", "일일", "하루종일", "초하루", "1일"]
+      },
+      {
+        "id": 56,
+        "word": "いちばん",
+        "readings": ["いちばん"],
+        "level": 3,
+        "meanings": ["제일", "가장", "일번", "첫째", "상책"]
+      },
+      {
+        "id": 57,
+        "word": "何時",
+        "readings": ["いつ"],
+        "level": 3,
+        "meanings": ["언제", "어느 때"]
+      },
+      {
+        "id": 58,
+        "word": "五日",
+        "readings": ["いつか"],
+        "furi": "0:いつ;1:か",
+        "level": 3,
+        "meanings": ["닷새", "오일", "5일"]
+      },
+      {
+        "id": 59,
+        "word": "一緒",
+        "readings": ["いっしょ"],
+        "furi": "0:いっ;1:しょ",
+        "level": 3,
+        "meanings": ["함께 함", "같이 함", "동반함", "행동을 같이 함"]
+      },
+      {
+        "id": 60,
+        "word": "一生懸命",
+        "readings": ["いっしょうけんめい"],
+        "furi": "0:いっ;1:しょう;2:けん;3:めい",
+        "level": 3,
+        "meanings": ["열심히"]
+      },
+      {
+        "id": 61,
+        "word": "五つ",
+        "readings": ["いつつ"],
+        "furi": "0:いつ",
+        "level": 3,
+        "meanings": ["다섯", "다섯 개", "다섯 살", "다섯 째", "5", "5개", "5살"]
+      },
+      {
+        "id": 62,
+        "word": "いっぱい",
+        "readings": ["いっぱい"],
+        "level": 3,
+        "meanings": ["가득"]
+      },
+      {
+        "id": 63,
+        "word": "いつも",
+        "readings": ["いつも"],
+        "level": 3,
+        "meanings": ["언제나", "항상", "늘", "여느 때", "보통 때"]
+      },
+      {
+        "id": 64,
+        "word": "糸",
+        "readings": ["いと"],
+        "level": 3,
+        "meanings": ["실"]
+      },
+      {
+        "id": 65,
+        "word": "以内",
+        "readings": ["いない"],
+        "furi": "0:い;1:ない",
+        "level": 3,
+        "meanings": ["이내"]
+      },
+      {
+        "id": 66,
+        "word": "田舎",
+        "readings": ["いなか"],
+        "level": 3,
+        "meanings": ["시골", "고향", "지방", "전원"]
+      },
+      {
+        "id": 67,
+        "word": "犬",
+        "readings": ["いぬ"],
+        "level": 3,
+        "meanings": ["개"]
+      },
+      {
+        "id": 68,
+        "word": "今",
+        "readings": ["いま"],
+        "level": 3,
+        "meanings": ["지금", "이제", "현재", "방금", "막"]
+      },
+      {
+        "id": 69,
+        "word": "意味",
+        "readings": ["いみ"],
+        "furi": "0:い;1:み",
+        "level": 3,
+        "meanings": ["의미", "뜻", "의도", "까닭"]
+      },
+      {
+        "id": 70,
+        "word": "妹",
+        "readings": ["いもうと"],
+        "level": 3,
+        "meanings": ["여동생", "누이동생", "처제", "손아래 시누이"]
+      },
+      {
+        "id": 71,
+        "word": "入り口",
+        "readings": ["いりぐち"],
+        "furi": "0:い;2:ぐち",
+        "level": 3,
+        "meanings": ["입구"]
+      },
+      {
+        "id": 72,
+        "word": "色",
+        "readings": ["いろ"],
+        "level": 3,
+        "meanings": ["색", "빛깔", "색채"]
+      },
+      {
+        "id": 73,
+        "word": "～員",
+        "readings": ["いん"],
+        "furi": "1:いん",
+        "level": 3,
+        "meanings": ["~원"],
+        "desc": "사람을 나타내는 말"
+      }
+    ],
+    "u": [
+      {
+        "id": 74,
+        "word": "上",
+        "readings": ["うえ", "うわ"],
+        "level": 3,
+        "meanings": ["위"]
+      },
+      {
+        "id": 75,
+        "word": "受付",
+        "readings": ["うけつけ"],
+        "furi": "0:うけ;1:つけ",
+        "level": 3,
+        "meanings": ["접수함", "접수처"]
+      },
+      {
+        "id": 76,
+        "word": "後ろ",
+        "readings": ["うしろ"],
+        "furi": "0:うし",
+        "level": 3,
+        "meanings": ["뒤", "뒤쪽", "그늘", "등"]
+      },
+      {
+        "id": 77,
+        "word": "嘘",
+        "readings": ["うそ"],
+        "level": 3,
+        "meanings": ["거짓말", "틀림", "거짓", "잘못"]
+      },
+      {
+        "id": 78,
+        "word": "歌",
+        "readings": ["うた"],
+        "level": 3,
+        "meanings": ["노래"]
+      },
+      {
+        "id": 79,
+        "word": "家",
+        "readings": ["うち", "いえ"],
+        "level": 3,
+        "meanings": ["집", "댁", "주택", "자택"]
+      },
+      {
+        "id": 80,
+        "word": "内",
+        "readings": ["うち"],
+        "level": 3,
+        "meanings": ["범위 내", "~중", "내부", "옥내", "안", "마음속"]
+      },
+      {
+        "id": 81,
+        "word": "腕",
+        "readings": ["うで"],
+        "level": 3,
+        "meanings": ["팔", "완력", "솜씨", "실력"]
+      },
+      {
+        "id": 82,
+        "word": "海",
+        "readings": ["うみ"],
+        "level": 3,
+        "meanings": ["바다"]
+      },
+      {
+        "id": 83,
+        "word": "裏",
+        "readings": ["うら"],
+        "level": 3,
+        "meanings": ["뒤", "뒷면", "뒤쪽", "안"]
+      },
+      {
+        "id": 84,
+        "word": "売り場",
+        "readings": ["うりば"],
+        "furi": "0:う;2:ゔ",
+        "level": 3,
+        "meanings": ["파는 곳", "판매장", "매표소", "매장"]
+      },
+      {
+        "id": 85,
+        "word": "上着",
+        "readings": ["うわぎ"],
+        "furi": "0:うわ;1:ぎ",
+        "level": 3,
+        "meanings": ["겉옷", "내복 위에 입는 옷"]
+      },
+      {
+        "id": 86,
+        "word": "うん",
+        "readings": ["うん"],
+        "level": 3,
+        "meanings": ["응", "그렇지"],
+        "desc": "승낙이나 긍정을 표시하는 말"
+      },
+      {
+        "id": 87,
+        "word": "運転手",
+        "readings": ["うんてんしゅ"],
+        "furi": "0:うん;1:てん;2:しゅ",
+        "level": 3,
+        "meanings": ["운전수"]
+      },
+      {
+        "id": 88,
+        "word": "運動",
+        "readings": ["うんどう"],
+        "furi": "0:うん;1:どう",
+        "level": 3,
+        "meanings": ["운동"]
+      }
+    ],
+    "e": [
+      {
+        "id": 89,
+        "word": "絵",
+        "readings": ["え"],
+        "level": 3,
+        "meanings": ["그림"]
+      },
+      {
+        "id": 90,
+        "word": "映画",
+        "readings": ["えいが"],
+        "furi": "0:えい;1:が",
+        "level": 3,
+        "meanings": ["영화"]
+      },
+      {
+        "id": 91,
+        "word": "映画館",
+        "readings": ["えいがかん"],
+        "furi": "0:えい;1:が;2:かん",
+        "level": 3,
+        "meanings": ["영화관"]
+      },
+      {
+        "id": 92,
+        "word": "英語",
+        "readings": ["えいご"],
+        "furi": "0:えい;1:ご",
+        "level": 3,
+        "meanings": ["영어"]
+      },
+      {
+        "id": 93,
+        "word": "ええ",
+        "readings": ["ええ"],
+        "level": 3,
+        "meanings": ["네", "예"],
+        "desc": "긍정적 대답"
+      },
+      {
+        "id": 94,
+        "word": "駅",
+        "readings": ["えき"],
+        "level": 3,
+        "meanings": ["역", "정거장", "역참"]
+      },
+      {
+        "id": 95,
+        "word": "～円",
+        "readings": ["えん"],
+        "furi": "1:えん",
+        "level": 3,
+        "meanings": ["~엔"],
+        "desc": "일본 화폐의 단위"
+      },
+      {
+        "id": 96,
+        "word": "鉛筆",
+        "readings": ["えんぴつ"],
+        "furi": "0:えん;1:ぴつ",
+        "level": 3,
+        "meanings": ["연필"]
+      },
+      {
+        "id": 97,
+        "word": "遠慮",
+        "readings": ["えんりょ"],
+        "furi": "0:えん;1:りょ",
+        "level": 3,
+        "meanings": ["사양", "원려", "겸손"]
+      }
+    ],
+    "o": [
+      {
+        "id": 98,
+        "word": "お祝い",
+        "readings": ["おいわい"],
+        "furi": "1:いわ",
+        "level": 3,
+        "meanings": ["축하", "축하 선물", "축하 행사"]
+      },
+      {
+        "id": 99,
+        "word": "応接",
+        "readings": ["おうせつ"],
+        "furi": "0:おう;1:せつ",
+        "level": 3,
+        "meanings": ["응접", "접대", "면회"]
+      },
+      {
+        "id": 100,
+        "word": "応接間",
+        "readings": ["おうせつま"],
+        "furi": "0:おう;1:せつ;2:ま",
+        "level": 3,
+        "meanings": ["응접실"]
+      },
+      {
+        "id": 101,
+        "word": "大きな",
+        "readings": ["おおきな"],
+        "furi": "0:おお",
+        "level": 3,
+        "meanings": ["큰"]
+      },
+      {
+        "id": 102,
+        "word": "大勢",
+        "readings": ["おおぜい"],
+        "furi": "0:おお;1:ぜい",
+        "level": 3,
+        "meanings": ["많은 사람", "여럿"]
+      },
+      {
+        "id": 103,
+        "word": "お母さん",
+        "readings": ["おかあさん"],
+        "furi": "1:かあ",
+        "level": 3,
+        "meanings": ["어머니"]
+      },
+      {
+        "id": 104,
+        "word": "おかげ",
+        "readings": ["おかげ"],
+        "level": 3,
+        "meanings": ["덕택", "덕분"]
+      },
+      {
+        "id": 105,
+        "word": "お菓子",
+        "readings": ["おかし"],
+        "furi": "1:か;2:し",
+        "level": 3,
+        "meanings": ["과자"]
+      },
+      {
+        "id": 106,
+        "word": "お金",
+        "readings": ["おかね"],
+        "furi": "1:かね",
+        "level": 3,
+        "meanings": ["돈", "금전"]
+      },
+      {
+        "id": 107,
+        "word": "～おき",
+        "readings": ["おき"],
+        "level": 3,
+        "meanings": ["~걸러", "간격"],
+        "desc": "일정한 간격을 두고 일이 거듭됨을 나타냄"
+      },
+      {
+        "id": 108,
+        "word": "億",
+        "readings": ["おく"],
+        "level": 3,
+        "meanings": ["억"]
+      },
+      {
+        "id": 109,
+        "word": "奥さん",
+        "readings": ["おくさん"],
+        "furi": "0:おく",
+        "level": 3,
+        "meanings": ["부인"],
+        "desc": "남의 아내의 높임말"
+      },
+      {
+        "id": 110,
+        "word": "屋上",
+        "readings": ["おくじょう"],
+        "furi": "0:おく;1:じょう",
+        "level": 3,
+        "meanings": ["옥상"]
+      },
+      {
+        "id": 111,
+        "word": "贈り物",
+        "readings": ["おくりもの"],
+        "furi": "0:おく;2:もの",
+        "level": 3,
+        "meanings": ["선물"]
+      },
+      {
+        "id": 112,
+        "word": "お子さん",
+        "readings": ["おこさん"],
+        "furi": "1:こ",
+        "level": 3,
+        "meanings": ["자제분", "자녀분"],
+        "desc": "남의 집 자식을 높여서 부르는 말"
+      },
+      {
+        "id": 113,
+        "word": "お酒",
+        "readings": ["おさけ"],
+        "furi": "1:さけ",
+        "level": 3,
+        "meanings": ["술"]
+      },
+      {
+        "id": 114,
+        "word": "お皿",
+        "readings": ["おさら"],
+        "furi": "1:さら",
+        "level": 3,
+        "meanings": ["접시"]
+      },
+      {
+        "id": 115,
+        "word": "押し入れ",
+        "readings": ["おしいれ"],
+        "furi": "0:お;2:い",
+        "level": 3,
+        "meanings": ["가재", "반칩", "벽장", "침구를 넣어두는 벽장"]
+      },
+      {
+        "id": 116,
+        "word": "伯父",
+        "readings": ["おじさん"],
+        "level": 3,
+        "meanings": ["아저씨", "백부"]
+      },
+      {
+        "id": 117,
+        "word": "叔父さん",
+        "readings": ["おじさん"],
+        "furi": "0:お;1:じ",
+        "level": 3,
+        "meanings": ["아저씨", "백부"]
+      },
+      {
+        "id": 118,
+        "word": "おじいさん",
+        "readings": ["おじいさん"],
+        "level": 3,
+        "meanings": ["할아버지"]
+      },
+      {
+        "id": 119,
+        "word": "お嬢さん",
+        "readings": ["おじょうさん"],
+        "furi": "1:じょう",
+        "level": 3,
+        "meanings": ["아가씨"]
+      },
+      {
+        "id": 120,
+        "word": "お宅",
+        "readings": ["おたく"],
+        "furi": "1:たく",
+        "level": 3,
+        "meanings": ["댁"],
+        "desc": "상대방 집의 높임말"
+      },
+      {
+        "id": 121,
+        "word": "お茶",
+        "readings": ["おちゃ"],
+        "furi": "1:ちゃ",
+        "level": 3,
+        "meanings": ["차", "엽차"]
+      },
+      {
+        "id": 122,
+        "word": "夫",
+        "readings": ["おっと"],
+        "level": 3,
+        "meanings": ["남편"]
+      },
+      {
+        "id": 123,
+        "word": "お釣り",
+        "readings": ["おちゃ"],
+        "furi": "1:つ",
+        "level": 3,
+        "meanings": ["거스름돈"]
+      },
+      {
+        "id": 124,
+        "word": "お手洗い",
+        "readings": ["おてあらい"],
+        "furi": "1:て;2:あら",
+        "level": 3,
+        "meanings": ["화장실"]
+      },
+      {
+        "id": 125,
+        "word": "音",
+        "readings": ["おと"],
+        "level": 3,
+        "meanings": ["소리"],
+        "desc": "사물에서 나는 소리"
+      },
+      {
+        "id": 126,
+        "word": "お父さん",
+        "readings": ["おとうさん"],
+        "furi": "1:とう",
+        "level": 3,
+        "meanings": ["아버지"]
+      },
+      {
+        "id": 127,
+        "word": "弟さん",
+        "readings": ["おとうとさん"],
+        "furi": "0:おとうと",
+        "level": 3,
+        "meanings": ["남동생"]
+      },
+      {
+        "id": 128,
+        "word": "男",
+        "readings": ["おとこ"],
+        "level": 3,
+        "meanings": ["사나이", "남자", "남성"]
+      },
+      {
+        "id": 129,
+        "word": "おととい",
+        "readings": ["おととい"],
+        "level": 3,
+        "meanings": ["그저께"]
+      },
+      {
+        "id": 130,
+        "word": "おととし",
+        "readings": ["おととし"],
+        "level": 3,
+        "meanings": ["재작년"]
+      },
+      {
+        "id": 131,
+        "word": "大人",
+        "readings": ["おとな"],
+        "level": 3,
+        "meanings": ["어른", "성인"]
+      },
+      {
+        "id": 132,
+        "word": "踊り",
+        "readings": ["おどり"],
+        "furi": "0:おど",
+        "level": 3,
+        "meanings": ["춤", "무용"]
+      },
+      {
+        "id": 133,
+        "word": "おなか",
+        "readings": ["おなか"],
+        "level": 3,
+        "meanings": ["배"]
+      },
+      {
+        "id": 134,
+        "word": "お兄さん",
+        "readings": ["おにいさん"],
+        "furi": "1:にい",
+        "level": 3,
+        "meanings": ["형", "형님", "오빠"]
+      },
+      {
+        "id": 135,
+        "word": "お姉さん",
+        "readings": ["おねえさん"],
+        "furi": "1:ねえ",
+        "level": 3,
+        "meanings": ["언니", "누님", "누나"]
+      },
+      {
+        "id": 136,
+        "word": "伯母",
+        "readings": ["おばさん"],
+        "level": 3,
+        "meanings": ["아주머니"]
+      },
+      {
+        "id": 137,
+        "word": "叔母さん",
+        "readings": ["おばさん"],
+        "furi": "0:お;1:ば",
+        "level": 3,
+        "meanings": ["아주머니"]
+      },
+      {
+        "id": 138,
+        "word": "おばあさん",
+        "readings": ["おばあさん"],
+        "level": 3,
+        "meanings": ["할머니"]
+      },
+      {
+        "id": 139,
+        "word": "お風呂",
+        "readings": ["おふろ"],
+        "furi": "1:ふ;2:ろ",
+        "level": 3,
+        "meanings": ["목욕", "목욕물", "목욕탕", "욕실"]
+      },
+      {
+        "id": 140,
+        "word": "お弁当",
+        "readings": ["おべんとう"],
+        "furi": "1:べん;2:とう",
+        "level": 3,
+        "meanings": ["도시락"]
+      },
+      {
+        "id": 141,
+        "word": "お祭り",
+        "readings": ["おまつり"],
+        "furi": "1:まつ",
+        "level": 3,
+        "meanings": ["축제"]
+      },
+      {
+        "id": 142,
+        "word": "お巡りさん",
+        "readings": ["おまわりさん"],
+        "furi": "1:まわ",
+        "level": 3,
+        "meanings": ["순경", "경찰관"]
+      },
+      {
+        "id": 143,
+        "word": "お見舞い",
+        "readings": ["おみまい"],
+        "furi": "1:み;2:ま",
+        "level": 3,
+        "meanings": ["문안", "문병"]
+      },
+      {
+        "id": 144,
+        "word": "お土産",
+        "readings": ["おみやげ"],
+        "furi": "1:み;2:やげ",
+        "level": 3,
+        "meanings": ["선물"]
+      },
+      {
+        "id": 145,
+        "word": "おもちゃ",
+        "readings": ["おもちゃ"],
+        "level": 3,
+        "meanings": ["장난감"]
+      },
+      {
+        "id": 146,
+        "word": "表",
+        "readings": ["おもて"],
+        "level": 3,
+        "meanings": ["표면", "겉", "앞"]
+      },
+      {
+        "id": 147,
+        "word": "親",
+        "readings": ["おや"],
+        "level": 3,
+        "meanings": ["어버이", "부모"]
+      },
+      {
+        "id": 148,
+        "word": "お礼",
+        "readings": ["おれい"],
+        "furi": "1:れい",
+        "level": 3,
+        "meanings": ["사례", "답례"]
+      },
+      {
+        "id": 149,
+        "word": "終り",
+        "readings": ["おわり"],
+        "furi": "0:おわ",
+        "level": 3,
+        "meanings": ["끝", "마지막"]
+      },
+      {
+        "id": 150,
+        "word": "音楽",
+        "readings": ["おんがく"],
+        "furi": "0:おん;1:がく",
+        "level": 3,
+        "meanings": ["음악"]
+      },
+      {
+        "id": 151,
+        "word": "女",
+        "readings": ["おんな"],
+        "level": 3,
+        "meanings": ["여자", "여성", "계집"]
+      },
+      {
+        "id": 152,
+        "word": "女の子",
+        "readings": ["おんなのこ"],
+        "furi": "0:おんな;2:こ",
+        "level": 3,
+        "meanings": ["여자아이"]
+      }
+    ],
+    "ka": [
+      {
+        "id": 153,
+        "word": "～家",
+        "readings": ["か"],
+        "furi": "1:か",
+        "level": 3,
+        "meanings": ["~가"],
+        "desc": "전공분야에 붙어 그 일을 하는 사람을 나타내는 말"
+      },
+      {
+        "id": 154,
+        "word": "～階",
+        "readings": ["かい"],
+        "furi": "1:かい",
+        "level": 3,
+        "meanings": ["~층"],
+        "desc": "건물을 상하로 나누는 단위"
+      },
+      {
+        "id": 155,
+        "word": "～会",
+        "readings": ["かい"],
+        "furi": "1:かい",
+        "level": 3,
+        "meanings": ["~회"]
+      },
+      {
+        "id": 156,
+        "word": "～回",
+        "readings": ["かい"],
+        "furi": "1:かい",
+        "level": 3,
+        "meanings": ["~회", "~번"]
+      },
+      {
+        "id": 157,
+        "word": "海岸",
+        "readings": ["かいがん"],
+        "furi": "0:かい;1:がん",
+        "level": 3,
+        "meanings": ["해안", "바닷가"]
+      },
+      {
+        "id": 158,
+        "word": "会議",
+        "readings": ["かいぎ"],
+        "furi": "0:かい;1:ぎ",
+        "level": 3,
+        "meanings": ["회의"]
+      },
+      {
+        "id": 159,
+        "word": "会議室",
+        "readings": ["かいぎしつ"],
+        "furi": "0:かい;1:ぎ;2:しつ",
+        "level": 3,
+        "meanings": ["회의실"]
+      },
+      {
+        "id": 160,
+        "word": "外国",
+        "readings": ["がいこぐ"],
+        "furi": "0:がい;1:こぐ",
+        "level": 3,
+        "meanings": ["외국"]
+      },
+      {
+        "id": 161,
+        "word": "外国人",
+        "readings": ["がいこくじん"],
+        "furi": "0:がい;1:こぐ;2:じん",
+        "level": 3,
+        "meanings": ["외국인"]
+      },
+      {
+        "id": 162,
+        "word": "会社",
+        "readings": ["かいしゃ"],
+        "furi": "0:かい;1:しゃ",
+        "level": 3,
+        "meanings": ["회사"]
+      },
+      {
+        "id": 163,
+        "word": "会場",
+        "readings": ["かいじょう"],
+        "furi": "0:かい;1:じょう",
+        "level": 3,
+        "meanings": ["회장"]
+      },
+      {
+        "id": 164,
+        "word": "階段",
+        "readings": ["かいだん"],
+        "furi": "0:かい;1:だん",
+        "level": 3,
+        "meanings": ["계단"]
+      },
+      {
+        "id": 165,
+        "word": "買い物",
+        "readings": ["かいもの"],
+        "furi": "0:か;2:もの",
+        "level": 3,
+        "meanings": ["쇼핑", "물건을 삼"]
+      },
+      {
+        "id": 166,
+        "word": "会話",
+        "readings": ["かいわ"],
+        "furi": "0:かい;1:わ",
+        "level": 3,
+        "meanings": ["회화"]
+      },
+      {
+        "id": 167,
+        "word": "帰り",
+        "readings": ["かえり"],
+        "furi": "0:かえ",
+        "level": 3,
+        "meanings": ["돌아옴", "돌아오는 길", "돌아감", "돌아올 때"]
+      },
+      {
+        "id": 168,
+        "word": "顔",
+        "readings": ["かお"],
+        "level": 3,
+        "meanings": ["얼굴", "낯", "얼굴 표정"]
+      },
+      {
+        "id": 169,
+        "word": "科学",
+        "readings": ["かがく"],
+        "furi": "0:か;1:がく",
+        "level": 3,
+        "meanings": ["과학"]
+      },
+      {
+        "id": 170,
+        "word": "鏡",
+        "readings": ["かがみ"],
+        "level": 3,
+        "meanings": ["거울"]
+      },
+      {
+        "id": 171,
+        "word": "鍵",
+        "readings": ["かぎ"],
+        "level": 3,
+        "meanings": ["열쇠", "자물쇠"]
+      },
+      {
+        "id": 172,
+        "word": "学生",
+        "readings": ["がくせい"],
+        "furi": "0:がく;1:せい",
+        "level": 3,
+        "meanings": ["학생"],
+        "desc": "주로 대학생"
+      },
+      {
+        "id": 173,
+        "word": "～学部",
+        "readings": ["がくぶ"],
+        "furi": "1:がく;2:ぶ",
+        "level": 3,
+        "meanings": ["~학부"]
+      },
+      {
+        "id": 174,
+        "word": "～か月",
+        "readings": ["かげつ"],
+        "furi": "2:げつ",
+        "level": 3,
+        "meanings": ["~개월"]
+      },
+      {
+        "id": 175,
+        "word": "傘",
+        "readings": ["かさ"],
+        "level": 3,
+        "meanings": ["우산", "양산"]
+      },
+      {
+        "id": 176,
+        "word": "火事",
+        "readings": ["かじ"],
+        "furi": "0:か;1:じ",
+        "level": 3,
+        "meanings": ["화재", "불"]
+      },
+      {
+        "id": 177,
+        "word": "風",
+        "readings": ["かぜ"],
+        "level": 3,
+        "meanings": ["바람"]
+      },
+      {
+        "id": 178,
+        "word": "風邪",
+        "readings": ["かぜ"],
+        "level": 3,
+        "meanings": ["감기"]
+      },
+      {
+        "id": 179,
+        "word": "家族",
+        "readings": ["かぞく"],
+        "furi": "0:か;1:ぞく",
+        "level": 3,
+        "meanings": ["가족"]
+      },
+      {
+        "id": 180,
+        "word": "～方",
+        "readings": ["かた"],
+        "furi": "1:かた",
+        "level": 3,
+        "meanings": ["~분"],
+        "desc": "사람의 높임말"
+      },
+      {
+        "id": 181,
+        "word": "片仮名",
+        "readings": ["かたかな"],
+        "furi": "0:かた;1:か;2:な",
+        "level": 3,
+        "meanings": ["카타카나", "가타카나"],
+        "desc": "일본 고유문자의 하나"
+      },
+      {
+        "id": 182,
+        "word": "形",
+        "readings": ["かたち"],
+        "level": 3,
+        "meanings": ["모양", "형상", "자세"]
+      },
+      {
+        "id": 183,
+        "word": "～月",
+        "readings": ["がつ"],
+        "furi": "1:がつ",
+        "level": 3,
+        "meanings": ["~월"]
+      },
+      {
+        "id": 184,
+        "word": "課長",
+        "readings": ["かちょう"],
+        "furi": "0:か;1:ちょう",
+        "level": 3,
+        "meanings": ["과장", "과장님"]
+      },
+      {
+        "id": 185,
+        "word": "格好",
+        "readings": ["かっこう"],
+        "furi": "0:かっ;1:こう",
+        "level": 3,
+        "meanings": ["모양", "모습", "꼴", "볼품"]
+      },
+      {
+        "id": 186,
+        "word": "学校",
+        "readings": ["がっこう"],
+        "furi": "0:がっ;1:こう",
+        "level": 3,
+        "meanings": ["학교"]
+      },
+      {
+        "id": 187,
+        "word": "家庭",
+        "readings": ["かてい"],
+        "furi": "0:か;1:てい",
+        "level": 3,
+        "meanings": ["가정"]
+      },
+      {
+        "id": 188,
+        "word": "角",
+        "readings": ["かど"],
+        "level": 3,
+        "meanings": ["모서리", "모퉁이", "구석"]
+      },
+      {
+        "id": 189,
+        "word": "家内",
+        "readings": ["かない"],
+        "furi": "0:か;1:ない",
+        "level": 3,
+        "meanings": ["집사람", "아내", "가내", "가족"]
+      },
+      {
+        "id": 190,
+        "word": "必ず",
+        "readings": ["かならず"],
+        "furi": "0:かなら",
+        "level": 3,
+        "meanings": ["반드시", "꼭"]
+      },
+      {
+        "id": 191,
+        "word": "金持ち",
+        "readings": ["かねもち"],
+        "furi": "0:かね;1:も",
+        "level": 3,
+        "meanings": ["부자"]
+      },
+      {
+        "id": 192,
+        "word": "彼女",
+        "readings": ["かのじょ"],
+        "furi": "0:かの;1:じょ",
+        "level": 3,
+        "meanings": ["그 여자", "그녀", "저 여자", "애인"],
+        "desc": "여자 애인"
+      },
+      {
+        "id": 193,
+        "word": "かばん",
+        "readings": ["かばん"],
+        "level": 3,
+        "meanings": ["가방"]
+      },
+      {
+        "id": 194,
+        "word": "花瓶",
+        "readings": ["かびん"],
+        "furi": "0:か;1:びん",
+        "level": 3,
+        "meanings": ["화병", "꽃병"]
+      },
+      {
+        "id": 195,
+        "word": "壁",
+        "readings": ["かく"],
+        "level": 3,
+        "meanings": ["벽"]
+      },
+      {
+        "id": 196,
+        "word": "髪",
+        "readings": ["かみ"],
+        "level": 3,
+        "meanings": ["머리", "머리털", "두발"]
+      },
+      {
+        "id": 197,
+        "word": "紙",
+        "readings": ["かみ"],
+        "level": 3,
+        "meanings": ["종이"]
+      },
+      {
+        "id": 198,
+        "word": "火曜日",
+        "readings": ["かようび"],
+        "furi": "0:か;1:よう;2:び",
+        "level": 3,
+        "meanings": ["화요일"]
+      },
+      {
+        "id": 199,
+        "word": "体",
+        "readings": ["からだ"],
+        "level": 3,
+        "meanings": ["몸", "육체", "신체"]
+      },
+      {
+        "id": 200,
+        "word": "彼",
+        "readings": ["かれ"],
+        "level": 3,
+        "meanings": ["그", "그 사람", "애인"],
+        "desc": "남자 애인"
+      },
+      {
+        "id": 201,
+        "word": "彼ら",
+        "readings": ["かれら"],
+        "furi": "0:かれ",
+        "level": 3,
+        "meanings": ["그들", "그 사람들"]
+      },
+      {
+        "id": 202,
+        "word": "カレンダー",
+        "readings": ["カレンダー"],
+        "level": 3,
+        "meanings": ["달력", "캘린더"]
+      },
+      {
+        "id": 203,
+        "word": "川",
+        "readings": ["かわ"],
+        "level": 3,
+        "meanings": ["개울", "강", "하천", "시내", "내"]
+      },
+      {
+        "id": 204,
+        "word": "河",
+        "readings": ["かわ"],
+        "level": 3,
+        "meanings": ["개울", "강", "하천", "시내", "내"]
+      },
+      {
+        "id": 205,
+        "word": "～側",
+        "readings": ["がわ"],
+        "furi": "1:がわ",
+        "level": 3,
+        "meanings": ["~쪽", "~측", "~편"]
+      },
+      {
+        "id": 206,
+        "word": "代わりに",
+        "readings": ["がわ"],
+        "furi": "0:がわ",
+        "level": 3,
+        "meanings": ["대신", "대신에"]
+      },
+      {
+        "id": 207,
+        "word": "関係",
+        "readings": ["かんけい"],
+        "furi": "0:かん;1:けい",
+        "level": 3,
+        "meanings": ["관계"]
+      },
+      {
+        "id": 208,
+        "word": "看護師",
+        "readings": ["かんごし"],
+        "furi": "0:かん;1:ご;2:し",
+        "level": 3,
+        "meanings": ["간호사"]
+      },
+      {
+        "id": 209,
+        "word": "漢字",
+        "readings": ["かんじ"],
+        "furi": "0:かん;1:じ",
+        "level": 3,
+        "meanings": ["한자"]
+      },
+      {
+        "id": 210,
+        "word": "簡単",
+        "readings": ["かんたん"],
+        "furi": "0:かん;1:たん",
+        "level": 3,
+        "meanings": ["간단"]
+      }
+    ],
+    "ki": [
+      {
+        "id": 211,
+        "word": "気",
+        "readings": ["き"],
+        "level": 3,
+        "meanings": ["마음", "생각", "느낌", "기운", "기력"]
+      },
+      {
+        "id": 212,
+        "word": "木",
+        "readings": ["き"],
+        "level": 3,
+        "meanings": ["나무"]
+      },
+      {
+        "id": 213,
+        "word": "黄色",
+        "readings": ["きいろ"],
+        "furi": "0:き;1:いろ",
+        "level": 3,
+        "meanings": ["노랑", "황색", "노란색"]
+      },
+      {
+        "id": 214,
+        "word": "機械",
+        "readings": ["きかい"],
+        "furi": "0:き;1:かい",
+        "level": 3,
+        "meanings": ["기계"]
+      },
+      {
+        "id": 215,
+        "word": "機会",
+        "readings": ["きかい"],
+        "furi": "0:き;1:かい",
+        "level": 3,
+        "meanings": ["기회"]
+      },
+      {
+        "id": 216,
+        "word": "危険",
+        "readings": ["きけん"],
+        "furi": "0:き;1:けん",
+        "level": 3,
+        "meanings": ["위험"]
+      },
+      {
+        "id": 217,
+        "word": "汽車",
+        "readings": ["きしゃ"],
+        "furi": "0:き;1:しゃ",
+        "level": 3,
+        "meanings": ["기차"]
+      },
+      {
+        "id": 218,
+        "word": "技術",
+        "readings": ["きじゅつ"],
+        "furi": "0:き;1:じゅつ",
+        "level": 3,
+        "meanings": ["기술"]
+      },
+      {
+        "id": 219,
+        "word": "季節",
+        "readings": ["きせつ"],
+        "furi": "0:き;1:せつ",
+        "level": 3,
+        "meanings": ["계절", "절기"]
+      },
+      {
+        "id": 220,
+        "word": "規則",
+        "readings": ["きそく"],
+        "furi": "0:き;1:そく",
+        "level": 3,
+        "meanings": ["규칙"]
+      },
+      {
+        "id": 221,
+        "word": "北",
+        "readings": ["きた"],
+        "level": 3,
+        "meanings": ["북쪽", "북"]
+      },
+      {
+        "id": 222,
+        "word": "喫茶店",
+        "readings": ["きつさてん"],
+        "furi": "0:きつ;1:さ;2:てん",
+        "level": 3,
+        "meanings": ["찻집", "다방"]
+      },
+      {
+        "id": 223,
+        "word": "切手",
+        "readings": ["きって"],
+        "furi": "0:きっ;1:て",
+        "level": 3,
+        "meanings": ["우표"]
+      },
+      {
+        "id": 224,
+        "word": "きっと",
+        "readings": ["きっと"],
+        "level": 3,
+        "meanings": ["꼭", "틀림없이", "반드시", "기어코"]
+      },
+      {
+        "id": 225,
+        "word": "切符",
+        "readings": ["きっぷ"],
+        "furi": "0:きっ;1:ぷ",
+        "level": 3,
+        "meanings": ["표", "차표", "입장권"]
+      },
+      {
+        "id": 226,
+        "word": "絹",
+        "readings": ["きぬ"],
+        "level": 3,
+        "meanings": ["명주", "비단", "실크"]
+      },
+      {
+        "id": 227,
+        "word": "昨日",
+        "readings": ["きのう"],
+        "level": 3,
+        "meanings": ["어제"]
+      },
+      {
+        "id": 228,
+        "word": "気分",
+        "readings": ["きぶん"],
+        "furi": "0:き;1:ぶん",
+        "level": 3,
+        "meanings": ["기분"]
+      },
+      {
+        "id": 229,
+        "word": "基本",
+        "readings": ["きほん"],
+        "furi": "0:き;1:ほん",
+        "level": 3,
+        "meanings": ["기본"]
+      },
+      {
+        "id": 230,
+        "word": "君",
+        "readings": ["きみ"],
+        "level": 3,
+        "meanings": ["너", "자네", "야"],
+        "desc": "보통 친한 남자끼리 사용하는 이인칭 대명사"
+      },
+      {
+        "id": 231,
+        "word": "気持ち",
+        "readings": ["きもち"],
+        "furi": "0:き;1:も",
+        "level": 3,
+        "meanings": ["기분", "마음", "감정"]
+      },
+      {
+        "id": 232,
+        "word": "着物",
+        "readings": ["きもの"],
+        "furi": "0:き;1:もの",
+        "level": 3,
+        "meanings": ["옷", "의복"],
+        "desc": "일본의 전통의상"
+      },
+      {
+        "id": 233,
+        "word": "客",
+        "readings": ["きゃく"],
+        "level": 3,
+        "meanings": ["손님", "손", "나그네", "여객"]
+      },
+      {
+        "id": 234,
+        "word": "九",
+        "readings": ["きゅう", "く"],
+        "level": 3,
+        "meanings": ["구", "아홉", "9"]
+      },
+      {
+        "id": 235,
+        "word": "急に",
+        "readings": ["きゅうに"],
+        "furi": "0:きゅう",
+        "level": 3,
+        "meanings": ["갑자기"]
+      },
+      {
+        "id": 236,
+        "word": "急行",
+        "readings": ["きゅうこう"],
+        "furi": "0:きゅう;1:こう",
+        "level": 3,
+        "meanings": ["급행"]
+      },
+      {
+        "id": 237,
+        "word": "牛肉",
+        "readings": ["ぎゅうにく"],
+        "furi": "0:ぎゅう;1:にく",
+        "level": 3,
+        "meanings": ["소고기", "쇠고기", "우육"]
+      },
+      {
+        "id": 238,
+        "word": "牛乳",
+        "readings": ["ぎゅうにゅう"],
+        "furi": "0:ぎゅう;1:にゅう",
+        "level": 3,
+        "meanings": ["우유"]
+      },
+      {
+        "id": 239,
+        "word": "今日",
+        "readings": ["きょう"],
+        "level": 3,
+        "meanings": ["오늘", "금일"]
+      },
+      {
+        "id": 240,
+        "word": "教育",
+        "readings": ["きょういく"],
+        "furi": "0:きょう;1:いく",
+        "level": 3,
+        "meanings": ["교육"]
+      },
+      {
+        "id": 241,
+        "word": "教会",
+        "readings": ["きょうかい"],
+        "furi": "0:きょう;1:かい",
+        "level": 3,
+        "meanings": ["교회"]
+      },
+      {
+        "id": 242,
+        "word": "教室",
+        "readings": ["きょうしつ"],
+        "furi": "0:きょう;1:しつ",
+        "level": 3,
+        "meanings": ["교실"]
+      },
+      {
+        "id": 243,
+        "word": "兄弟",
+        "readings": ["きょうだい"],
+        "furi": "0:きょう;1:だい",
+        "level": 3,
+        "meanings": ["형제", "동기"]
+      },
+      {
+        "id": 244,
+        "word": "興味",
+        "readings": ["きょうみ"],
+        "furi": "0:きょう;1:み",
+        "level": 3,
+        "meanings": ["흥미"]
+      },
+      {
+        "id": 245,
+        "word": "切れ",
+        "readings": ["きれ"],
+        "furi": "0:き",
+        "level": 3,
+        "meanings": ["조각", "토막", "천", "헝겊"]
+      },
+      {
+        "id": 246,
+        "word": "銀行",
+        "readings": ["ぎんこう"],
+        "furi": "0:ぎん;1:こう",
+        "level": 3,
+        "meanings": ["은행"]
+      },
+      {
+        "id": 247,
+        "word": "近所",
+        "readings": ["きんじょ"],
+        "furi": "0:きん;1:じょ",
+        "level": 3,
+        "meanings": ["근처", "금방"]
+      },
+      {
+        "id": 248,
+        "word": "金曜日",
+        "readings": ["きんようび"],
+        "furi": "0:きん;1:よう;2:び",
+        "level": 3,
+        "meanings": ["금요일"]
+      }
+    ],
+    "ku": [
+      {
+        "id": 249,
+        "word": "九",
+        "readings": ["く", "きゅう"],
+        "level": 3,
+        "meanings": ["구", "아홉", "9"]
+      },
+      {
+        "id": 250,
+        "word": "～区",
+        "readings": ["く"],
+        "furi": "1:く",
+        "level": 3,
+        "meanings": ["~구"],
+        "desc": "행정구역의 하나"
+      },
+      {
+        "id": 251,
+        "word": "具合",
+        "readings": ["ぐあい"],
+        "furi": "0:ぐ;1:あい",
+        "level": 3,
+        "meanings": ["형편", "상태"]
+      },
+      {
+        "id": 252,
+        "word": "空気",
+        "readings": ["くうき"],
+        "furi": "0:くう;1:き",
+        "level": 3,
+        "meanings": ["공기", "대기", "분위기"]
+      },
+      {
+        "id": 253,
+        "word": "空港",
+        "readings": ["くうこう"],
+        "furi": "0:くう;1:こう",
+        "level": 3,
+        "meanings": ["공항"]
+      },
+      {
+        "id": 254,
+        "word": "草",
+        "readings": ["くさ"],
+        "level": 3,
+        "meanings": ["풀", "잡초"]
+      },
+      {
+        "id": 255,
+        "word": "果物",
+        "readings": ["くだもの"],
+        "furi": "0:くだ;1:もの",
+        "level": 3,
+        "meanings": ["과일", "과실"]
+      },
+      {
+        "id": 256,
+        "word": "口",
+        "readings": ["くち"],
+        "level": 3,
+        "meanings": ["입"]
+      },
+      {
+        "id": 257,
+        "word": "靴",
+        "readings": ["くつ"],
+        "level": 3,
+        "meanings": ["구두", "신발"]
+      },
+      {
+        "id": 258,
+        "word": "靴下",
+        "readings": ["くつした"],
+        "furi": "0:くつ;1:した",
+        "level": 3,
+        "meanings": ["양말"]
+      },
+      {
+        "id": 259,
+        "word": "国",
+        "readings": ["くに"],
+        "level": 3,
+        "meanings": ["나라", "출신지", "고향"]
+      },
+      {
+        "id": 260,
+        "word": "首",
+        "readings": ["くび"],
+        "level": 3,
+        "meanings": ["목", "고개", "머리"]
+      },
+      {
+        "id": 261,
+        "word": "雲",
+        "readings": ["くも"],
+        "level": 3,
+        "meanings": ["구름"]
+      },
+      {
+        "id": 262,
+        "word": "雲り",
+        "readings": ["くもり"],
+        "furi": "0:くも",
+        "level": 3,
+        "meanings": ["흐림"]
+      },
+      {
+        "id": 263,
+        "word": "～くらい",
+        "readings": ["くらい"],
+        "level": 3,
+        "meanings": ["~정도", "~쯤", "~만큼"]
+      },
+      {
+        "id": 264,
+        "word": "～ぐらい",
+        "readings": ["ぐらい"],
+        "level": 3,
+        "meanings": ["~정도", "~쯤", "~만큼"]
+      },
+      {
+        "id": 265,
+        "word": "車",
+        "readings": ["くるま"],
+        "level": 3,
+        "meanings": ["차", "자동차"]
+      },
+      {
+        "id": 266,
+        "word": "黒",
+        "readings": ["くろ"],
+        "level": 3,
+        "meanings": ["검정"]
+      },
+      {
+        "id": 267,
+        "word": "～君",
+        "readings": ["くん"],
+        "furi": "1:くん",
+        "level": 3,
+        "meanings": ["~군"]
+      }
+    ],
+    "ke": [
+      {
+        "id": 268,
+        "word": "毛",
+        "readings": ["け"],
+        "level": 3,
+        "meanings": ["털"]
+      },
+      {
+        "id": 269,
+        "word": "計画",
+        "readings": ["けいかく"],
+        "furi": "0:けい;1:かく",
+        "level": 3,
+        "meanings": ["계획"]
+      },
+      {
+        "id": 270,
+        "word": "警官",
+        "readings": ["けいかん"],
+        "furi": "0:けい;1:かん",
+        "level": 3,
+        "meanings": ["경관", "경찰관"]
+      },
+      {
+        "id": 271,
+        "word": "経験",
+        "readings": ["けいけん"],
+        "furi": "0:けい;1:けん",
+        "level": 3,
+        "meanings": ["경험"]
+      },
+      {
+        "id": 272,
+        "word": "経済",
+        "readings": ["けいざい"],
+        "furi": "0:けい;1:ざい",
+        "level": 3,
+        "meanings": ["경제"]
+      },
+      {
+        "id": 273,
+        "word": "警察",
+        "readings": ["けいさつ"],
+        "furi": "0:けい;1:さつ",
+        "level": 3,
+        "meanings": ["경찰"]
+      },
+      {
+        "id": 274,
+        "word": "今朝",
+        "readings": ["けさ"],
+        "level": 3,
+        "meanings": ["오늘 아침"]
+      },
+      {
+        "id": 275,
+        "word": "景色",
+        "readings": ["けしき"],
+        "level": 3,
+        "meanings": ["경치", "풍경"]
+      },
+      {
+        "id": 276,
+        "word": "消しゴム",
+        "readings": ["けしごむ"],
+        "furi": "0:け",
+        "level": 3,
+        "meanings": ["지우개"]
+      },
+      {
+        "id": 277,
+        "word": "下宿",
+        "readings": ["げしゅく"],
+        "furi": "0:げ;1:しゅく",
+        "level": 3,
+        "meanings": ["하숙", "여인숙"]
+      },
+      {
+        "id": 278,
+        "word": "結婚",
+        "readings": ["けっこん"],
+        "furi": "0:けっ;1:こん",
+        "level": 3,
+        "meanings": ["결혼"]
+      },
+      {
+        "id": 279,
+        "word": "決して",
+        "readings": ["けっして"],
+        "furi": "0:けっ",
+        "level": 3,
+        "meanings": ["결코", "절대로"]
+      },
+      {
+        "id": 280,
+        "word": "月曜日",
+        "readings": ["げつようび"],
+        "furi": "0:げつ;1:よう;2:び",
+        "level": 3,
+        "meanings": ["월요일"]
+      },
+      {
+        "id": 281,
+        "word": "～けれど",
+        "readings": ["けれど"],
+        "level": 3,
+        "meanings": ["~지만", "~이나", "~는데"]
+      },
+      {
+        "id": 282,
+        "word": "けれども",
+        "readings": ["けれども"],
+        "level": 3,
+        "meanings": ["그렇지만", "하지만"]
+      },
+      {
+        "id": 283,
+        "word": "～けれども",
+        "readings": ["けれども"],
+        "level": 3,
+        "meanings": ["~이지만", "~다만"]
+      },
+      {
+        "id": 284,
+        "word": "～県",
+        "readings": ["けん"],
+        "furi": "1:けん",
+        "level": 3,
+        "meanings": ["~현"],
+        "desc": "행정구역의 하나"
+      },
+      {
+        "id": 285,
+        "word": "～軒",
+        "readings": ["けん"],
+        "furi": "1:けん",
+        "level": 3,
+        "meanings": ["~채"],
+        "desc": "건물을 세는 단위"
+      },
+      {
+        "id": 286,
+        "word": "原因",
+        "readings": ["げんいん"],
+        "furi": "0:げん;1:いん",
+        "level": 3,
+        "meanings": ["원인"]
+      },
+      {
+        "id": 287,
+        "word": "喧嘩",
+        "readings": ["けんか"],
+        "level": 3,
+        "meanings": ["싸움"]
+      },
+      {
+        "id": 288,
+        "word": "玄関",
+        "readings": ["げんかん"],
+        "furi": "0:げん;1:かん",
+        "level": 3,
+        "meanings": ["현관"]
+      },
+      {
+        "id": 289,
+        "word": "研究",
+        "readings": ["けんきゅう"],
+        "furi": "0:けん;1:きゅう",
+        "level": 3,
+        "meanings": ["연구"]
+      },
+      {
+        "id": 290,
+        "word": "研究室",
+        "readings": ["けんきゅうしつ"],
+        "furi": "0:けん;1:きゅう;2:しつ",
+        "level": 3,
+        "meanings": ["연구실"]
+      },
+      {
+        "id": 291,
+        "word": "見物",
+        "readings": ["けんぶつ"],
+        "furi": "0:けん;1:ぶつ",
+        "level": 3,
+        "meanings": ["구경"]
+      }
+    ],
+    "ko": [
+      {
+        "id": 292,
+        "word": "～個",
+        "readings": ["こ"],
+        "furi": "1:こ",
+        "level": 3,
+        "meanings": ["~개"],
+        "desc": "사물의 개수를 세는 접미어"
+      },
+      {
+        "id": 293,
+        "word": "子",
+        "readings": ["こ"],
+        "level": 3,
+        "meanings": ["아이", "새끼"]
+      },
+      {
+        "id": 294,
+        "word": "五",
+        "readings": ["ご"],
+        "level": 3,
+        "meanings": ["오", "다섯", "5"]
+      },
+      {
+        "id": 295,
+        "word": "語",
+        "readings": ["ご"],
+        "level": 3,
+        "meanings": ["어", "언어", "이야기"]
+      },
+      {
+        "id": 296,
+        "word": "こう",
+        "readings": ["こう"],
+        "level": 3,
+        "meanings": ["이렇게"]
+      },
+      {
+        "id": 297,
+        "word": "公園",
+        "readings": ["こうえん"],
+        "furi": "0:こう;1:えん",
+        "level": 3,
+        "meanings": ["공원"]
+      },
+      {
+        "id": 298,
+        "word": "郊外",
+        "readings": ["こうがい"],
+        "furi": "0:こう;1:がい",
+        "level": 3,
+        "meanings": ["교외"]
+      },
+      {
+        "id": 299,
+        "word": "講義",
+        "readings": ["こうぎ"],
+        "furi": "0:こう;1:ぎ",
+        "level": 3,
+        "meanings": ["강의"]
+      },
+      {
+        "id": 300,
+        "word": "工業",
+        "readings": ["こうぎょう"],
+        "furi": "0:こう;1:ぎょう",
+        "level": 3,
+        "meanings": ["공업"]
+      },
+      {
+        "id": 301,
+        "word": "高校",
+        "readings": ["こうこう"],
+        "furi": "0:こう;1:こう",
+        "level": 3,
+        "meanings": ["고교"]
+      },
+      {
+        "id": 302,
+        "word": "高等学校",
+        "readings": ["こうとうがっこう"],
+        "furi": "0:こう;1:とう;2:がっ;3:こう",
+        "level": 3,
+        "meanings": ["고등학교"]
+      },
+      {
+        "id": 303,
+        "word": "高校生",
+        "readings": ["こうこうせい"],
+        "furi": "0:こう;1:こう;2:せい",
+        "level": 3,
+        "meanings": ["고교생"]
+      },
+      {
+        "id": 304,
+        "word": "工場",
+        "readings": ["こうじょう"],
+        "furi": "0:こう;1:じょう",
+        "level": 3,
+        "meanings": ["공장"],
+        "desc": "규모가 큰 공장"
+      },
+      {
+        "id": 305,
+        "word": "校長",
+        "readings": ["こうちょう"],
+        "furi": "0:こう;1:ちょう",
+        "level": 3,
+        "meanings": ["교장"]
+      },
+      {
+        "id": 306,
+        "word": "交通",
+        "readings": ["こうつう"],
+        "furi": "0:こう;1:つう",
+        "level": 3,
+        "meanings": ["교통"]
+      },
+      {
+        "id": 307,
+        "word": "講堂",
+        "readings": ["こうどう"],
+        "furi": "0:こう;1:どう",
+        "level": 3,
+        "meanings": ["강당"]
+      },
+      {
+        "id": 308,
+        "word": "交番",
+        "readings": ["こうばん"],
+        "furi": "0:こう;1:ばん",
+        "level": 3,
+        "meanings": ["파출소"]
+      },
+      {
+        "id": 309,
+        "word": "公務員",
+        "readings": ["こうむいん"],
+        "furi": "0:こう;1:む;2:いん",
+        "level": 3,
+        "meanings": ["공무원"]
+      },
+      {
+        "id": 310,
+        "word": "声",
+        "readings": ["こえ"],
+        "level": 3,
+        "meanings": ["목소리", "소리"]
+      },
+      {
+        "id": 311,
+        "word": "国際",
+        "readings": ["こくさい"],
+        "furi": "0:こく;1:さい",
+        "level": 3,
+        "meanings": ["국제"]
+      },
+      {
+        "id": 312,
+        "word": "ここ",
+        "readings": ["ここ"],
+        "level": 3,
+        "meanings": ["여기", "요 ~", "요사이 ~"]
+      },
+      {
+        "id": 313,
+        "word": "午後",
+        "readings": ["ごご"],
+        "furi": "0:ご;1:ご",
+        "level": 3,
+        "meanings": ["오후"]
+      },
+      {
+        "id": 314,
+        "word": "九日",
+        "readings": ["ここのか"],
+        "furi": "0:ここの;1:か",
+        "level": 3,
+        "meanings": ["구일", "아흐레", "아흐렛날", "9일"]
+      },
+      {
+        "id": 315,
+        "word": "九つ",
+        "readings": ["ここのつ"],
+        "furi": "0:ここの",
+        "level": 3,
+        "meanings": ["아홉", "아홉 개", "아홉 살", "9개", "9살"]
+      },
+      {
+        "id": 316,
+        "word": "心",
+        "readings": ["こころ"],
+        "level": 3,
+        "meanings": ["마음"]
+      },
+      {
+        "id": 317,
+        "word": "御主人",
+        "readings": ["ごしゅじん"],
+        "furi": "0:ご;1:しゅ;2:じん",
+        "level": 3,
+        "meanings": ["주인", "바깥양반"]
+      },
+      {
+        "id": 318,
+        "word": "故障",
+        "readings": ["こしょう"],
+        "furi": "0:こ;1:しょう",
+        "level": 3,
+        "meanings": ["고장"]
+      },
+      {
+        "id": 319,
+        "word": "午前",
+        "readings": ["ごぜん"],
+        "furi": "0:ご;1:ぜん",
+        "level": 3,
+        "meanings": ["오전"]
+      },
+      {
+        "id": 320,
+        "word": "ご存じ",
+        "readings": ["ごぞんじ"],
+        "furi": "1:ぞん",
+        "level": 3,
+        "meanings": ["알고 계심"]
+      },
+      {
+        "id": 321,
+        "word": "答え",
+        "readings": ["こたえ"],
+        "furi": "0:こた",
+        "level": 3,
+        "meanings": ["대답", "답"]
+      },
+      {
+        "id": 322,
+        "word": "ごちそう",
+        "readings": ["ごちそう"],
+        "level": 3,
+        "meanings": ["손님을 향응함", "진수성찬"]
+      },
+      {
+        "id": 323,
+        "word": "こちら",
+        "readings": ["こちら"],
+        "level": 3,
+        "meanings": ["이쪽", "여기", "이곳", "이분", "이것", "저", "저희"]
+      },
+      {
+        "id": 324,
+        "word": "こっち",
+        "readings": ["こっち"],
+        "level": 3,
+        "meanings": ["이쪽", "여기", "이리"]
+      },
+      {
+        "id": 325,
+        "word": "事",
+        "readings": ["こと"],
+        "level": 3,
+        "meanings": ["일", "것", "수", "경우", "필요"]
+      },
+      {
+        "id": 326,
+        "word": "今年",
+        "readings": ["ことし"],
+        "furi": "0:こ;1:とし",
+        "level": 3,
+        "meanings": ["금년", "올해"]
+      },
+      {
+        "id": 327,
+        "word": "言葉",
+        "readings": ["ことば"],
+        "furi": "0:こと;1:ば",
+        "level": 3,
+        "meanings": ["말", "어", "언어"]
+      },
+      {
+        "id": 328,
+        "word": "子供",
+        "readings": ["こども"],
+        "furi": "0:こ;1:ども",
+        "level": 3,
+        "meanings": ["어린이", "아이", "자녀"]
+      },
+      {
+        "id": 329,
+        "word": "小鳥",
+        "readings": ["ことり"],
+        "furi": "0:こ;1:とり",
+        "level": 3,
+        "meanings": ["작은새"]
+      },
+      {
+        "id": 330,
+        "word": "この",
+        "readings": ["この"],
+        "level": 3,
+        "meanings": ["이~"]
+      },
+      {
+        "id": 331,
+        "word": "この間",
+        "readings": ["このあいだ"],
+        "furi": "2:あいだ",
+        "level": 3,
+        "meanings": ["요전에", "얼마 전에", "며칠 전에"]
+      },
+      {
+        "id": 332,
+        "word": "この頃",
+        "readings": ["このごろ"],
+        "furi": "2:ごろ",
+        "level": 3,
+        "meanings": ["요새", "요즘"]
+      },
+      {
+        "id": 333,
+        "word": "御飯",
+        "readings": ["ごはん"],
+        "furi": "0:ご;1:はん",
+        "level": 3,
+        "meanings": ["밥"]
+      },
+      {
+        "id": 334,
+        "word": "ごみ",
+        "readings": ["ごみ"],
+        "level": 3,
+        "meanings": ["쓰레기", "먼지"]
+      },
+      {
+        "id": 335,
+        "word": "米",
+        "readings": ["こめ"],
+        "level": 3,
+        "meanings": ["쌀"]
+      },
+      {
+        "id": 336,
+        "word": "これ",
+        "readings": ["これ"],
+        "level": 3,
+        "meanings": ["이것", "지금"]
+      },
+      {
+        "id": 337,
+        "word": "これから",
+        "readings": ["これから"],
+        "level": 3,
+        "meanings": ["이제부터", "앞으로"]
+      },
+      {
+        "id": 338,
+        "word": "～頃",
+        "readings": ["ころ"],
+        "furi": "1:ころ",
+        "level": 3,
+        "meanings": ["~경", "~때", "무렵"]
+      },
+      {
+        "id": 339,
+        "word": "～頃",
+        "readings": ["ごろ"],
+        "furi": "1:ごろ",
+        "level": 3,
+        "meanings": ["~경", "~때", "무렵"]
+      },
+      {
+        "id": 340,
+        "word": "今月",
+        "readings": ["こんげつ"],
+        "furi": "0:こん;1:げつ",
+        "level": 3,
+        "meanings": ["이 달", "이번 달", "금월", "내달"]
+      },
+      {
+        "id": 341,
+        "word": "今週",
+        "readings": ["こんしゅう"],
+        "furi": "0:こん;1:しゅう",
+        "level": 3,
+        "meanings": ["금주", "이번 주"]
+      },
+      {
+        "id": 342,
+        "word": "今度",
+        "readings": ["こんど"],
+        "furi": "0:こん;1:ど",
+        "level": 3,
+        "meanings": ["이번", "최근에", "다음에", "가까운 장래에"]
+      },
+      {
+        "id": 343,
+        "word": "こんな",
+        "readings": ["こんな"],
+        "level": 3,
+        "meanings": ["이런", "이러한"]
+      },
+      {
+        "id": 344,
+        "word": "今晩",
+        "readings": ["こんばん"],
+        "furi": "0:こん;1:ばん",
+        "level": 3,
+        "meanings": ["오늘 저녁", "오늘 밤", "금야"]
+      }
+    ],
+    "sa": [
+      {
+        "id": 345,
+        "word": "さあ",
+        "readings": ["さあ"],
+        "level": 3,
+        "meanings": ["자아", "어서", "아아", "글쎄"]
+      },
+      {
+        "id": 346,
+        "word": "～歳",
+        "readings": ["さい"],
+        "furi": "1:さい",
+        "level": 3,
+        "meanings": ["~세", "~살"]
+      },
+      {
+        "id": 347,
+        "word": "最近",
+        "readings": ["さいきん"],
+        "furi": "0:さい;1:きん",
+        "level": 3,
+        "meanings": ["최근", "요즘"]
+      },
+      {
+        "id": 348,
+        "word": "最後",
+        "readings": ["さいご"],
+        "furi": "0:さい;1:ご",
+        "level": 3,
+        "meanings": ["최후", "마지막", "맨 뒤"]
+      },
+      {
+        "id": 349,
+        "word": "最初",
+        "readings": ["さいしよ"],
+        "furi": "0:さい;1:しよ",
+        "level": 3,
+        "meanings": ["최초", "처음"]
+      },
+      {
+        "id": 350,
+        "word": "財布",
+        "readings": ["さいふ"],
+        "furi": "0:さい;1:ふ",
+        "level": 3,
+        "meanings": ["지갑", "돈지갑"]
+      },
+      {
+        "id": 351,
+        "word": "坂",
+        "readings": ["さか"],
+        "level": 3,
+        "meanings": ["언덕", "비탈길"]
+      },
+      {
+        "id": 352,
+        "word": "魚",
+        "readings": ["さかな"],
+        "level": 3,
+        "meanings": ["물고기", "생선"]
+      },
+      {
+        "id": 353,
+        "word": "先",
+        "readings": ["さき"],
+        "level": 3,
+        "meanings": ["앞", "선두", "먼저"]
+      },
+      {
+        "id": 354,
+        "word": "作文",
+        "readings": ["さくぶん"],
+        "furi": "0:さく;1:ぶん",
+        "level": 3,
+        "meanings": ["작문", "글짓기"]
+      },
+      {
+        "id": 355,
+        "word": "～冊",
+        "readings": ["さっ"],
+        "furi": "1:さっ",
+        "level": 3,
+        "meanings": ["~권"]
+      },
+      {
+        "id": 356,
+        "word": "さっき",
+        "readings": ["さっき"],
+        "level": 3,
+        "meanings": ["아까", "조금 전"]
+      },
+      {
+        "id": 357,
+        "word": "雑誌",
+        "readings": ["ざっし"],
+        "furi": "0:ざっ;1:し",
+        "level": 3,
+        "meanings": ["잡지"]
+      },
+      {
+        "id": 358,
+        "word": "砂糖",
+        "readings": ["さとう"],
+        "furi": "0:さと;1:とう",
+        "level": 3,
+        "meanings": ["설탕"]
+      },
+      {
+        "id": 359,
+        "word": "～様",
+        "readings": ["さま"],
+        "furi": "1:さま",
+        "level": 3,
+        "meanings": ["~님"],
+        "desc": "존경, 공손을 나타냄"
+      },
+      {
+        "id": 360,
+        "word": "再来月",
+        "readings": ["さらいげつ"],
+        "furi": "0:さ;1:らい;2:げつ",
+        "level": 3,
+        "meanings": ["다다음 달", "내후달", "내후월"]
+      },
+      {
+        "id": 361,
+        "word": "再来週",
+        "readings": ["さらいしゅう"],
+        "furi": "0:さ;1:らい;2:しゅう",
+        "level": 3,
+        "meanings": ["다다음 주"]
+      },
+      {
+        "id": 362,
+        "word": "再来年",
+        "readings": ["さらいねん"],
+        "furi": "0:さ;1:らい;2:ねん",
+        "level": 3,
+        "meanings": ["다다음 해", "내후년"]
+      },
+      {
+        "id": 363,
+        "word": "三",
+        "readings": ["三"],
+        "level": 3,
+        "meanings": ["삼", "셋", "3"]
+      },
+      {
+        "id": 364,
+        "word": "～さん",
+        "readings": ["さん"],
+        "furi": "1:さん",
+        "level": 3,
+        "meanings": ["~씨"]
+      },
+      {
+        "id": 365,
+        "word": "産業",
+        "readings": ["さんぎょう"],
+        "furi": "0:さん;1:ぎょう",
+        "level": 3,
+        "meanings": ["산업"]
+      },
+      {
+        "id": 366,
+        "word": "サンダル",
+        "readings": ["サンダル"],
+        "level": 3,
+        "meanings": ["샌들"]
+      },
+      {
+        "id": 367,
+        "word": "サンドイッチ",
+        "readings": ["サンドイッチ"],
+        "level": 3,
+        "meanings": ["샌드위치"]
+      },
+      {
+        "id": 368,
+        "word": "散歩",
+        "readings": ["さんぼ"],
+        "furi": "0:さん;1:ぼ",
+        "level": 3,
+        "meanings": ["산보", "산책"]
+      }
+    ],
+    "si": [
+      {
+        "id": 369,
+        "word": "四",
+        "readings": ["し"],
+        "level": 3,
+        "meanings": ["사", "넷", "4"]
+      },
+      {
+        "id": 370,
+        "word": "～市",
+        "readings": ["し"],
+        "furi": "1:し",
+        "level": 3,
+        "meanings": ["~시"],
+        "desc": "행정구역의 하나"
+      },
+      {
+        "id": 371,
+        "word": "字",
+        "readings": ["じ"],
+        "level": 3,
+        "meanings": ["글자", "글씨"]
+      },
+      {
+        "id": 372,
+        "word": "～時",
+        "readings": ["じ"],
+        "furi": "1:じ",
+        "level": 3,
+        "meanings": ["~시"],
+        "desc": "시간의 단위"
+      },
+      {
+        "id": 373,
+        "word": "試合",
+        "readings": ["しあい"],
+        "furi": "0:し;1:あい",
+        "level": 3,
+        "meanings": ["시합"]
+      },
+      {
+        "id": 374,
+        "word": "塩",
+        "readings": ["しお"],
+        "level": 3,
+        "meanings": ["소금"]
+      },
+      {
+        "id": 375,
+        "word": "しかし",
+        "readings": ["しかし"],
+        "level": 3,
+        "meanings": ["그러나", "그렇지만"]
+      },
+      {
+        "id": 376,
+        "word": "仕方",
+        "readings": ["しかた"],
+        "furi": "0:し;1:かた",
+        "level": 3,
+        "meanings": ["하는 방법", "수단", "방식"]
+      },
+      {
+        "id": 377,
+        "word": "時間",
+        "readings": ["じかん"],
+        "furi": "0:じ;1:かん",
+        "level": 3,
+        "meanings": ["시간", "때", "시각"]
+      },
+      {
+        "id": 378,
+        "word": "～時間",
+        "readings": ["じかん"],
+        "furi": "0:じ;1:かん",
+        "level": 3,
+        "meanings": ["~시간"]
+      },
+      {
+        "id": 379,
+        "word": "試験",
+        "readings": ["しけん"],
+        "furi": "0:し;1:けん",
+        "level": 3,
+        "meanings": ["시험"]
+      },
+      {
+        "id": 380,
+        "word": "事故",
+        "readings": ["じこ"],
+        "furi": "0:じ;1:こ",
+        "level": 3,
+        "meanings": ["사고"]
+      },
+      {
+        "id": 381,
+        "word": "仕事",
+        "readings": ["しごと"],
+        "furi": "0:し;1:ごと",
+        "level": 3,
+        "meanings": ["일", "작업", "업무"]
+      },
+      {
+        "id": 382,
+        "word": "辞書",
+        "readings": ["じしょ"],
+        "furi": "0:じ;1:しょ",
+        "level": 3,
+        "meanings": ["사전", "사서"]
+      },
+      {
+        "id": 383,
+        "word": "地震",
+        "readings": ["じしん"],
+        "furi": "0:じ;1:しん",
+        "level": 3,
+        "meanings": ["지진"]
+      },
+      {
+        "id": 384,
+        "word": "静か",
+        "readings": ["しずか"],
+        "furi": "0:しず",
+        "level": 3,
+        "meanings": ["조용한 모양", "상태"]
+      },
+      {
+        "id": 385,
+        "word": "下",
+        "readings": ["した"],
+        "level": 3,
+        "meanings": ["아래", "밑"]
+      },
+      {
+        "id": 386,
+        "word": "時代",
+        "readings": ["じだい"],
+        "furi": "0:じ;1:だい",
+        "level": 3,
+        "meanings": ["시대"]
+      },
+      {
+        "id": 387,
+        "word": "下着",
+        "readings": ["したぎ"],
+        "furi": "0:した;1:ぎ",
+        "level": 3,
+        "meanings": ["속옷", "내의"]
+      },
+      {
+        "id": 388,
+        "word": "支度",
+        "readings": ["したく"],
+        "furi": "0:し;1:たく",
+        "level": 3,
+        "meanings": ["채비", "준비"]
+      },
+      {
+        "id": 389,
+        "word": "七",
+        "readings": ["しち"],
+        "level": 3,
+        "meanings": ["칠", "일곱", "7"]
+      },
+      {
+        "id": 390,
+        "word": "しっかり",
+        "readings": ["しっかり"],
+        "level": 3,
+        "meanings": ["견고한 모양", "단단히", "꼭", "꽉"]
+      },
+      {
+        "id": 391,
+        "word": "失敗",
+        "readings": ["しっぱい"],
+        "furi": "0:しっ;1:ぱい",
+        "level": 3,
+        "meanings": ["실패"]
+      },
+      {
+        "id": 392,
+        "word": "質問",
+        "readings": ["しつもん"],
+        "furi": "0:しつ;1:もん",
+        "level": 3,
+        "meanings": ["질문"]
+      },
+      {
+        "id": 393,
+        "word": "失礼",
+        "readings": ["しつれい"],
+        "furi": "0:しつ;1:れい",
+        "level": 3,
+        "meanings": ["실례"]
+      },
+      {
+        "id": 394,
+        "word": "辞典",
+        "readings": ["じてん"],
+        "furi": "0:じ;1:てん",
+        "level": 3,
+        "meanings": ["사전"]
+      },
+      {
+        "id": 395,
+        "word": "自転車",
+        "readings": ["じてんしゃ"],
+        "furi": "0:じ;1:てん;2:しゃ",
+        "level": 3,
+        "meanings": ["자전거"]
+      },
+      {
+        "id": 396,
+        "word": "自動車",
+        "readings": ["じどうしゃ"],
+        "furi": "0:じ;1:どう;2:しゃ",
+        "level": 3,
+        "meanings": ["자동차"]
+      },
+      {
+        "id": 397,
+        "word": "品物",
+        "readings": ["しなもの"],
+        "furi": "0:しな;1:もの",
+        "level": 3,
+        "meanings": ["물건", "물품"]
+      },
+      {
+        "id": 398,
+        "word": "しばらく",
+        "readings": ["しばらく"],
+        "level": 3,
+        "meanings": ["잠시", "오랜만"]
+      },
+      {
+        "id": 399,
+        "word": "字引",
+        "readings": ["じびき"],
+        "level": 3,
+        "meanings": ["사전"]
+      },
+      {
+        "id": 400,
+        "word": "自分",
+        "readings": ["じぶん"],
+        "furi": "0:じ;1:ぶん",
+        "level": 3,
+        "meanings": ["자기", "자신", "스스로"]
+      },
+      {
+        "id": 401,
+        "word": "島",
+        "readings": ["しま"],
+        "level": 3,
+        "meanings": ["섬"]
+      },
+      {
+        "id": 402,
+        "word": "市民",
+        "readings": ["しみん"],
+        "furi": "0:し;1:みん",
+        "level": 3,
+        "meanings": ["시민"]
+      },
+      {
+        "id": 403,
+        "word": "事務所",
+        "readings": ["じむしょ"],
+        "furi": "0:じ;1:む;2:しょ",
+        "level": 3,
+        "meanings": ["사무소"]
+      },
+      {
+        "id": 404,
+        "word": "じゃ",
+        "readings": ["じゃ"],
+        "level": 3,
+        "meanings": ["그럼", "그러면"]
+      },
+      {
+        "id": 405,
+        "word": "じゃあ",
+        "readings": ["じゃあ"],
+        "level": 3,
+        "meanings": ["그럼", "그러면"]
+      },
+      {
+        "id": 406,
+        "word": "社会",
+        "readings": ["しゃかい"],
+        "furi": "0:しゃ;1:かい",
+        "level": 3,
+        "meanings": ["사회"]
+      },
+      {
+        "id": 407,
+        "word": "写真",
+        "readings": ["しゃしん"],
+        "furi": "0:しゃ;1:しん",
+        "level": 3,
+        "meanings": ["사진"]
+      },
+      {
+        "id": 408,
+        "word": "社長",
+        "readings": ["しゃちょう"],
+        "furi": "0:しゃ;1:ちょう",
+        "level": 3,
+        "meanings": ["사장", "사장님"]
+      },
+      {
+        "id": 409,
+        "word": "十",
+        "readings": ["じゅう", "とお"],
+        "level": 3,
+        "meanings": ["십", "열", "10", "열 개", "열 살", "10개", "10살"]
+      },
+      {
+        "id": 410,
+        "word": "～週間",
+        "readings": ["しゅうかん"],
+        "furi": "1:しゅう;2:かん",
+        "level": 3,
+        "meanings": ["~주간"]
+      },
+      {
+        "id": 411,
+        "word": "自由",
+        "readings": ["じゆう"],
+        "furi": "0:じ;1:ゆう",
+        "level": 3,
+        "meanings": ["자유"],
+        "desc": "주로 명사로 사용되지만 な형용사로도 사용"
+      },
+      {
+        "id": 412,
+        "word": "習慣",
+        "readings": ["しゅうかん"],
+        "furi": "0:しゅう;1:かん",
+        "level": 3,
+        "meanings": ["습관"]
+      },
+      {
+        "id": 413,
+        "word": "住所",
+        "readings": ["しゅうしょ"],
+        "furi": "0:しゅう;1:しょ",
+        "level": 3,
+        "meanings": ["주소"]
+      },
+      {
+        "id": 414,
+        "word": "柔道",
+        "readings": ["じゅうどう"],
+        "furi": "0:じゅう;1:どう",
+        "level": 3,
+        "meanings": ["유도"]
+      },
+      {
+        "id": 415,
+        "word": "十分",
+        "readings": ["じゅうぶん"],
+        "furi": "0:じゅう;1:ぶん",
+        "level": 3,
+        "meanings": ["십분", "충분", "10분"]
+      },
+      {
+        "id": 416,
+        "word": "授業",
+        "readings": ["じゅぎょう"],
+        "furi": "0:じゅ;1:ぎょう",
+        "level": 3,
+        "meanings": ["수업"]
+      },
+      {
+        "id": 417,
+        "word": "宿題",
+        "readings": ["しゅくだい"],
+        "furi": "0:しゅく;1:だい",
+        "level": 3,
+        "meanings": ["숙제"]
+      },
+      {
+        "id": 418,
+        "word": "主人",
+        "readings": ["しゅじん"],
+        "furi": "0:しゅ;1:じん",
+        "level": 3,
+        "meanings": ["주인", "남편"]
+      },
+      {
+        "id": 419,
+        "word": "出席",
+        "readings": ["しゅっせき"],
+        "furi": "0:しゅっ;1:せき",
+        "level": 3,
+        "meanings": ["출석"]
+      },
+      {
+        "id": 420,
+        "word": "出発",
+        "readings": ["しゅっぱつ"],
+        "furi": "0:しゅっ;1:ぱつ",
+        "level": 3,
+        "meanings": ["출발"]
+      },
+      {
+        "id": 421,
+        "word": "趣味",
+        "readings": ["しゅみ"],
+        "furi": "0:しゅ;1:み",
+        "level": 3,
+        "meanings": ["취미"]
+      },
+      {
+        "id": 422,
+        "word": "準備",
+        "readings": ["じゅんび"],
+        "furi": "0:じゅん;1:び",
+        "level": 3,
+        "meanings": ["준비"]
+      },
+      {
+        "id": 423,
+        "word": "紹介",
+        "readings": ["しょうかい"],
+        "furi": "0:しょう;1:かい",
+        "level": 3,
+        "meanings": ["소개"]
+      },
+      {
+        "id": 424,
+        "word": "正月",
+        "readings": ["しょうがつ"],
+        "furi": "0:しょう;1:がつ",
+        "level": 3,
+        "meanings": ["정월", "설날", "설"]
+      },
+      {
+        "id": 425,
+        "word": "小学校",
+        "readings": ["しょうがっこう"],
+        "furi": "0:しょう;1:がっ;2:こう",
+        "level": 3,
+        "meanings": ["초등학교", "소학교"]
+      },
+      {
+        "id": 426,
+        "word": "小説",
+        "readings": ["しょうせつ"],
+        "furi": "0:しょう;1:せつ",
+        "level": 3,
+        "meanings": ["소설"]
+      },
+      {
+        "id": 427,
+        "word": "招待",
+        "readings": ["しょうたい"],
+        "furi": "0:しょう;1:たい",
+        "level": 3,
+        "meanings": ["초대", "초청"]
+      },
+      {
+        "id": 428,
+        "word": "承知",
+        "readings": ["しょうち"],
+        "furi": "0:しょう;1:ち",
+        "level": 3,
+        "meanings": ["알아들음", "들어 줌", "동의", "승낙"]
+      },
+      {
+        "id": 429,
+        "word": "醤油",
+        "readings": ["しょうゆ"],
+        "furi": "0:しょう;1:ゆ",
+        "level": 3,
+        "meanings": ["간장"]
+      },
+      {
+        "id": 430,
+        "word": "将来",
+        "readings": ["しょうらい"],
+        "furi": "0:しょう;1:らい",
+        "level": 3,
+        "meanings": ["장래", "미래", "전도"]
+      },
+      {
+        "id": 431,
+        "word": "食事",
+        "readings": ["しょくじ"],
+        "furi": "0:しょく;1:じ",
+        "level": 3,
+        "meanings": ["식사"]
+      },
+      {
+        "id": 432,
+        "word": "食堂",
+        "readings": ["しょくどう"],
+        "furi": "0:しょく;1:どう",
+        "level": 3,
+        "meanings": ["식당"]
+      },
+      {
+        "id": 433,
+        "word": "食料品",
+        "readings": ["しょくりょうひん"],
+        "furi": "0:しょく;1:りょう;2:ひん",
+        "level": 3,
+        "meanings": ["식료품"]
+      },
+      {
+        "id": 434,
+        "word": "女性",
+        "readings": ["じょせい"],
+        "furi": "0:じょ;1:せい",
+        "level": 3,
+        "meanings": ["여성", "여자"]
+      },
+      {
+        "id": 435,
+        "word": "～人",
+        "readings": ["じん"],
+        "furi": "1:じん",
+        "level": 3,
+        "meanings": ["~인", "~사람"]
+      },
+      {
+        "id": 436,
+        "word": "人口",
+        "readings": ["じんこう"],
+        "furi": "0:じん;1:こう",
+        "level": 3,
+        "meanings": ["인구", "사람의 수"]
+      },
+      {
+        "id": 437,
+        "word": "神社",
+        "readings": ["じんじゃ"],
+        "furi": "0:じん;1:じゃ",
+        "level": 3,
+        "meanings": ["신사"]
+      },
+      {
+        "id": 438,
+        "word": "新聞",
+        "readings": ["しんぶん"],
+        "furi": "0:しん;1:ぶん",
+        "level": 3,
+        "meanings": ["신문"]
+      },
+      {
+        "id": 439,
+        "word": "新聞社",
+        "readings": ["しんぶんしゃ"],
+        "furi": "0:しん;1:ぶん;2:しゃ",
+        "level": 3,
+        "meanings": ["신문사"]
+      }
+    ],
+    "su": [
+      {
+        "id": 440,
+        "word": "水泳",
+        "readings": ["すいえい"],
+        "furi": "0:すい;1:えい",
+        "level": 3,
+        "meanings": ["수영"]
+      },
+      {
+        "id": 441,
+        "word": "水道",
+        "readings": ["すいどう"],
+        "furi": "0:すい;1:どう",
+        "level": 3,
+        "meanings": ["수도"]
+      },
+      {
+        "id": 442,
+        "word": "随分",
+        "readings": ["ずいぶん"],
+        "furi": "0:ずい;1:ぶん",
+        "level": 3,
+        "meanings": ["대단히", "몹시", "충분히", "아주"]
+      },
+      {
+        "id": 443,
+        "word": "水曜日",
+        "readings": ["すいようび"],
+        "furi": "0:すい;1:よう;2:び",
+        "level": 3,
+        "meanings": ["수요일"]
+      },
+      {
+        "id": 444,
+        "word": "数学",
+        "readings": ["すうがく"],
+        "furi": "0:すう;1:がく",
+        "level": 3,
+        "meanings": ["수학"]
+      },
+      {
+        "id": 445,
+        "word": "～すぎ",
+        "readings": ["すぎ"],
+        "level": 3,
+        "meanings": ["~가 지나침", "~도가 지나침"]
+      },
+      {
+        "id": 446,
+        "word": "すぐに",
+        "readings": ["すぐに"],
+        "level": 3,
+        "meanings": ["곧", "즉시", "바로", "곧바로"]
+      },
+      {
+        "id": 447,
+        "word": "すぐ",
+        "readings": ["すぐ"],
+        "level": 3,
+        "meanings": ["곧", "즉시", "바로"]
+      },
+      {
+        "id": 448,
+        "word": "少し",
+        "readings": ["すこし"],
+        "furi": "0:すこ",
+        "level": 3,
+        "meanings": ["조금", "약간", "좀"]
+      },
+      {
+        "id": 449,
+        "word": "～すっ",
+        "readings": ["すっ"],
+        "level": 3,
+        "meanings": ["~씩"]
+      },
+      {
+        "id": 450,
+        "word": "すっかり",
+        "readings": ["すっかり"],
+        "level": 3,
+        "meanings": ["죄다", "모두", "온통", "몽땅"]
+      },
+      {
+        "id": 451,
+        "word": "ずっと",
+        "readings": ["ずっと"],
+        "level": 3,
+        "meanings": ["훨씬", "매우", "아주", "쭉"]
+      },
+      {
+        "id": 452,
+        "word": "砂",
+        "readings": ["すな"],
+        "level": 3,
+        "meanings": ["모래"]
+      },
+      {
+        "id": 453,
+        "word": "隅",
+        "readings": ["すみ"],
+        "level": 3,
+        "meanings": ["모퉁이", "귀퉁이", "구석"]
+      },
+      {
+        "id": 454,
+        "word": "すり",
+        "readings": ["すり"],
+        "level": 3,
+        "meanings": ["소매치기"]
+      },
+      {
+        "id": 455,
+        "word": "すると",
+        "readings": ["すると"],
+        "level": 3,
+        "meanings": ["그러자", "그러면", "그렇다면"]
+      }
+    ],
+    "se": [
+      {
+        "id": 456,
+        "word": "背",
+        "readings": ["せい"],
+        "level": 3,
+        "meanings": ["등", "키", "신장"]
+      },
+      {
+        "id": 457,
+        "word": "～製",
+        "readings": ["せい"],
+        "furi": "1:せい",
+        "level": 3,
+        "meanings": ["~제"]
+      },
+      {
+        "id": 458,
+        "word": "生活",
+        "readings": ["せいかつ"],
+        "furi": "0:せい;1:かつ",
+        "level": 3,
+        "meanings": ["생활"]
+      },
+      {
+        "id": 459,
+        "word": "政治",
+        "readings": ["せいじ"],
+        "furi": "0:せい;1:じ",
+        "level": 3,
+        "meanings": ["정치"]
+      },
+      {
+        "id": 460,
+        "word": "生徒",
+        "readings": ["せいと"],
+        "furi": "0:せい;1:と",
+        "level": 3,
+        "meanings": ["학생", "중학생", "고둥학생"]
+      },
+      {
+        "id": 461,
+        "word": "西洋",
+        "readings": ["せいよう"],
+        "furi": "0:せい;1:よう",
+        "level": 3,
+        "meanings": ["서양"]
+      },
+      {
+        "id": 462,
+        "word": "世界",
+        "readings": ["せかい"],
+        "furi": "0:せ;1:かい",
+        "level": 3,
+        "meanings": ["세계"]
+      },
+      {
+        "id": 463,
+        "word": "席",
+        "readings": ["せき"],
+        "level": 3,
+        "meanings": ["자리", "좌석"]
+      },
+      {
+        "id": 464,
+        "word": "石鹸",
+        "readings": ["せっけん"],
+        "furi": "0:せっ;1:けん",
+        "level": 3,
+        "meanings": ["비누"]
+      },
+      {
+        "id": 465,
+        "word": "説明",
+        "readings": ["せつめい"],
+        "furi": "0:せつ;1:めい",
+        "level": 3,
+        "meanings": ["설명"]
+      },
+      {
+        "id": 466,
+        "word": "背中",
+        "readings": ["せなか"],
+        "furi": "0:せ;1:なか",
+        "level": 3,
+        "meanings": ["등", "뒷면"]
+      },
+      {
+        "id": 467,
+        "word": "是非",
+        "readings": ["ぜひ"],
+        "furi": "0:ぜ;1:ひ",
+        "level": 3,
+        "meanings": ["아무쪼록", "제발", "꼭"]
+      },
+      {
+        "id": 468,
+        "word": "背広",
+        "readings": ["せびる"],
+        "furi": "0:せ;1:びる",
+        "level": 3,
+        "meanings": ["신사복"]
+      },
+      {
+        "id": 469,
+        "word": "世話",
+        "readings": ["せわ"],
+        "furi": "0:せ;1:わ",
+        "level": 3,
+        "meanings": ["도와줌", "보살핌", "폐", "신세"]
+      },
+      {
+        "id": 470,
+        "word": "千",
+        "readings": ["せん"],
+        "level": 3,
+        "meanings": ["천", "1000"]
+      },
+      {
+        "id": 471,
+        "word": "線",
+        "readings": ["せん"],
+        "level": 3,
+        "meanings": ["선"]
+      },
+      {
+        "id": 472,
+        "word": "先月",
+        "readings": ["せんげつ"],
+        "furi": "0:せん;1:げつ",
+        "level": 3,
+        "meanings": ["지난달", "저번달", "전월"]
+      },
+      {
+        "id": 473,
+        "word": "先週",
+        "readings": ["せんしゅう"],
+        "furi": "0:せん;1:しゅう",
+        "level": 3,
+        "meanings": ["지난주", "저번주", "전주"]
+      },
+      {
+        "id": 474,
+        "word": "先生",
+        "readings": ["せんせい"],
+        "furi": "0:せん;1:せい",
+        "level": 3,
+        "meanings": ["선생님"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "se": [
+      {
+        "id": 475,
+        "word": "全然",
+        "readings": ["ぜんぜん"],
+        "furi": "0:ぜん;1:ぜん",
+        "level": 3,
+        "meanings": ["전연", "전혀", "온통", "모조리"],
+        "desc": "부정하는 말을 순반하며"
+      },
+      {
+        "id": 476,
+        "word": "戦争",
+        "readings": ["せんそう"],
+        "furi": "0:せん;1:そう",
+        "level": 3,
+        "meanings": ["전쟁"]
+      },
+      {
+        "id": 477,
+        "word": "選択",
+        "readings": ["せんたく"],
+        "furi": "0:せん;1:たく",
+        "level": 3,
+        "meanings": ["선택"]
+      },
+      {
+        "id": 478,
+        "word": "先輩",
+        "readings": ["せんぱい"],
+        "furi": "0:せん;1:ぱい",
+        "level": 3,
+        "meanings": ["선배"]
+      },
+      {
+        "id": 479,
+        "word": "全部",
+        "readings": ["ぜんぶ"],
+        "furi": "0:ぜん;1:ぶ",
+        "level": 3,
+        "meanings": ["전부", "모두"]
+      },
+      {
+        "id": 480,
+        "word": "専門",
+        "readings": ["せんもん"],
+        "furi": "0:せん;1:もん",
+        "level": 3,
+        "meanings": ["전문"]
+      }
+    ],
+    "so": [
+      {
+        "id": 481,
+        "word": "そう",
+        "readings": ["そう"],
+        "level": 3,
+        "meanings": ["그래", "정말"],
+        "desc": "상대방의 말에 긍정을 표현할 때"
+      },
+      {
+        "id": 482,
+        "word": "掃除",
+        "readings": ["そうじ"],
+        "furi": "0:そう;1:じ",
+        "level": 3,
+        "meanings": ["청소"]
+      },
+      {
+        "id": 483,
+        "word": "そうして",
+        "readings": ["そうして"],
+        "level": 3,
+        "meanings": ["그리고", "그리고 나서", "그 연후에"]
+      },
+      {
+        "id": 484,
+        "word": "そして",
+        "readings": ["そして"],
+        "level": 3,
+        "meanings": ["그리고", "그리고 나서", "그 연후에"]
+      },
+      {
+        "id": 485,
+        "word": "相談",
+        "readings": ["そうだん"],
+        "furi": "0:そう;1:だん",
+        "level": 3,
+        "meanings": ["상담", "상의", "의논"]
+      },
+      {
+        "id": 486,
+        "word": "そこ",
+        "readings": ["そこ"],
+        "level": 3,
+        "meanings": ["거기", "그 쪽"]
+      },
+      {
+        "id": 487,
+        "word": "そちら",
+        "readings": ["そちら"],
+        "level": 3,
+        "meanings": ["그 쪽", "그 곳", "거기"]
+      },
+      {
+        "id": 488,
+        "word": "卒業",
+        "readings": ["そつぎょう"],
+        "furi": "0:そつ;1:ぎょう",
+        "level": 3,
+        "meanings": ["졸업"]
+      },
+      {
+        "id": 489,
+        "word": "そっち",
+        "readings": ["そっち"],
+        "level": 3,
+        "meanings": ["그 쪽", "그 곳", "거기"]
+      },
+      {
+        "id": 490,
+        "word": "外",
+        "readings": ["そと", "ほか"],
+        "level": 3,
+        "meanings": ["밖", "바깥", "겉", "외부", "다른 것", "외"]
+      },
+      {
+        "id": 491,
+        "word": "その",
+        "readings": ["その"],
+        "level": 3,
+        "meanings": ["그"]
+      },
+      {
+        "id": 492,
+        "word": "側",
+        "readings": ["そば"],
+        "level": 3,
+        "meanings": ["곁", "옆"]
+      },
+      {
+        "id": 493,
+        "word": "祖父",
+        "readings": ["そふ"],
+        "furi": "0:そ;1:ふ",
+        "level": 3,
+        "meanings": ["조부", "할아버지"]
+      },
+      {
+        "id": 494,
+        "word": "祖母",
+        "readings": ["そぼ"],
+        "furi": "0:そ;1:ぼ",
+        "level": 3,
+        "meanings": ["조모", "할머니"]
+      },
+      {
+        "id": 495,
+        "word": "空",
+        "readings": ["そら"],
+        "level": 3,
+        "meanings": ["하늘"]
+      },
+      {
+        "id": 496,
+        "word": "それ",
+        "readings": ["それ"],
+        "level": 3,
+        "meanings": ["그것"]
+      },
+      {
+        "id": 497,
+        "word": "それから",
+        "readings": ["それから"],
+        "level": 3,
+        "meanings": ["그 다음에", "그리고", "그 뒤"]
+      },
+      {
+        "id": 498,
+        "word": "それで",
+        "readings": ["それで"],
+        "level": 3,
+        "meanings": ["그래서", "그로 인해서", "그런 까닭에"]
+      },
+      {
+        "id": 499,
+        "word": "それでは",
+        "readings": ["それでは"],
+        "level": 3,
+        "meanings": ["그러면", "그럼", "그렇다면"]
+      },
+      {
+        "id": 500,
+        "word": "それに",
+        "readings": ["それに"],
+        "level": 3,
+        "meanings": ["그런데도", "그러함에도", "게다가", "더욱이"]
+      },
+      {
+        "id": 501,
+        "word": "それほど",
+        "readings": ["それほど"],
+        "level": 3,
+        "meanings": ["그렇게", "그만큼", "그다지", "그 정도", "그쯤"]
+      },
+      {
+        "id": 502,
+        "word": "そろそろ",
+        "readings": ["そろそろ"],
+        "level": 3,
+        "meanings": ["슬슬", "이제 슬슬"]
+      },
+      {
+        "id": 503,
+        "word": "そんな",
+        "readings": ["そんな"],
+        "level": 3,
+        "meanings": ["그러한", "그런", "그와 같은"]
+      },
+      {
+        "id": 504,
+        "word": "そんなに",
+        "readings": ["そんなに"],
+        "level": 3,
+        "meanings": ["그렇게", "그렇게까지"]
+      }
+    ],
+    "ta": [
+      {
+        "id": 505,
+        "word": "～台",
+        "readings": ["だい"],
+        "furi": "1:だい",
+        "level": 3,
+        "meanings": ["~대"],
+        "desc": "기계류 등을 셀 때 쓰는 단위"
+      },
+      {
+        "id": 506,
+        "word": "～代",
+        "readings": ["だい"],
+        "furi": "1:だい",
+        "level": 3,
+        "meanings": ["~값", "~대금", "~요금", "~비"]
+      },
+      {
+        "id": 507,
+        "word": "退院",
+        "readings": ["たいいん"],
+        "furi": "0:たい;1:いん",
+        "level": 3,
+        "meanings": ["퇴원"]
+      },
+      {
+        "id": 508,
+        "word": "大学",
+        "readings": ["だいがく"],
+        "furi": "0:だい;1:がく",
+        "level": 3,
+        "meanings": ["대학", "대학교"]
+      },
+      {
+        "id": 509,
+        "word": "大学生",
+        "readings": ["だいがくせい"],
+        "furi": "0:だい;1:がく;2:せい",
+        "level": 3,
+        "meanings": ["대학생"]
+      },
+      {
+        "id": 510,
+        "word": "大使館",
+        "readings": ["たいしかん"],
+        "furi": "0:たい;1:し;2:かん",
+        "level": 3,
+        "meanings": ["대사관"]
+      },
+      {
+        "id": 511,
+        "word": "大体",
+        "readings": ["だいたい"],
+        "furi": "0:だい;1:たい",
+        "level": 3,
+        "meanings": ["대강", "거의", "대개", "대체", "대체로", "대략"]
+      },
+      {
+        "id": 512,
+        "word": "たいてい",
+        "readings": ["たいてい"],
+        "level": 3,
+        "meanings": ["대개", "대부분", "대강"]
+      },
+      {
+        "id": 513,
+        "word": "台所",
+        "readings": ["だいどころ"],
+        "furi": "0:だい;1:どころ",
+        "level": 3,
+        "meanings": ["부엌"]
+      },
+      {
+        "id": 514,
+        "word": "だいぶ",
+        "readings": ["だいぶ"],
+        "level": 3,
+        "meanings": ["많이", "무척", "매우"]
+      },
+      {
+        "id": 515,
+        "word": "だから",
+        "readings": ["だから"],
+        "level": 3,
+        "meanings": ["그래서", "그러니까"]
+      },
+      {
+        "id": 516,
+        "word": "沢山",
+        "readings": ["たくさん"],
+        "furi": "0:たく;1:さん",
+        "level": 3,
+        "meanings": ["많음", "충분함"],
+        "desc": "수나 분량이 많음"
+      },
+      {
+        "id": 517,
+        "word": "畳",
+        "readings": ["たたみ"],
+        "level": 3,
+        "meanings": ["다다미"],
+        "desc": "속에 짚을 넣은 돗자리"
+      },
+      {
+        "id": 518,
+        "word": "～達",
+        "readings": ["たち"],
+        "furi": "1:たち",
+        "level": 3,
+        "meanings": ["~들"]
+      },
+      {
+        "id": 519,
+        "word": "縦",
+        "readings": ["たて"],
+        "level": 3,
+        "meanings": ["세로"]
+      },
+      {
+        "id": 520,
+        "word": "～建て",
+        "readings": ["だて"],
+        "furi": "1:だ",
+        "level": 3,
+        "meanings": ["~층 건물"],
+        "desc": "건물의 양식이나 층수를 나타내는 말"
+      },
+      {
+        "id": 521,
+        "word": "建物",
+        "readings": ["たてもの"],
+        "furi": "0:たて;1:もの",
+        "level": 3,
+        "meanings": ["건물"]
+      },
+      {
+        "id": 522,
+        "word": "例えば",
+        "readings": ["たとえば"],
+        "furi": "0:たと",
+        "level": 3,
+        "meanings": ["예를 들면", "예컨대", "가령"]
+      },
+      {
+        "id": 523,
+        "word": "棚",
+        "readings": ["たな"],
+        "level": 3,
+        "meanings": ["선반"]
+      },
+      {
+        "id": 524,
+        "word": "楽しみ",
+        "readings": ["たのしみ"],
+        "furi": "0:た",
+        "level": 3,
+        "meanings": ["즐거움", "낙", "취미"]
+      },
+      {
+        "id": 525,
+        "word": "たばこ",
+        "readings": ["たばこ"],
+        "level": 3,
+        "meanings": ["담배"]
+      },
+      {
+        "id": 526,
+        "word": "多分",
+        "readings": ["たぶん"],
+        "furi": "0:た;1:ぶん",
+        "level": 3,
+        "meanings": ["대개", "아마"]
+      },
+      {
+        "id": 527,
+        "word": "食べ物",
+        "readings": ["たべもの"],
+        "furi": "0:た;2:もの",
+        "level": 3,
+        "meanings": ["음식물", "먹을 것"]
+      },
+      {
+        "id": 528,
+        "word": "卵",
+        "readings": ["たまご"],
+        "level": 3,
+        "meanings": ["달걀", "알", "계란"]
+      },
+      {
+        "id": 529,
+        "word": "たまに",
+        "readings": ["たまに"],
+        "level": 3,
+        "meanings": ["가끔", "간혹"]
+      },
+      {
+        "id": 530,
+        "word": "為",
+        "readings": ["ため"],
+        "level": 3,
+        "meanings": ["때문에", "위해서"]
+      },
+      {
+        "id": 531,
+        "word": "誰",
+        "readings": ["だれ"],
+        "level": 3,
+        "meanings": ["누구"]
+      },
+      {
+        "id": 532,
+        "word": "誕生日",
+        "readings": ["たんじょうび"],
+        "furi": "0:たん;1:じょう;2:び",
+        "level": 3,
+        "meanings": ["생일"]
+      },
+      {
+        "id": 533,
+        "word": "男性",
+        "readings": ["だんせい"],
+        "furi": "0:だん;1:せい",
+        "level": 3,
+        "meanings": ["남성"]
+      },
+      {
+        "id": 534,
+        "word": "段々",
+        "readings": ["だんだん"],
+        "furi": "0:だん;1:だん",
+        "level": 3,
+        "meanings": ["점점", "차차", "점차"]
+      },
+      {
+        "id": 535,
+        "word": "暖房",
+        "readings": ["だんぼう"],
+        "furi": "0:だん;1:ぼう",
+        "level": 3,
+        "meanings": ["난방"]
+      }
+    ],
+    "chi": [
+      {
+        "id": 536,
+        "word": "血",
+        "readings": ["ち"],
+        "level": 3,
+        "meanings": ["피"]
+      },
+      {
+        "id": 537,
+        "word": "小さな",
+        "readings": ["ちいさな"],
+        "furi": "0:ちい",
+        "level": 3,
+        "meanings": ["작은"]
+      },
+      {
+        "id": 538,
+        "word": "近く",
+        "readings": ["ちかく"],
+        "furi": "0:ちか",
+        "level": 3,
+        "meanings": ["근처", "근방", "가까운 곳"]
+      },
+      {
+        "id": 539,
+        "word": "地下鉄",
+        "readings": ["ちかてつ"],
+        "furi": "0:ち;1:か;2:てつ",
+        "level": 3,
+        "meanings": ["지하철"]
+      },
+      {
+        "id": 540,
+        "word": "力",
+        "readings": ["ちから"],
+        "level": 3,
+        "meanings": ["힘"]
+      },
+      {
+        "id": 541,
+        "word": "地図",
+        "readings": ["ちず"],
+        "furi": "0:ち;1:ず",
+        "level": 3,
+        "meanings": ["지도"]
+      },
+      {
+        "id": 542,
+        "word": "父",
+        "readings": ["ちち"],
+        "level": 3,
+        "meanings": ["아버지", "우리 아버지"]
+      },
+      {
+        "id": 543,
+        "word": "ちっとも",
+        "readings": ["ちっとも"],
+        "level": 3,
+        "meanings": ["조금도", "전연", "잠시도"]
+      },
+      {
+        "id": 544,
+        "word": "茶色",
+        "readings": ["ちゃいろ"],
+        "furi": "0:ちゃ;1:いろ",
+        "level": 3,
+        "meanings": ["갈색"]
+      },
+      {
+        "id": 545,
+        "word": "茶碗",
+        "readings": ["ちゃわん"],
+        "furi": "0:ちゃ;1:わん",
+        "level": 3,
+        "meanings": ["찻잔", "사기로된 컵", "밥공기"]
+      },
+      {
+        "id": 546,
+        "word": "～ちゃん",
+        "readings": ["ちゃん"],
+        "level": 3,
+        "meanings": ["~쨩"],
+        "desc": "친근감을 주는 호칭"
+      },
+      {
+        "id": 547,
+        "word": "～中",
+        "readings": ["ちゅう"],
+        "furi": "1:ちゅう",
+        "level": 3,
+        "meanings": ["~중"]
+      },
+      {
+        "id": 548,
+        "word": "注意",
+        "readings": ["ちゅうい"],
+        "furi": "0:ちゅ;1:うい",
+        "level": 3,
+        "meanings": ["주의"]
+      },
+      {
+        "id": 549,
+        "word": "中学校",
+        "readings": ["ちゅうがっこう"],
+        "furi": "0:ちゅう;1:がっ;2:こう",
+        "level": 3,
+        "meanings": ["중학교"]
+      },
+      {
+        "id": 550,
+        "word": "注射",
+        "readings": ["ちゅうしゃ"],
+        "furi": "0:ちゅう;1:しゃ",
+        "level": 3,
+        "meanings": ["주사"]
+      },
+      {
+        "id": 551,
+        "word": "駐車場",
+        "readings": ["ちゅうしゃじょう"],
+        "furi": "0:ちゅう;1:しゃ;2:じょう",
+        "level": 3,
+        "meanings": ["주차장"]
+      },
+      {
+        "id": 552,
+        "word": "町",
+        "readings": ["ちょう"],
+        "level": 3,
+        "meanings": ["정", "지방 자치 단체의 하나"]
+      },
+      {
+        "id": 553,
+        "word": "ちょうど",
+        "readings": ["ちょうど"],
+        "level": 3,
+        "meanings": ["꼭", "정확히", "마침", "막"]
+      },
+      {
+        "id": 554,
+        "word": "ちょっと",
+        "readings": ["ちょっと"],
+        "level": 3,
+        "meanings": ["조금", "좀", "약간", "잠깐", "잠시"]
+      },
+      {
+        "id": 555,
+        "word": "地理",
+        "readings": ["ちり"],
+        "furi": "0:ち;1:り",
+        "level": 3,
+        "meanings": ["지리"]
+      }
+    ],
+    "tsu": [
+      {
+        "id": 556,
+        "word": "一日",
+        "readings": ["ついたち"],
+        "furi": "0:つい;1:たち",
+        "level": 3,
+        "meanings": ["하루", "일일", "하루종일", "초하루", "1일"]
+      },
+      {
+        "id": 557,
+        "word": "～について",
+        "readings": ["について"],
+        "level": 3,
+        "meanings": ["~에 대하여", "~에 대해서", "~에 관해서"]
+      },
+      {
+        "id": 558,
+        "word": "月",
+        "readings": ["つき"],
+        "level": 3,
+        "meanings": ["달"]
+      },
+      {
+        "id": 559,
+        "word": "～月",
+        "readings": ["つき"],
+        "furi": "1:つき",
+        "level": 3,
+        "meanings": ["~달"]
+      },
+      {
+        "id": 560,
+        "word": "次",
+        "readings": ["つぎ"],
+        "level": 3,
+        "meanings": ["다음"]
+      },
+      {
+        "id": 561,
+        "word": "机",
+        "readings": ["つくえ"],
+        "level": 3,
+        "meanings": ["책상"]
+      },
+      {
+        "id": 562,
+        "word": "都合",
+        "readings": ["つごう"],
+        "furi": "0:つ;1:ごう",
+        "level": 3,
+        "meanings": ["형편", "사정"]
+      },
+      {
+        "id": 563,
+        "word": "妻",
+        "readings": ["つま"],
+        "level": 3,
+        "meanings": ["처", "아내", "집사람"]
+      },
+      {
+        "id": 564,
+        "word": "つもり",
+        "readings": ["つもり"],
+        "level": 3,
+        "meanings": ["예정", "작정", "생각"]
+      }
+    ],
+    "te": [
+      {
+        "id": 565,
+        "word": "手",
+        "readings": ["て"],
+        "level": 3,
+        "meanings": ["손"]
+      },
+      {
+        "id": 566,
+        "word": "手紙",
+        "readings": ["てがみ"],
+        "furi": "0:て;1:がみ",
+        "level": 3,
+        "meanings": ["편지"]
+      },
+      {
+        "id": 567,
+        "word": "適当",
+        "readings": ["てきとう"],
+        "furi": "0:てき;1:とう",
+        "level": 3,
+        "meanings": ["적당"]
+      },
+      {
+        "id": 568,
+        "word": "できるだけ",
+        "readings": ["できるだけ"],
+        "level": 3,
+        "meanings": ["가능한 한"]
+      },
+      {
+        "id": 569,
+        "word": "出口",
+        "readings": ["でぐち"],
+        "furi": "0:で;1:ぐち",
+        "level": 3,
+        "meanings": ["출구"]
+      },
+      {
+        "id": 570,
+        "word": "では",
+        "readings": ["では"],
+        "level": 3,
+        "meanings": ["그러면", "그렇다면", "그럼"]
+      },
+      {
+        "id": 571,
+        "word": "～ても",
+        "readings": ["ても"],
+        "level": 3,
+        "meanings": ["~일지라도", "~라도", "~지라도"]
+      },
+      {
+        "id": 572,
+        "word": "～でも",
+        "readings": ["でも"],
+        "level": 3,
+        "meanings": ["~일지라도", "~라도", "~지라도"]
+      },
+      {
+        "id": 573,
+        "word": "寺",
+        "readings": ["てら"],
+        "level": 3,
+        "meanings": ["절"]
+      },
+      {
+        "id": 574,
+        "word": "点",
+        "readings": ["てん"],
+        "level": 3,
+        "meanings": ["점"]
+      },
+      {
+        "id": 575,
+        "word": "店員",
+        "readings": ["てんいん"],
+        "furi": "0:てん;1:いん",
+        "level": 3,
+        "meanings": ["점원"]
+      },
+      {
+        "id": 576,
+        "word": "天気",
+        "readings": ["てんき"],
+        "furi": "0:てん;1:き",
+        "level": 3,
+        "meanings": ["날씨"]
+      },
+      {
+        "id": 577,
+        "word": "天気予報",
+        "readings": ["てんきよほう"],
+        "furi": "0:てん;1:き;2:よ;3:ほう",
+        "level": 3,
+        "meanings": ["일기 예보"]
+      },
+      {
+        "id": 578,
+        "word": "電車",
+        "readings": ["でんしゃ"],
+        "furi": "0:でん;1:しゃ",
+        "level": 3,
+        "meanings": ["전차"]
+      },
+      {
+        "id": 579,
+        "word": "電灯",
+        "readings": ["でんとう"],
+        "furi": "0:でん;1:とう",
+        "level": 3,
+        "meanings": ["전등", "전기 불"]
+      },
+      {
+        "id": 580,
+        "word": "電報",
+        "readings": ["でんぽう"],
+        "furi": "0:でん;1:ぽう",
+        "level": 3,
+        "meanings": ["전보"]
+      },
+      {
+        "id": 581,
+        "word": "展覧会",
+        "readings": ["てんらんかい"],
+        "furi": "0:てん;1:らん;2:かい",
+        "level": 3,
+        "meanings": ["전람회"]
+      },
+      {
+        "id": 582,
+        "word": "電話",
+        "readings": ["でんわ"],
+        "furi": "0:でん;1:わ",
+        "level": 3,
+        "meanings": ["전화"]
+      }
+    ],
+    "to": [
+      {
+        "id": 583,
+        "word": "戸",
+        "readings": ["と"],
+        "level": 3,
+        "meanings": ["문", "대문"]
+      },
+      {
+        "id": 584,
+        "word": "～都",
+        "readings": ["と"],
+        "furi": "1:と",
+        "level": 3,
+        "meanings": ["~도"],
+        "desc": "행정구역의 하나"
+      },
+      {
+        "id": 585,
+        "word": "～度",
+        "readings": ["ど"],
+        "furi": "1:ど",
+        "level": 3,
+        "meanings": ["~도"],
+        "desc": "횟수, 각도 등을 세는 단위"
+      },
+      {
+        "id": 586,
+        "word": "どう",
+        "readings": ["どう"],
+        "level": 3,
+        "meanings": ["어떻게"]
+      },
+      {
+        "id": 587,
+        "word": "道具",
+        "readings": ["どうぐ"],
+        "furi": "0:どう;1:ぐ",
+        "level": 3,
+        "meanings": ["도구"]
+      },
+      {
+        "id": 588,
+        "word": "どうして",
+        "readings": ["どうして"],
+        "level": 3,
+        "meanings": ["왜", "어째서", "무슨 이유로", "어떻게"]
+      },
+      {
+        "id": 589,
+        "word": "どうぞ",
+        "readings": ["どうぞ"],
+        "level": 3,
+        "meanings": ["어서", "아무쪼록"],
+        "desc": "권유나 부탁의 말"
+      },
+      {
+        "id": 590,
+        "word": "とうとう",
+        "readings": ["とうとう"],
+        "level": 3,
+        "meanings": ["드디어", "마침내", "결국"]
+      },
+      {
+        "id": 591,
+        "word": "動物",
+        "readings": ["どうぶつ"],
+        "furi": "0:どう;1:ぶつ",
+        "level": 3,
+        "meanings": ["동물"]
+      },
+      {
+        "id": 592,
+        "word": "動物園",
+        "readings": ["どうぶつえん"],
+        "furi": "0:どう;1:ぶつ;2:えん",
+        "level": 3,
+        "meanings": ["동물원"]
+      },
+      {
+        "id": 593,
+        "word": "どうも",
+        "readings": ["どうも"],
+        "level": 3,
+        "meanings": ["도무지", "아무리 해도", "아무래도", "어쩐지"]
+      },
+      {
+        "id": 594,
+        "word": "十",
+        "readings": ["とお"],
+        "level": 3,
+        "meanings": ["열", "열 개", "열 살", "십", "10", "10개", "10살"]
+      },
+      {
+        "id": 595,
+        "word": "十日",
+        "readings": ["とおか"],
+        "furi": "0:とお;1:か",
+        "level": 3,
+        "meanings": ["십일", "열흘", "10일"]
+      },
+      {
+        "id": 596,
+        "word": "遠く",
+        "readings": ["とおく"],
+        "furi": "0:とお",
+        "level": 3,
+        "meanings": ["멀리", "먼곳"]
+      },
+      {
+        "id": 597,
+        "word": "通り",
+        "readings": ["とおり"],
+        "furi": "0:とお",
+        "level": 3,
+        "meanings": ["길", "종류", "방법"]
+      },
+      {
+        "id": 598,
+        "word": "～時",
+        "readings": ["とき"],
+        "furi": "1:とき",
+        "level": 3,
+        "meanings": ["~때"]
+      },
+      {
+        "id": 599,
+        "word": "時々",
+        "readings": ["ときどき"],
+        "furi": "0:とき;1:どき",
+        "level": 3,
+        "meanings": ["때때로", "가끔"]
+      },
+      {
+        "id": 600,
+        "word": "特に",
+        "readings": ["とくに"],
+        "furi": "0:とく",
+        "level": 3,
+        "meanings": ["특히"]
+      },
+      {
+        "id": 601,
+        "word": "時計",
+        "readings": ["とけい"],
+        "furi": "0:と;1:けい",
+        "level": 3,
+        "meanings": ["시계"]
+      },
+      {
+        "id": 602,
+        "word": "何処",
+        "readings": ["どこ"],
+        "level": 3,
+        "meanings": ["어디", "아무데", "어느 곳"]
+      },
+      {
+        "id": 603,
+        "word": "床屋",
+        "readings": ["とこや"],
+        "furi": "0:とこ;1:や",
+        "level": 3,
+        "meanings": ["이발소"]
+      },
+      {
+        "id": 604,
+        "word": "所",
+        "readings": ["ところ"],
+        "level": 3,
+        "meanings": ["곳", "장소"]
+      },
+      {
+        "id": 605,
+        "word": "年",
+        "readings": ["とし"],
+        "level": 3,
+        "meanings": ["해", "년"]
+      },
+      {
+        "id": 606,
+        "word": "図書館",
+        "readings": ["としょかん"],
+        "furi": "0:と;1:しょ;2:かん",
+        "level": 3,
+        "meanings": ["도서관"]
+      },
+      {
+        "id": 607,
+        "word": "途中",
+        "readings": ["とちゅう"],
+        "furi": "0:と;1:ちゅう",
+        "level": 3,
+        "meanings": ["도중"]
+      },
+      {
+        "id": 608,
+        "word": "どちら",
+        "readings": ["どちら"],
+        "level": 3,
+        "meanings": ["어느 쪽", "어디", "누구"]
+      },
+      {
+        "id": 609,
+        "word": "特急",
+        "readings": ["とっきゅう"],
+        "furi": "0:とっ;1:きゅう",
+        "level": 3,
+        "meanings": ["특급"]
+      },
+      {
+        "id": 610,
+        "word": "どっち",
+        "readings": ["どっち"],
+        "level": 3,
+        "meanings": ["어느 쪽", "어디"]
+      },
+      {
+        "id": 611,
+        "word": "とても",
+        "readings": ["とても"],
+        "level": 3,
+        "meanings": ["아무리해도", "도저히", "대단히", "매우"]
+      },
+      {
+        "id": 612,
+        "word": "何方",
+        "readings": ["どなた"],
+        "level": 3,
+        "meanings": ["어느 분", "누구"]
+      },
+      {
+        "id": 613,
+        "word": "隣",
+        "readings": ["となり"],
+        "level": 3,
+        "meanings": ["옆", "이웃"]
+      },
+      {
+        "id": 614,
+        "word": "どの",
+        "readings": ["どの"],
+        "level": 3,
+        "meanings": ["어떤", "어느"]
+      },
+      {
+        "id": 615,
+        "word": "友達",
+        "readings": ["ともだち"],
+        "furi": "0:とも;1:だち",
+        "level": 3,
+        "meanings": ["친구"]
+      },
+      {
+        "id": 616,
+        "word": "土曜日",
+        "readings": ["どようび"],
+        "furi": "0:ど;1:よう;2:び",
+        "level": 3,
+        "meanings": ["토요일"]
+      },
+      {
+        "id": 617,
+        "word": "烏",
+        "readings": ["とり"],
+        "level": 3,
+        "meanings": ["새"]
+      },
+      {
+        "id": 618,
+        "word": "烏肉",
+        "readings": ["とりにく"],
+        "furi": "0:とり;1:にく",
+        "level": 3,
+        "meanings": ["닭고기"]
+      },
+      {
+        "id": 619,
+        "word": "鶏肉",
+        "readings": ["とりにく"],
+        "furi": "0:とり;1:にく",
+        "level": 3,
+        "meanings": ["닭고기"]
+      },
+      {
+        "id": 620,
+        "word": "どれ",
+        "readings": ["どれ"],
+        "level": 3,
+        "meanings": ["어디", "어디어디", "어느 것"],
+        "desc": "무엇인가 보여 달라고 할 때 쓰는 말"
+      },
+      {
+        "id": 621,
+        "word": "泥棒",
+        "readings": ["どろぼう"],
+        "furi": "0:どろ;1:ぼう",
+        "level": 3,
+        "meanings": ["도둑", "도둑질", "도둑놈"]
+      },
+      {
+        "id": 622,
+        "word": "どんどん",
+        "readings": ["どんどん"],
+        "level": 3,
+        "meanings": ["자꾸 자꾸", "척척"],
+        "desc": "잇따르는 모양 또는 일이 순조롭게 진척되는 모양"
+      },
+      {
+        "id": 623,
+        "word": "どんな",
+        "readings": ["どんな"],
+        "level": 3,
+        "meanings": ["무슨", "어떤", "어떠한"]
+      }
+    ],
+    "na": [
+      {
+        "id": 624,
+        "word": "無い",
+        "readings": ["ない"],
+        "furi": "0:な",
+        "level": 3,
+        "meanings": ["없다"]
+      },
+      {
+        "id": 625,
+        "word": "中",
+        "readings": ["なか"],
+        "level": 3,
+        "meanings": ["안", "속"]
+      },
+      {
+        "id": 626,
+        "word": "なかなか",
+        "readings": ["なかなか"],
+        "level": 3,
+        "meanings": ["좀처럼", "매우"]
+      },
+      {
+        "id": 627,
+        "word": "～ながら",
+        "readings": ["ながら"],
+        "level": 3,
+        "meanings": ["~하면서", "~그대로", "~모두 다", "~하지만"]
+      },
+      {
+        "id": 628,
+        "word": "なぜ",
+        "readings": ["なぜ"],
+        "level": 3,
+        "meanings": ["왜"]
+      },
+      {
+        "id": 629,
+        "word": "夏",
+        "readings": ["なつ"],
+        "level": 3,
+        "meanings": ["여름"]
+      },
+      {
+        "id": 630,
+        "word": "夏休み",
+        "readings": ["なつやすみ"],
+        "furi": "0:なつ;1:やす",
+        "level": 3,
+        "meanings": ["여름 방학"]
+      },
+      {
+        "id": 631,
+        "word": "～等",
+        "readings": ["など"],
+        "furi": "1:など",
+        "level": 3,
+        "meanings": ["~등", "~따위"]
+      },
+      {
+        "id": 632,
+        "word": "七つ",
+        "readings": ["ななつ"],
+        "furi": "0:なな",
+        "level": 3,
+        "meanings": ["일곱", "일곱 개", "일곱 살", "7", "7개", "7살"]
+      },
+      {
+        "id": 633,
+        "word": "何",
+        "readings": ["なに", "なん"],
+        "level": 3,
+        "meanings": ["무엇"]
+      },
+      {
+        "id": 634,
+        "word": "七日",
+        "readings": ["なのか"],
+        "level": 3,
+        "meanings": ["칠일", "이레"]
+      },
+      {
+        "id": 635,
+        "word": "名前",
+        "readings": ["なまえ"],
+        "furi": "0:な;1:まえ",
+        "level": 3,
+        "meanings": ["이름"]
+      },
+      {
+        "id": 636,
+        "word": "なるべく",
+        "readings": ["なるべく"],
+        "level": 3,
+        "meanings": ["가능한 한", "될 수 있는 한", "되도록"]
+      },
+      {
+        "id": 637,
+        "word": "なるほど",
+        "readings": ["なるほど"],
+        "level": 3,
+        "meanings": ["과연"]
+      }
+    ],
+    "ni": [
+      {
+        "id": 638,
+        "word": "二",
+        "readings": ["に"],
+        "level": 3,
+        "meanings": ["이", "2"]
+      },
+      {
+        "id": 639,
+        "word": "匂い",
+        "readings": ["におい"],
+        "furi": "0:にお",
+        "level": 3,
+        "meanings": ["냄새"]
+      },
+      {
+        "id": 640,
+        "word": "肉",
+        "readings": ["にく"],
+        "level": 3,
+        "meanings": ["고기"]
+      },
+      {
+        "id": 641,
+        "word": "西",
+        "readings": ["にし"],
+        "level": 3,
+        "meanings": ["서쪽", "서"]
+      },
+      {
+        "id": 642,
+        "word": "～日",
+        "readings": ["にち"],
+        "furi": "1:にち",
+        "level": 3,
+        "meanings": ["~일"]
+      },
+      {
+        "id": 643,
+        "word": "日曜日",
+        "readings": ["にちようび"],
+        "furi": "0:にち;1:よう;2:び",
+        "level": 3,
+        "meanings": ["일요일"]
+      },
+      {
+        "id": 644,
+        "word": "日記",
+        "readings": ["にっき"],
+        "level": 3,
+        "meanings": ["일기"]
+      },
+      {
+        "id": 645,
+        "word": "荷物",
+        "readings": ["にもつ"],
+        "furi": "0:に;1:もつ",
+        "level": 3,
+        "meanings": ["짐", "하물", "화물"]
+      },
+      {
+        "id": 646,
+        "word": "入院",
+        "readings": ["にゅういん"],
+        "furi": "0:にゅう;1:いん",
+        "level": 3,
+        "meanings": ["입원"]
+      },
+      {
+        "id": 647,
+        "word": "入学",
+        "readings": ["にゅうがく"],
+        "furi": "0:にゅう;1:がく",
+        "level": 3,
+        "meanings": ["입학"]
+      },
+      {
+        "id": 648,
+        "word": "庭",
+        "readings": ["にわ"],
+        "level": 3,
+        "meanings": ["정원"]
+      },
+      {
+        "id": 649,
+        "word": "～人",
+        "readings": ["にん"],
+        "furi": "1:にん",
+        "level": 3,
+        "meanings": ["~인", "~명"]
+      },
+      {
+        "id": 650,
+        "word": "人形",
+        "readings": ["にんぎょう"],
+        "furi": "0:にん;1:ぎょう",
+        "level": 3,
+        "meanings": ["인형"]
+      }
+    ],
+    "ne": [
+      {
+        "id": 651,
+        "word": "値段",
+        "readings": ["ねだん"],
+        "furi": "0:ね;1:だん",
+        "level": 3,
+        "meanings": ["가격", "값"]
+      },
+      {
+        "id": 652,
+        "word": "熱",
+        "readings": ["ねつ"],
+        "level": 3,
+        "meanings": ["열"]
+      },
+      {
+        "id": 653,
+        "word": "寝坊",
+        "readings": ["ねぼう"],
+        "furi": "0:ね;1:ぼう",
+        "level": 3,
+        "meanings": ["늦잠을 잠", "잠꾸러기"]
+      },
+      {
+        "id": 654,
+        "word": "～年",
+        "readings": ["ねん"],
+        "furi": "1:ねん",
+        "level": 3,
+        "meanings": ["~년"]
+      }
+    ],
+    "no": [
+      {
+        "id": 655,
+        "word": "喉",
+        "readings": ["のど"],
+        "level": 3,
+        "meanings": ["목구멍"]
+      },
+      {
+        "id": 656,
+        "word": "飲み物",
+        "readings": ["のみもの"],
+        "furi": "0:の;1:もの",
+        "level": 3,
+        "meanings": ["마실 것", "음료"]
+      },
+      {
+        "id": 657,
+        "word": "乗り物",
+        "readings": ["のりもの"],
+        "furi": "0:の;1:もの",
+        "level": 3,
+        "meanings": ["탈것", "교통 기관"]
+      }
+    ],
+    "ha": [
+      {
+        "id": 658,
+        "word": "歯",
+        "readings": ["は"],
+        "level": 3,
+        "meanings": ["이", "치아"]
+      },
+      {
+        "id": 659,
+        "word": "葉",
+        "readings": ["は"],
+        "level": 3,
+        "meanings": ["잎", "잎사귀"]
+      },
+      {
+        "id": 660,
+        "word": "場合",
+        "readings": ["ばあい"],
+        "furi": "0:ば;1:あい",
+        "level": 3,
+        "meanings": ["경우", "사정", "때"]
+      },
+      {
+        "id": 661,
+        "word": "はい",
+        "readings": ["はい"],
+        "level": 3,
+        "meanings": ["네", "예"]
+      },
+      {
+        "id": 662,
+        "word": "～杯",
+        "readings": ["はい"],
+        "furi": "1:はい",
+        "level": 3,
+        "meanings": ["~잔", "~공기", "~숟가락"]
+      },
+      {
+        "id": 663,
+        "word": "～倍",
+        "readings": ["ぱい"],
+        "furi": "1:ぱい",
+        "level": 3,
+        "meanings": ["~배"]
+      },
+      {
+        "id": 664,
+        "word": "拝見",
+        "readings": ["はいけん"],
+        "furi": "0:はい;1:けん",
+        "level": 3,
+        "meanings": ["삼가 봄"]
+      },
+      {
+        "id": 665,
+        "word": "灰皿",
+        "readings": ["はいざら"],
+        "furi": "0:はい;1:ざら",
+        "level": 3,
+        "meanings": ["재떨이"]
+      },
+      {
+        "id": 666,
+        "word": "歯医者",
+        "readings": ["はいしゃ"],
+        "furi": "0:は;1:い;2:しゃ",
+        "level": 3,
+        "meanings": ["치과 의사"]
+      },
+      {
+        "id": 667,
+        "word": "葉書",
+        "readings": ["はがき"],
+        "furi": "0:は;1:がき",
+        "level": 3,
+        "meanings": ["엽서"]
+      },
+      {
+        "id": 668,
+        "word": "～ばかり",
+        "readings": ["ばかり"],
+        "level": 3,
+        "meanings": ["~정도", "~가량", "~만"]
+      },
+      {
+        "id": 669,
+        "word": "箱",
+        "readings": ["はこ"],
+        "level": 3,
+        "meanings": ["상자", "궤짝", "함"]
+      },
+      {
+        "id": 670,
+        "word": "橋",
+        "readings": ["はし"],
+        "level": 3,
+        "meanings": ["다리"]
+      },
+      {
+        "id": 671,
+        "word": "箸",
+        "readings": ["はし"],
+        "level": 3,
+        "meanings": ["젓가락"]
+      },
+      {
+        "id": 672,
+        "word": "初め",
+        "readings": ["はじめ"],
+        "furi": "0:はじ",
+        "level": 3,
+        "meanings": ["초", "처음", "시작", "시초"]
+      },
+      {
+        "id": 673,
+        "word": "初めに",
+        "readings": ["はじめに"],
+        "furi": "0:はじ",
+        "level": 3,
+        "meanings": ["처음에"]
+      },
+      {
+        "id": 674,
+        "word": "初めて",
+        "readings": ["はじめて"],
+        "furi": "0:はじ",
+        "level": 3,
+        "meanings": ["처음으로"]
+      },
+      {
+        "id": 675,
+        "word": "初めまして",
+        "readings": ["はじめまして"],
+        "furi": "0:はじ",
+        "level": 3,
+        "meanings": ["처음 뵙겠습니다"]
+      },
+      {
+        "id": 676,
+        "word": "場所",
+        "readings": ["ばしょ"],
+        "furi": "0:ば;1:しょ",
+        "level": 3,
+        "meanings": ["장소"]
+      },
+      {
+        "id": 677,
+        "word": "二十歳",
+        "readings": ["はたち"],
+        "level": 3,
+        "meanings": ["20세", "이십살", "스무살"]
+      },
+      {
+        "id": 678,
+        "word": "八",
+        "readings": ["はち"],
+        "level": 3,
+        "meanings": ["팔", "여덟", "8"]
+      },
+      {
+        "id": 679,
+        "word": "発音",
+        "readings": ["はつおん"],
+        "furi": "0:はつ;1:おん",
+        "level": 3,
+        "meanings": ["발음"]
+      },
+      {
+        "id": 680,
+        "word": "二十日",
+        "readings": ["はつか"],
+        "level": 3,
+        "meanings": ["20일", "이십일", "스무일"]
+      },
+      {
+        "id": 681,
+        "word": "はっきり",
+        "readings": ["はっきり"],
+        "level": 3,
+        "meanings": ["똑똑히", "명확히", "분명히"]
+      },
+      {
+        "id": 682,
+        "word": "鼻",
+        "readings": ["はな"],
+        "level": 3,
+        "meanings": ["코"]
+      },
+      {
+        "id": 683,
+        "word": "花",
+        "readings": ["はな"],
+        "level": 3,
+        "meanings": ["꽃"]
+      },
+      {
+        "id": 684,
+        "word": "話",
+        "readings": ["はなし"],
+        "level": 3,
+        "meanings": ["이야기"]
+      },
+      {
+        "id": 685,
+        "word": "花見",
+        "readings": ["はなみ"],
+        "furi": "0:はな;1:み",
+        "level": 3,
+        "meanings": ["꽃구경"]
+      },
+      {
+        "id": 686,
+        "word": "母",
+        "readings": ["はは"],
+        "level": 3,
+        "meanings": ["어머니"]
+      },
+      {
+        "id": 687,
+        "word": "林",
+        "readings": ["はやし"],
+        "level": 3,
+        "meanings": ["숲"]
+      },
+      {
+        "id": 688,
+        "word": "春",
+        "readings": ["はる"],
+        "level": 3,
+        "meanings": ["봄", "새해", "전성기", "청춘"]
+      },
+      {
+        "id": 689,
+        "word": "～半",
+        "readings": ["はん"],
+        "furi": "1:はん",
+        "level": 3,
+        "meanings": ["~반"]
+      },
+      {
+        "id": 690,
+        "word": "晩",
+        "readings": ["ばん"],
+        "level": 3,
+        "meanings": ["저녁 때", "밤"]
+      },
+      {
+        "id": 691,
+        "word": "～番",
+        "readings": ["ばん"],
+        "furi": "1:ばん",
+        "level": 3,
+        "meanings": ["~번"],
+        "desc": "순서, 번호를 세는 단위"
+      },
+      {
+        "id": 692,
+        "word": "番組",
+        "readings": ["ばんぐみ"],
+        "furi": "0:ばん;1:ぐみ",
+        "level": 3,
+        "meanings": ["프로그램", "TV 프로그램", "방송 프로그램"]
+      },
+      {
+        "id": 693,
+        "word": "晩御飯",
+        "readings": ["ばんごはん"],
+        "furi": "0:ばん;1:ご;2:はん",
+        "level": 3,
+        "meanings": ["저녁밥", "저녁 식사"]
+      },
+      {
+        "id": 694,
+        "word": "反対",
+        "readings": ["はんたい"],
+        "furi": "0:はん;1:たい",
+        "level": 3,
+        "meanings": ["반대"]
+      },
+      {
+        "id": 695,
+        "word": "半分",
+        "readings": ["はんぶん"],
+        "furi": "0:はん;1:ぶん",
+        "level": 3,
+        "meanings": ["반", "절반"]
+      }
+    ],
+    "hi": [
+      {
+        "id": 696,
+        "word": "日",
+        "readings": ["ひ"],
+        "level": 3,
+        "meanings": ["해", "날"]
+      },
+      {
+        "id": 697,
+        "word": "火",
+        "readings": ["ひ"],
+        "level": 3,
+        "meanings": ["불"]
+      },
+      {
+        "id": 698,
+        "word": "東",
+        "readings": ["ひがし"],
+        "level": 3,
+        "meanings": ["동쪽", "동"]
+      },
+      {
+        "id": 699,
+        "word": "光",
+        "readings": ["ひかり"],
+        "level": 3,
+        "meanings": ["빛"]
+      },
+      {
+        "id": 700,
+        "word": "～匹",
+        "readings": ["ひき"],
+        "furi": "1:ひき",
+        "level": 3,
+        "meanings": ["~마리"],
+        "desc": "작은 동물을 세는 단위"
+      },
+      {
+        "id": 701,
+        "word": "引き出し",
+        "readings": ["ひきだし"],
+        "furi": "0:ひ;2:だ",
+        "level": 3,
+        "meanings": ["서랍"]
+      },
+      {
+        "id": 702,
+        "word": "ひげ",
+        "readings": ["ひげ"],
+        "level": 3,
+        "meanings": ["수염"]
+      },
+      {
+        "id": 703,
+        "word": "飛行機",
+        "readings": ["ひこうき"],
+        "furi": "0:ひ;1:こう;2:き",
+        "level": 3,
+        "meanings": ["비행기"]
+      },
+      {
+        "id": 704,
+        "word": "飛行場",
+        "readings": ["ひこうじょう"],
+        "furi": "0:ひ;1:こう;2:じょう",
+        "level": 3,
+        "meanings": ["비행장"]
+      },
+      {
+        "id": 705,
+        "word": "久しぶり",
+        "readings": ["ひさしぶり"],
+        "furi": "0:ひさ",
+        "level": 3,
+        "meanings": ["오래간만"]
+      },
+      {
+        "id": 706,
+        "word": "美術館",
+        "readings": ["びじゅつかん"],
+        "furi": "0:び;1:じゅつ;2:かん",
+        "level": 3,
+        "meanings": ["미술관"]
+      },
+      {
+        "id": 707,
+        "word": "非常に",
+        "readings": ["ひじょうに"],
+        "furi": "0:ひ;1:じょう",
+        "level": 3,
+        "meanings": ["대단히", "상당히"]
+      },
+      {
+        "id": 708,
+        "word": "左",
+        "readings": ["ひだり"],
+        "level": 3,
+        "meanings": ["왼쪽", "왼편"]
+      },
+      {
+        "id": 709,
+        "word": "必要",
+        "readings": ["ひつよう"],
+        "furi": "0:ひつ;1:よう",
+        "level": 3,
+        "meanings": ["필요"]
+      },
+      {
+        "id": 710,
+        "word": "人",
+        "readings": ["ひと"],
+        "level": 3,
+        "meanings": ["사람", "다른 사람", "남"]
+      },
+      {
+        "id": 711,
+        "word": "一つ",
+        "readings": ["ひとつ"],
+        "furi": "0:ひと",
+        "level": 3,
+        "meanings": ["하나", "한 살", "한 개", "1", "1살", "1개"]
+      },
+      {
+        "id": 712,
+        "word": "一月",
+        "readings": ["ひとつき"],
+        "furi": "0:ひと;1:つき",
+        "level": 3,
+        "meanings": ["한 달"]
+      },
+      {
+        "id": 713,
+        "word": "一人",
+        "readings": ["ひとり"],
+        "level": 3,
+        "meanings": ["한 사람", "혼자", "한 명", "1인", "1명"]
+      },
+      {
+        "id": 714,
+        "word": "百",
+        "readings": ["ひゃく"],
+        "level": 3,
+        "meanings": ["백", "100"]
+      },
+      {
+        "id": 715,
+        "word": "病院",
+        "readings": ["びょういん"],
+        "furi": "0:びょう;1:いん",
+        "level": 3,
+        "meanings": ["병원"]
+      },
+      {
+        "id": 716,
+        "word": "病気",
+        "readings": ["びょうき"],
+        "furi": "0:びょう;1:き",
+        "level": 3,
+        "meanings": ["병"]
+      },
+      {
+        "id": 717,
+        "word": "平仮名",
+        "readings": ["ひらがな"],
+        "furi": "0:ひら;1:が;2:な",
+        "level": 3,
+        "meanings": ["히라가나"]
+      },
+      {
+        "id": 718,
+        "word": "昼",
+        "readings": ["ひる"],
+        "level": 3,
+        "meanings": ["낮", "정오", "점심 식사"]
+      },
+      {
+        "id": 719,
+        "word": "昼御飯",
+        "readings": ["ひるごはん"],
+        "furi": "0:ひる;1:ご;2:はん",
+        "level": 3,
+        "meanings": ["점심밥", "점심 식사"]
+      },
+      {
+        "id": 720,
+        "word": "昼間",
+        "readings": ["ひるま"],
+        "furi": "0:ひる;1:ま",
+        "level": 3,
+        "meanings": ["낮"]
+      },
+      {
+        "id": 721,
+        "word": "昼休み",
+        "readings": ["ひるやすみ"],
+        "furi": "0:ひる;1:やす",
+        "level": 3,
+        "meanings": ["점심 시간"]
+      }
+    ],
+    "hu": [
+      {
+        "id": 722,
+        "word": "封筒",
+        "readings": ["ふうとう"],
+        "furi": "0:ふう;1:とう",
+        "level": 3,
+        "meanings": ["봉투"]
+      },
+      {
+        "id": 723,
+        "word": "服",
+        "readings": ["ふく"],
+        "level": 3,
+        "meanings": ["옷"]
+      },
+      {
+        "id": 724,
+        "word": "復習",
+        "readings": ["ふくしゅう"],
+        "furi": "0:ふく;1:しゅう",
+        "level": 3,
+        "meanings": ["복습"]
+      },
+      {
+        "id": 725,
+        "word": "二つ",
+        "readings": ["ふたつ"],
+        "furi": "0:ふた",
+        "level": 3,
+        "meanings": ["둘", "두 개", "두 살", "2", "2개", "2살"]
+      },
+      {
+        "id": 726,
+        "word": "部長",
+        "readings": ["ぶちょう"],
+        "furi": "0:ぶ;1:ちょう",
+        "level": 3,
+        "meanings": ["부장", "부장님"]
+      },
+      {
+        "id": 727,
+        "word": "普通",
+        "readings": ["ふつう"],
+        "furi": "0:ふ;1:つう",
+        "level": 3,
+        "meanings": ["보통"]
+      },
+      {
+        "id": 728,
+        "word": "二日",
+        "readings": ["ふつか"],
+        "level": 3,
+        "meanings": ["2일", "초이틀", "이틀"]
+      },
+      {
+        "id": 729,
+        "word": "ぶどう",
+        "readings": ["ぶどう"],
+        "level": 3,
+        "meanings": ["포도"]
+      },
+      {
+        "id": 730,
+        "word": "布団",
+        "readings": ["ふとん"],
+        "furi": "0:ふ;1:とん",
+        "level": 3,
+        "meanings": ["이부자리", "이불과 요"]
+      },
+      {
+        "id": 731,
+        "word": "船",
+        "readings": ["ふれ"],
+        "level": 3,
+        "meanings": ["배"],
+        "desc": "물·술 등을 넣는 상자 모양의 그릇"
+      },
+      {
+        "id": 732,
+        "word": "冬",
+        "readings": ["ふゆ"],
+        "level": 3,
+        "meanings": ["거울"]
+      },
+      {
+        "id": 733,
+        "word": "風呂",
+        "readings": ["ふろ"],
+        "furi": "0:ふ;1:ろ",
+        "level": 3,
+        "meanings": ["목욕", "욕실", "욕조"]
+      },
+      {
+        "id": 734,
+        "word": "～分",
+        "readings": ["ふん"],
+        "furi": "1:ふん",
+        "level": 3,
+        "meanings": ["~분"],
+        "desc": "시간의 단위"
+      },
+      {
+        "id": 735,
+        "word": "文化",
+        "readings": ["ぶんか"],
+        "furi": "0:ぶん;1:か",
+        "level": 3,
+        "meanings": ["문화"]
+      },
+      {
+        "id": 736,
+        "word": "文学",
+        "readings": ["ぶんがく"],
+        "furi": "0:ぶん;1:がく",
+        "level": 3,
+        "meanings": ["문학"]
+      },
+      {
+        "id": 737,
+        "word": "文法",
+        "readings": ["ぶんぽう"],
+        "furi": "0:ぶん;1:ぽう",
+        "level": 3,
+        "meanings": ["문법"]
+      }
+    ],
+    "he": [
+      {
+        "id": 738,
+        "word": "別",
+        "readings": ["べつ"],
+        "level": 3,
+        "meanings": ["구별", "차이", "다름"]
+      },
+      {
+        "id": 739,
+        "word": "別に",
+        "readings": ["べつに"],
+        "furi": "0:べつ",
+        "level": 3,
+        "meanings": ["별로", "특별히"],
+        "desc": "부정어와 함께"
+      },
+      {
+        "id": 740,
+        "word": "部屋",
+        "readings": ["ヘや"],
+        "furi": "0:ヘ;1:や",
+        "level": 3,
+        "meanings": ["방"]
+      },
+      {
+        "id": 741,
+        "word": "辺",
+        "readings": ["へん"],
+        "level": 3,
+        "meanings": ["근처", "근방", "~쯤"]
+      },
+      {
+        "id": 742,
+        "word": "勉強",
+        "readings": ["ベんきょう"],
+        "furi": "0:ベん;1:きょう",
+        "level": 3,
+        "meanings": ["공부"]
+      },
+      {
+        "id": 743,
+        "word": "返事",
+        "readings": ["へんじ"],
+        "furi": "0:へん;1:じ",
+        "level": 3,
+        "meanings": ["대답", "회답"]
+      }
+    ],
+    "ho": [
+      {
+        "id": 744,
+        "word": "～方",
+        "readings": ["ほう"],
+        "furi": "1:ほう",
+        "level": 3,
+        "meanings": ["~편", "~것", "~쪽"]
+      },
+      {
+        "id": 745,
+        "word": "貿易",
+        "readings": ["ぼうえき"],
+        "furi": "0:ぼう;1:えき",
+        "level": 3,
+        "meanings": ["무역"]
+      },
+      {
+        "id": 746,
+        "word": "帽子",
+        "readings": ["ぼうし"],
+        "furi": "0:ぼう;1:し",
+        "level": 3,
+        "meanings": ["모자"]
+      },
+      {
+        "id": 747,
+        "word": "放送",
+        "readings": ["ほうそう"],
+        "furi": "0:ほう;1:そう",
+        "level": 3,
+        "meanings": ["방송"]
+      },
+      {
+        "id": 748,
+        "word": "法律",
+        "readings": ["ほうりつ"],
+        "furi": "0:ほう;1:りつ",
+        "level": 3,
+        "meanings": ["법률"]
+      },
+      {
+        "id": 749,
+        "word": "外",
+        "readings": ["ほか", "そと"],
+        "level": 3,
+        "meanings": ["다른 것", "밖", "외", "바깥", "겉", "외부"]
+      },
+      {
+        "id": 750,
+        "word": "僕",
+        "readings": ["ぼく"],
+        "level": 3,
+        "meanings": ["나"],
+        "desc": "남자가 쓰는 1인칭 대명사"
+      },
+      {
+        "id": 751,
+        "word": "星",
+        "readings": ["ほし"],
+        "level": 3,
+        "meanings": ["별"]
+      },
+      {
+        "id": 752,
+        "word": "～程",
+        "readings": ["ほど"],
+        "furi": "1:ほど",
+        "level": 3,
+        "meanings": ["~쯤", "~정도", "~처럼", "~만큼"]
+      },
+      {
+        "id": 753,
+        "word": "ほとんど",
+        "readings": ["ほとんど"],
+        "level": 3,
+        "meanings": ["거의"]
+      },
+      {
+        "id": 754,
+        "word": "本",
+        "readings": ["ほん"],
+        "level": 3,
+        "meanings": ["책"]
+      },
+      {
+        "id": 755,
+        "word": "～本",
+        "readings": ["ほん"],
+        "furi": "1:ほん",
+        "level": 3,
+        "meanings": ["~자루", "~병"],
+        "desc": "형태가 긴 물건을 세는 단위"
+      },
+      {
+        "id": 756,
+        "word": "本棚",
+        "readings": ["ぼんだな"],
+        "furi": "0:ぼん;1:だな",
+        "level": 3,
+        "meanings": ["책장"]
+      },
+      {
+        "id": 757,
+        "word": "本当に",
+        "readings": ["ほんとうに"],
+        "furi": "0:ほん;1:とう",
+        "level": 3,
+        "meanings": ["정말로"]
+      },
+      {
+        "id": 758,
+        "word": "翻訳",
+        "readings": ["ほんやく"],
+        "furi": "0:ほん;1:やく",
+        "level": 3,
+        "meanings": ["번역"]
+      }
+    ],
+    "ma": [
+      {
+        "id": 759,
+        "word": "～枚",
+        "readings": ["まい"],
+        "furi": "1:まい",
+        "level": 3,
+        "meanings": ["~장"],
+        "desc": "얇은 것을 세는 단위"
+      },
+      {
+        "id": 760,
+        "word": "毎朝",
+        "readings": ["まいあさ"],
+        "furi": "0:まい;1:あさ",
+        "level": 3,
+        "meanings": ["매일 아침"]
+      },
+      {
+        "id": 761,
+        "word": "毎月",
+        "readings": ["まいげつ", "まいつき"],
+        "furi": "0:まい;1:げつ",
+        "level": 3,
+        "meanings": ["매달"]
+      },
+      {
+        "id": 762,
+        "word": "毎週",
+        "readings": ["まいしゅう"],
+        "furi": "0:まい;1:しゅう",
+        "level": 3,
+        "meanings": ["매주"]
+      },
+      {
+        "id": 763,
+        "word": "毎日",
+        "readings": ["まいにち"],
+        "furi": "0:まい;1:にち",
+        "level": 3,
+        "meanings": ["매일"]
+      },
+      {
+        "id": 764,
+        "word": "毎年",
+        "readings": ["まいねん", "まいとし"],
+        "furi": "0:まい;1:ねん",
+        "level": 3,
+        "meanings": ["매년"]
+      },
+      {
+        "id": 765,
+        "word": "毎晩",
+        "readings": ["まいばん"],
+        "furi": "0:まい;1:ばん",
+        "level": 3,
+        "meanings": ["매일 밤"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "ma": [
+      {
+        "id": 766,
+        "word": "前",
+        "readings": ["まえ"],
+        "level": 3,
+        "meanings": ["앞", "앞서", "먼저"]
+      },
+      {
+        "id": 767,
+        "word": "～前",
+        "readings": ["まえ"],
+        "furi": "1:まえ",
+        "level": 3,
+        "meanings": ["~앞", "~전"]
+      },
+      {
+        "id": 768,
+        "word": "先ず",
+        "readings": ["まず"],
+        "furi": "0:ま",
+        "level": 3,
+        "meanings": ["우선"]
+      },
+      {
+        "id": 769,
+        "word": "又",
+        "readings": ["また"],
+        "level": 3,
+        "meanings": ["또", "또한"]
+      },
+      {
+        "id": 770,
+        "word": "未だ",
+        "readings": ["まだ"],
+        "furi": "0:ま",
+        "level": 3,
+        "meanings": ["아직", "아직도"]
+      },
+      {
+        "id": 771,
+        "word": "又は",
+        "readings": ["または"],
+        "furi": "0:また",
+        "level": 3,
+        "meanings": ["또는", "혹은"]
+      },
+      {
+        "id": 772,
+        "word": "町",
+        "readings": ["まち"],
+        "level": 3,
+        "meanings": ["마을", "동네"]
+      },
+      {
+        "id": 773,
+        "word": "真っ直ぐ",
+        "readings": ["まっすぐ"],
+        "furi": "0:ま;2:す",
+        "level": 3,
+        "meanings": ["곧바로", "곧장"]
+      },
+      {
+        "id": 774,
+        "word": "窓",
+        "readings": ["まど"],
+        "level": 3,
+        "meanings": ["창문"]
+      },
+      {
+        "id": 775,
+        "word": "～まま",
+        "readings": ["まま"],
+        "level": 3,
+        "meanings": ["~한 채로", "그대로"]
+      },
+      {
+        "id": 776,
+        "word": "周り",
+        "readings": ["まわり"],
+        "furi": "0:まわ",
+        "level": 3,
+        "meanings": ["주변", "주위"]
+      },
+      {
+        "id": 777,
+        "word": "万",
+        "readings": ["まん"],
+        "level": 3,
+        "meanings": ["만", "10000"]
+      },
+      {
+        "id": 778,
+        "word": "漫画",
+        "readings": ["まんが"],
+        "furi": "0:まん;1:が",
+        "level": 3,
+        "meanings": ["만화"]
+      },
+      {
+        "id": 779,
+        "word": "真ん中",
+        "readings": ["まんなか"],
+        "furi": "0:ま;2:なか",
+        "level": 3,
+        "meanings": ["한가운데"]
+      },
+      {
+        "id": 780,
+        "word": "万年筆",
+        "readings": ["まんねんひつ"],
+        "furi": "0:まん;1:ねん;2:ひつ",
+        "level": 3,
+        "meanings": ["만년필"]
+      }
+    ],
+    "mi": [
+      {
+        "id": 781,
+        "word": "右",
+        "readings": ["みぎ"],
+        "level": 3,
+        "meanings": ["오른쪽", "우측", "우"]
+      },
+      {
+        "id": 782,
+        "word": "水",
+        "readings": ["みず"],
+        "level": 3,
+        "meanings": ["물"]
+      },
+      {
+        "id": 783,
+        "word": "湖",
+        "readings": ["みずうみ"],
+        "level": 3,
+        "meanings": ["호수", "호"]
+      },
+      {
+        "id": 784,
+        "word": "店",
+        "readings": ["みせ"],
+        "level": 3,
+        "meanings": ["가게", "상점", "점포"]
+      },
+      {
+        "id": 785,
+        "word": "味噌",
+        "readings": ["みそ"],
+        "furi": "0:み;1:そ",
+        "level": 3,
+        "meanings": ["된장"]
+      },
+      {
+        "id": 786,
+        "word": "道",
+        "readings": ["みち"],
+        "level": 3,
+        "meanings": ["길"]
+      },
+      {
+        "id": 787,
+        "word": "三日",
+        "readings": ["みっか"],
+        "furi": "0:みっ;1:か",
+        "level": 3,
+        "meanings": ["3일", "삼일", "초사흘"]
+      },
+      {
+        "id": 788,
+        "word": "三つ",
+        "readings": ["みっつ"],
+        "furi": "0:みっ",
+        "level": 3,
+        "meanings": ["셋", "세 개", "세 살", "3", "3개", "3살"]
+      },
+      {
+        "id": 789,
+        "word": "緑",
+        "readings": ["みどり"],
+        "level": 3,
+        "meanings": ["초록", "자연"]
+      },
+      {
+        "id": 790,
+        "word": "皆",
+        "readings": ["みな"],
+        "level": 3,
+        "meanings": ["모두", "전부"]
+      },
+      {
+        "id": 791,
+        "word": "皆",
+        "readings": ["みんな"],
+        "level": 3,
+        "meanings": ["모두", "전부"]
+      },
+      {
+        "id": 792,
+        "word": "皆さん",
+        "readings": ["みなさん"],
+        "furi": "0:みな",
+        "level": 3,
+        "meanings": ["여러분"]
+      },
+      {
+        "id": 793,
+        "word": "皆さん",
+        "readings": ["みんなさん"],
+        "furi": "0:みんな",
+        "level": 3,
+        "meanings": ["여러분"]
+      },
+      {
+        "id": 794,
+        "word": "港",
+        "readings": ["みなと"],
+        "level": 3,
+        "meanings": ["항구"]
+      },
+      {
+        "id": 795,
+        "word": "南",
+        "readings": ["みなみ"],
+        "level": 3,
+        "meanings": ["남쪽", "남"]
+      },
+      {
+        "id": 796,
+        "word": "耳",
+        "readings": ["みみ"],
+        "level": 3,
+        "meanings": ["귀"]
+      }
+    ],
+    "mu": [
+      {
+        "id": 797,
+        "word": "六日",
+        "readings": ["むいか"],
+        "furi": "0:むい;1:か",
+        "level": 3,
+        "meanings": ["6일", "육일", "엿새"]
+      },
+      {
+        "id": 798,
+        "word": "昔",
+        "readings": ["むかし"],
+        "level": 3,
+        "meanings": ["옛날"]
+      },
+      {
+        "id": 799,
+        "word": "向こう",
+        "readings": ["むこう"],
+        "furi": "0:む",
+        "level": 3,
+        "meanings": ["저쪽", "건너편", "맞은편"]
+      },
+      {
+        "id": 800,
+        "word": "虫",
+        "readings": ["むし"],
+        "level": 3,
+        "meanings": ["벌레", "곤충"]
+      },
+      {
+        "id": 801,
+        "word": "息子",
+        "readings": ["むすこ"],
+        "furi": "0:むす;1:こ",
+        "level": 3,
+        "meanings": ["아들"]
+      },
+      {
+        "id": 802,
+        "word": "息子さん",
+        "readings": ["むすこさん"],
+        "furi": "0:むす;1:こ",
+        "level": 3,
+        "meanings": ["아드님"],
+        "desc": "남의 아들의 높임말"
+      },
+      {
+        "id": 803,
+        "word": "娘",
+        "readings": ["むすめ"],
+        "level": 3,
+        "meanings": ["딸"]
+      },
+      {
+        "id": 804,
+        "word": "娘さん",
+        "readings": ["むすめさん"],
+        "level": 3,
+        "meanings": ["따님"],
+        "desc": "남의 딸의 높임말"
+      },
+      {
+        "id": 805,
+        "word": "六つ",
+        "readings": ["むっつ"],
+        "furi": "0:むっ",
+        "level": 3,
+        "meanings": ["여섯", "여섯 개", "여섯 살", "6", "6개", "6살"]
+      },
+      {
+        "id": 806,
+        "word": "村",
+        "readings": ["むら"],
+        "level": 3,
+        "meanings": ["마을"]
+      },
+      {
+        "id": 807,
+        "word": "無理",
+        "readings": ["むり"],
+        "furi": "0:む;1:り",
+        "level": 3,
+        "meanings": ["무리"]
+      }
+    ],
+    "me": [
+      {
+        "id": 808,
+        "word": "目",
+        "readings": ["め"],
+        "level": 3,
+        "meanings": ["눈"]
+      },
+      {
+        "id": 809,
+        "word": "～目",
+        "readings": ["め"],
+        "furi": "1:め",
+        "level": 3,
+        "meanings": ["~째"],
+        "desc": "순서를 나타낼 때 붙이는 말"
+      },
+      {
+        "id": 810,
+        "word": "眼鏡",
+        "readings": ["めがね"],
+        "furi": "0:め;1:がね",
+        "level": 3,
+        "meanings": ["안경"]
+      }
+    ],
+    "mo": [
+      {
+        "id": 811,
+        "word": "もう",
+        "readings": ["もう"],
+        "level": 3,
+        "meanings": ["벌써", "더"]
+      },
+      {
+        "id": 812,
+        "word": "もうすぐ",
+        "readings": ["もうすぐ"],
+        "level": 3,
+        "meanings": ["이제 곧"]
+      },
+      {
+        "id": 813,
+        "word": "木曜日",
+        "readings": ["もくようび"],
+        "furi": "0:もく;1:よう;2:び",
+        "level": 3,
+        "meanings": ["목요일"]
+      },
+      {
+        "id": 814,
+        "word": "もし",
+        "readings": ["もし"],
+        "level": 3,
+        "meanings": ["만약", "만일"]
+      },
+      {
+        "id": 815,
+        "word": "もしもし",
+        "readings": ["もしもし"],
+        "level": 3,
+        "meanings": ["여보세요"]
+      },
+      {
+        "id": 816,
+        "word": "勿論",
+        "readings": ["もちろん"],
+        "furi": "0:もち;1:ろん",
+        "level": 3,
+        "meanings": ["물론"]
+      },
+      {
+        "id": 817,
+        "word": "もっと",
+        "readings": ["もっと"],
+        "level": 3,
+        "meanings": ["좀 더", "더욱 더"]
+      },
+      {
+        "id": 818,
+        "word": "物",
+        "readings": ["もの"],
+        "level": 3,
+        "meanings": ["물건"]
+      },
+      {
+        "id": 819,
+        "word": "木綿",
+        "readings": ["もめん"],
+        "furi": "0:も;1:めん",
+        "level": 3,
+        "meanings": ["목연", "솜"]
+      },
+      {
+        "id": 820,
+        "word": "森",
+        "readings": ["もり"],
+        "level": 3,
+        "meanings": ["수풀", "삼림"]
+      },
+      {
+        "id": 821,
+        "word": "門",
+        "readings": ["もん"],
+        "level": 3,
+        "meanings": ["문"]
+      },
+      {
+        "id": 822,
+        "word": "問題",
+        "readings": ["もんだい"],
+        "furi": "0:もん;1:だい",
+        "level": 3,
+        "meanings": ["문제"]
+      }
+    ],
+    "ya": [
+      {
+        "id": 823,
+        "word": "～屋",
+        "readings": ["や"],
+        "furi": "1:や",
+        "level": 3,
+        "meanings": ["~가게", "~집"],
+        "desc": "그 직업에 종사하는 사람(집)임을 나타냄"
+      },
+      {
+        "id": 824,
+        "word": "八百屋",
+        "readings": ["やおや"],
+        "level": 3,
+        "meanings": ["야채가게", "채소가게"]
+      },
+      {
+        "id": 825,
+        "word": "約束",
+        "readings": ["やくそく"],
+        "furi": "0:やく;1:そく",
+        "level": 3,
+        "meanings": ["약속"]
+      },
+      {
+        "id": 826,
+        "word": "野菜",
+        "readings": ["やさい"],
+        "furi": "0:や;1:さい",
+        "level": 3,
+        "meanings": ["야채"]
+      },
+      {
+        "id": 827,
+        "word": "休み",
+        "readings": ["やすみ"],
+        "furi": "0:やす",
+        "level": 3,
+        "meanings": ["휴일", "쉬는 날"]
+      },
+      {
+        "id": 828,
+        "word": "八つ",
+        "readings": ["やっつ"],
+        "furi": "0:やっ",
+        "level": 3,
+        "meanings": ["여덟", "여덟 개", "여덟 살", "8", "8개", "8살"]
+      },
+      {
+        "id": 829,
+        "word": "やっと",
+        "readings": ["やっと"],
+        "level": 3,
+        "meanings": ["겨우", "간신히"]
+      },
+      {
+        "id": 830,
+        "word": "やはり",
+        "readings": ["やはり"],
+        "level": 3,
+        "meanings": ["역시"]
+      },
+      {
+        "id": 831,
+        "word": "やっぱり",
+        "readings": ["やっぱり"],
+        "level": 3,
+        "meanings": ["역시"]
+      },
+      {
+        "id": 832,
+        "word": "山",
+        "readings": ["やま"],
+        "level": 3,
+        "meanings": ["산"]
+      }
+    ],
+    "yu": [
+      {
+        "id": 833,
+        "word": "湯",
+        "readings": ["ゆ"],
+        "level": 3,
+        "meanings": ["뜨거운 물", "데운 물"]
+      },
+      {
+        "id": 834,
+        "word": "夕方",
+        "readings": ["ゆうがた"],
+        "furi": "0:ゆう;1:がた",
+        "level": 3,
+        "meanings": ["저녁 때", "해질녘"]
+      },
+      {
+        "id": 835,
+        "word": "夕飯",
+        "readings": ["ゆうはん"],
+        "furi": "0:ゆう;1:はん",
+        "level": 3,
+        "meanings": ["저녁밥"]
+      },
+      {
+        "id": 836,
+        "word": "郵便局",
+        "readings": ["ゆうびんきょく"],
+        "furi": "0:ゆう;1:びん;2:きょく",
+        "level": 3,
+        "meanings": ["우체국"]
+      },
+      {
+        "id": 837,
+        "word": "夕べ",
+        "readings": ["ゆうべ"],
+        "furi": "0:ゆう",
+        "level": 3,
+        "meanings": ["저녁"]
+      },
+      {
+        "id": 838,
+        "word": "有名",
+        "readings": ["ゆうめい"],
+        "furi": "0:ゆう;1:めい",
+        "level": 3,
+        "meanings": ["유명"],
+        "desc": "주로 명사로 사용되지만 な형용사로도 사용"
+      },
+      {
+        "id": 839,
+        "word": "雪",
+        "readings": ["ゆき"],
+        "level": 3,
+        "meanings": ["눈"]
+      },
+      {
+        "id": 840,
+        "word": "輸出",
+        "readings": ["ゆしゅつ"],
+        "furi": "0:ゆ;1:しゅつ",
+        "level": 3,
+        "meanings": ["수출"]
+      },
+      {
+        "id": 841,
+        "word": "ゆっくり",
+        "readings": ["ゆっくり"],
+        "level": 3,
+        "meanings": ["천천히"]
+      },
+      {
+        "id": 842,
+        "word": "ゆっくりと",
+        "readings": ["ゆっくりと"],
+        "level": 3,
+        "meanings": ["천천히"]
+      },
+      {
+        "id": 843,
+        "word": "輸入",
+        "readings": ["ゆにゅう"],
+        "furi": "0:ゆ;1:にゅう",
+        "level": 3,
+        "meanings": ["수입"]
+      },
+      {
+        "id": 844,
+        "word": "指",
+        "readings": ["ゆび"],
+        "level": 3,
+        "meanings": ["숟가락"]
+      },
+      {
+        "id": 845,
+        "word": "指輪",
+        "readings": ["ゆびわ"],
+        "furi": "0:ゆび;1:わ",
+        "level": 3,
+        "meanings": ["반지", "가락지"]
+      },
+      {
+        "id": 846,
+        "word": "夢",
+        "readings": ["ゆめ"],
+        "level": 3,
+        "meanings": ["꿈"]
+      }
+    ],
+    "yo": [
+      {
+        "id": 847,
+        "word": "用",
+        "readings": ["よう"],
+        "level": 3,
+        "meanings": ["용도", "용무", "용건"]
+      },
+      {
+        "id": 848,
+        "word": "様",
+        "readings": ["よう"],
+        "level": 3,
+        "meanings": ["모양", "형태"]
+      },
+      {
+        "id": 849,
+        "word": "用意",
+        "readings": ["ようい"],
+        "furi": "0:よう;1:い",
+        "level": 3,
+        "meanings": ["준비"]
+      },
+      {
+        "id": 850,
+        "word": "八日",
+        "readings": ["ようか"],
+        "furi": "0:よう;1:か",
+        "level": 3,
+        "meanings": ["8일", "팔일", "여드레"]
+      },
+      {
+        "id": 851,
+        "word": "用事",
+        "readings": ["ようじ"],
+        "furi": "0:よう;1:じ",
+        "level": 3,
+        "meanings": ["볼일", "용건"]
+      },
+      {
+        "id": 852,
+        "word": "洋服",
+        "readings": ["ようふく"],
+        "furi": "0:よう;1:ふく",
+        "level": 3,
+        "meanings": ["옷", "의복", "양복"]
+      },
+      {
+        "id": 853,
+        "word": "よく",
+        "readings": ["よく"],
+        "level": 3,
+        "meanings": ["곧잘", "자주", "잘", "충분히"]
+      },
+      {
+        "id": 854,
+        "word": "横",
+        "readings": ["よこ"],
+        "level": 3,
+        "meanings": ["옆", "측면"]
+      },
+      {
+        "id": 855,
+        "word": "予習",
+        "readings": ["よしゅう"],
+        "furi": "0:よ;1:しゅう",
+        "level": 3,
+        "meanings": ["예습"]
+      },
+      {
+        "id": 856,
+        "word": "四日",
+        "readings": ["よっか"],
+        "furi": "0:よっ;1:か",
+        "level": 3,
+        "meanings": ["4일", "사일", "사흘"]
+      },
+      {
+        "id": 857,
+        "word": "四つ",
+        "readings": ["よっつ"],
+        "furi": "0:よっ",
+        "level": 3,
+        "meanings": ["넷", "4"]
+      },
+      {
+        "id": 858,
+        "word": "予定",
+        "readings": ["よてい"],
+        "furi": "0:よ;1:てい",
+        "level": 3,
+        "meanings": ["예정"]
+      },
+      {
+        "id": 859,
+        "word": "予約",
+        "readings": ["よやく"],
+        "furi": "0:よ;1:やく",
+        "level": 3,
+        "meanings": ["예약"]
+      },
+      {
+        "id": 860,
+        "word": "夜",
+        "readings": ["よる"],
+        "level": 3,
+        "meanings": ["밤"]
+      },
+      {
+        "id": 861,
+        "word": "～によると",
+        "readings": ["によると"],
+        "level": 3,
+        "meanings": ["~에 의하면"]
+      }
+    ],
+    "ra": [
+      {
+        "id": 862,
+        "word": "来月",
+        "readings": ["らいげつ"],
+        "furi": "0:らい;1:げつ",
+        "level": 3,
+        "meanings": ["다음 달", "내달"]
+      },
+      {
+        "id": 863,
+        "word": "来週",
+        "readings": ["らいしゅう"],
+        "furi": "0:らい;1:しゅう",
+        "level": 3,
+        "meanings": ["다음 주", "내주"]
+      },
+      {
+        "id": 864,
+        "word": "来年",
+        "readings": ["らいれん"],
+        "furi": "0:らい;1:れん",
+        "level": 3,
+        "meanings": ["다음 해", "내년"]
+      }
+    ],
+    "ri": [
+      {
+        "id": 865,
+        "word": "理由",
+        "readings": ["りゆう"],
+        "furi": "0:り;1:ゆう",
+        "level": 3,
+        "meanings": ["이유"]
+      },
+      {
+        "id": 866,
+        "word": "留学",
+        "readings": ["りゅうがく"],
+        "furi": "0:りゅう;1:がく",
+        "level": 3,
+        "meanings": ["유학"]
+      },
+      {
+        "id": 867,
+        "word": "留学生",
+        "readings": ["りゅうがくせい"],
+        "furi": "0:りゅう;1:がく;2:せい",
+        "level": 3,
+        "meanings": ["유학생"]
+      },
+      {
+        "id": 868,
+        "word": "利用",
+        "readings": ["りよう"],
+        "furi": "0:り;1:よう",
+        "level": 3,
+        "meanings": ["이용"]
+      },
+      {
+        "id": 869,
+        "word": "両親",
+        "readings": ["りょうしん"],
+        "furi": "0:りょう;1:しん",
+        "level": 3,
+        "meanings": ["양친"]
+      },
+      {
+        "id": 870,
+        "word": "両方",
+        "readings": ["りょうほう"],
+        "furi": "0:りょう;1:ほう",
+        "level": 3,
+        "meanings": ["양쪽"]
+      },
+      {
+        "id": 871,
+        "word": "料理",
+        "readings": ["りょうり"],
+        "furi": "0:りょう;1:り",
+        "level": 3,
+        "meanings": ["요리"]
+      },
+      {
+        "id": 872,
+        "word": "旅館",
+        "readings": ["りょかん"],
+        "furi": "0:りょ;1:かん",
+        "level": 3,
+        "meanings": ["여관"]
+      },
+      {
+        "id": 873,
+        "word": "旅行",
+        "readings": ["りょこう"],
+        "furi": "0:りょ;1:こう",
+        "level": 3,
+        "meanings": ["여행"]
+      }
+    ],
+    "ru": [
+      {
+        "id": 874,
+        "word": "留守",
+        "readings": ["るす"],
+        "furi": "0:る;1:す",
+        "level": 3,
+        "meanings": ["부재", "집을 비움"]
+      }
+    ],
+    "re": [
+      {
+        "id": 875,
+        "word": "零",
+        "readings": ["れい"],
+        "level": 3,
+        "meanings": ["0", "영"]
+      },
+      {
+        "id": 876,
+        "word": "冷蔵庫",
+        "readings": ["れいぞうこ"],
+        "furi": "0:れい;1:ぞう;2:こ",
+        "level": 3,
+        "meanings": ["냉장고"]
+      },
+      {
+        "id": 877,
+        "word": "冷房",
+        "readings": ["れいぼう"],
+        "furi": "0:れい;1:ぼう",
+        "level": 3,
+        "meanings": ["냉방"]
+      },
+      {
+        "id": 878,
+        "word": "歴史",
+        "readings": ["れきし"],
+        "furi": "0:れき;1:し",
+        "level": 3,
+        "meanings": ["역사"]
+      },
+      {
+        "id": 879,
+        "word": "練習",
+        "readings": ["れんしゅう"],
+        "furi": "0:れん;1:しゅう",
+        "level": 3,
+        "meanings": ["연습"]
+      },
+      {
+        "id": 880,
+        "word": "連絡",
+        "readings": ["れんらく"],
+        "furi": "0:れん;1:らく",
+        "level": 3,
+        "meanings": ["연락"]
+      }
+    ],
+    "ro": [
+      {
+        "id": 881,
+        "word": "廊下",
+        "readings": ["ろうか"],
+        "furi": "0:ろう;1:か",
+        "level": 3,
+        "meanings": ["복도"]
+      },
+      {
+        "id": 882,
+        "word": "六",
+        "readings": ["ろく"],
+        "level": 3,
+        "meanings": ["육", "여섯", "6"]
+      }
+    ],
+    "wa": [
+      {
+        "id": 883,
+        "word": "訳",
+        "readings": ["わけ"],
+        "level": 3,
+        "meanings": ["의미", "뜻", "도리", "사리", "원인", "사정", "이유"]
+      },
+      {
+        "id": 884,
+        "word": "忘れ物",
+        "readings": ["わすれもの"],
+        "furi": "0:わす;2:もの",
+        "level": 3,
+        "meanings": ["분실물"]
+      },
+      {
+        "id": 885,
+        "word": "私",
+        "readings": ["わたくし"],
+        "level": 3,
+        "meanings": ["나", "저"],
+        "desc": "격식을 차린 표현"
+      },
+      {
+        "id": 886,
+        "word": "私",
+        "readings": ["わたし"],
+        "level": 3,
+        "meanings": ["나", "저"]
+      },
+      {
+        "id": 887,
+        "word": "割合",
+        "readings": ["わりあい"],
+        "furi": "0:わり;1:あい",
+        "level": 3,
+        "meanings": ["비율"]
+      },
+      {
+        "id": 888,
+        "word": "割合に",
+        "readings": ["わりあいに"],
+        "furi": "0:わり;1:あい",
+        "level": 3,
+        "meanings": ["비교적"]
+      }
+    ],
+    "~e": [
+      {
+        "id": 889,
+        "word": "青い",
+        "readings": ["あおい"],
+        "furi": "0:あお",
+        "level": 3,
+        "meanings": ["푸르다", "파랗다"]
+      },
+      {
+        "id": 890,
+        "word": "赤い",
+        "readings": ["あかい"],
+        "furi": "0:あか",
+        "level": 3,
+        "meanings": ["붉다", "빨갛다"]
+      },
+      {
+        "id": 891,
+        "word": "明るい",
+        "readings": ["あかるい"],
+        "furi": "0:あか",
+        "level": 3,
+        "meanings": ["밝다", "환하다"]
+      },
+      {
+        "id": 892,
+        "word": "浅い",
+        "readings": ["あさい"],
+        "furi": "0:あさ",
+        "level": 3,
+        "meanings": ["얕다"]
+      },
+      {
+        "id": 893,
+        "word": "暖かい",
+        "readings": ["あたたかい"],
+        "furi": "0:あたた",
+        "level": 3,
+        "meanings": ["따뜻하다"]
+      },
+      {
+        "id": 894,
+        "word": "新しい",
+        "readings": ["あたらしい"],
+        "furi": "0:あたら",
+        "level": 3,
+        "meanings": ["새 것이다", "새롭다", "싱싱하다"]
+      },
+      {
+        "id": 895,
+        "word": "暑い",
+        "readings": ["あつい"],
+        "furi": "0:あつ",
+        "level": 3,
+        "meanings": ["덥다"]
+      },
+      {
+        "id": 896,
+        "word": "熱い",
+        "readings": ["あつい"],
+        "furi": "0:あつ",
+        "level": 3,
+        "meanings": ["뜨겁다"]
+      },
+      {
+        "id": 897,
+        "word": "厚い",
+        "readings": ["あつい"],
+        "furi": "0:あつ",
+        "level": 3,
+        "meanings": ["두껍다"]
+      },
+      {
+        "id": 898,
+        "word": "危ない",
+        "readings": ["あぶない"],
+        "furi": "0:あぶ",
+        "level": 3,
+        "meanings": ["위험하다", "위태롭다"]
+      },
+      {
+        "id": 899,
+        "word": "甘い",
+        "readings": ["あまい"],
+        "furi": "0:あま",
+        "level": 3,
+        "meanings": ["달다"]
+      },
+      {
+        "id": 900,
+        "word": "いい",
+        "readings": ["いい"],
+        "level": 3,
+        "meanings": ["좋다"]
+      },
+      {
+        "id": 901,
+        "word": "よい",
+        "readings": ["よい"],
+        "level": 3,
+        "meanings": ["좋다"]
+      },
+      {
+        "id": 902,
+        "word": "忙しい",
+        "readings": ["いそがしい"],
+        "furi": "0:いそが",
+        "level": 3,
+        "meanings": ["바쁘다"]
+      },
+      {
+        "id": 903,
+        "word": "痛い",
+        "readings": ["いたい"],
+        "furi": "0:いた",
+        "level": 3,
+        "meanings": ["아프다"]
+      },
+      {
+        "id": 904,
+        "word": "薄い",
+        "readings": ["うすい"],
+        "furi": "0:うす",
+        "level": 3,
+        "meanings": ["얇다", "산뜻하다", "담백하다", "연하다", "묽다"]
+      },
+      {
+        "id": 905,
+        "word": "美しい",
+        "readings": ["うつくしい"],
+        "furi": "0:うつく",
+        "level": 3,
+        "meanings": ["아름답다"]
+      },
+      {
+        "id": 906,
+        "word": "うまい",
+        "readings": ["うまい"],
+        "level": 3,
+        "meanings": ["맛있다", "잘하다"]
+      },
+      {
+        "id": 907,
+        "word": "うるさい",
+        "readings": ["うるさい"],
+        "level": 3,
+        "meanings": ["시끄럽다", "번거롭다", "귀찮다"]
+      },
+      {
+        "id": 908,
+        "word": "嬉しい",
+        "readings": ["うれしい"],
+        "furi": "0:うれ",
+        "level": 3,
+        "meanings": ["즐겁고 기쁘다", "기쁘다"]
+      },
+      {
+        "id": 909,
+        "word": "おいしい",
+        "readings": ["おいしい"],
+        "level": 3,
+        "meanings": ["맛있다", "맛좋다"]
+      },
+      {
+        "id": 910,
+        "word": "多い",
+        "readings": ["おおい"],
+        "furi": "0:おお",
+        "level": 3,
+        "meanings": ["많다"]
+      },
+      {
+        "id": 911,
+        "word": "大きい",
+        "readings": ["おおきい"],
+        "furi": "0:おお",
+        "level": 3,
+        "meanings": ["크다"]
+      },
+      {
+        "id": 912,
+        "word": "おかしい",
+        "readings": ["おかしい"],
+        "level": 3,
+        "meanings": ["우습다", "이상하다"]
+      },
+      {
+        "id": 913,
+        "word": "遅い",
+        "readings": ["おそい"],
+        "furi": "0:おそ",
+        "level": 3,
+        "meanings": ["늦다", "더디다", "느리다"]
+      },
+      {
+        "id": 914,
+        "word": "重い",
+        "readings": ["おもい"],
+        "furi": "0:おも",
+        "level": 3,
+        "meanings": ["무겁다"]
+      },
+      {
+        "id": 915,
+        "word": "面白い",
+        "readings": ["おもしろい"],
+        "furi": "0:おも;1:しろ",
+        "level": 3,
+        "meanings": ["우습다", "재미있다"]
+      },
+      {
+        "id": 916,
+        "word": "悲しい",
+        "readings": ["かなしい"],
+        "furi": "0:かな",
+        "level": 3,
+        "meanings": ["슬프다"]
+      },
+      {
+        "id": 917,
+        "word": "辛い",
+        "readings": ["からい"],
+        "furi": "0:から",
+        "level": 3,
+        "meanings": ["맵다", "짜다"]
+      },
+      {
+        "id": 918,
+        "word": "軽い",
+        "readings": ["かるい"],
+        "furi": "0:かる",
+        "level": 3,
+        "meanings": ["가볍다"]
+      },
+      {
+        "id": 919,
+        "word": "かわいい",
+        "readings": ["かわいい"],
+        "level": 3,
+        "meanings": ["예쁘다", "귀엽다"]
+      },
+      {
+        "id": 920,
+        "word": "黄色い",
+        "readings": ["きいろい"],
+        "furi": "0:きいろ",
+        "level": 3,
+        "meanings": ["노랗다"]
+      },
+      {
+        "id": 921,
+        "word": "汚い",
+        "readings": ["きたない"],
+        "furi": "0:きたな",
+        "level": 3,
+        "meanings": ["더럽다", "지저분하다"]
+      },
+      {
+        "id": 922,
+        "word": "厳しい",
+        "readings": ["きびしい"],
+        "furi": "0:きび",
+        "level": 3,
+        "meanings": ["엄격하다", "정도가 매우 심하다"]
+      },
+      {
+        "id": 923,
+        "word": "暗い",
+        "readings": ["くらい"],
+        "furi": "0:くら",
+        "level": 3,
+        "meanings": ["어둡다"]
+      },
+      {
+        "id": 924,
+        "word": "黒い",
+        "readings": ["くろい"],
+        "furi": "0:くろ",
+        "level": 3,
+        "meanings": ["검다", "까맣다"]
+      },
+      {
+        "id": 925,
+        "word": "細かい",
+        "readings": ["こまかい"],
+        "furi": "0:こま",
+        "level": 3,
+        "meanings": ["잘다", "자세하다", "미세하다"]
+      },
+      {
+        "id": 926,
+        "word": "怖い",
+        "readings": ["こわい"],
+        "furi": "0:こわ",
+        "level": 3,
+        "meanings": ["무섭다", "엄하다"]
+      },
+      {
+        "id": 927,
+        "word": "恐い",
+        "readings": ["こわい"],
+        "furi": "0:こわ",
+        "level": 3,
+        "meanings": ["무섭다", "엄하다"]
+      },
+      {
+        "id": 928,
+        "word": "寂しい",
+        "readings": ["さびしい"],
+        "furi": "0:さび",
+        "level": 3,
+        "meanings": ["허전하다", "쓸쓸하다", "외롭다"]
+      },
+      {
+        "id": 929,
+        "word": "寒い",
+        "readings": ["さむい"],
+        "furi": "0:さむ",
+        "level": 3,
+        "meanings": ["춥다"]
+      },
+      {
+        "id": 930,
+        "word": "白い",
+        "readings": ["しろい"],
+        "furi": "0:しろ",
+        "level": 3,
+        "meanings": ["희다", "하얗다"]
+      },
+      {
+        "id": 931,
+        "word": "少ない",
+        "readings": ["すぐない"],
+        "furi": "0:すぐ",
+        "level": 3,
+        "meanings": ["적다", "어리다", "나이가 적다"]
+      },
+      {
+        "id": 932,
+        "word": "すごい",
+        "readings": ["すごい"],
+        "level": 3,
+        "meanings": ["무섭다", "굉장하다", "대단하다"]
+      },
+      {
+        "id": 933,
+        "word": "涼しい",
+        "readings": ["すずしい"],
+        "furi": "0:すず",
+        "level": 3,
+        "meanings": ["시원하다", "서늘하다"]
+      },
+      {
+        "id": 934,
+        "word": "素晴らしい",
+        "readings": ["すばらしい"],
+        "furi": "0:す;1:ば",
+        "level": 3,
+        "meanings": ["훌륭하다", "근사하다", "굉장하다", "멋지다"]
+      },
+      {
+        "id": 935,
+        "word": "狭い",
+        "readings": ["せまい"],
+        "furi": "0:せま",
+        "level": 3,
+        "meanings": ["좁다"]
+      },
+      {
+        "id": 936,
+        "word": "高い",
+        "readings": ["たかい"],
+        "furi": "0:たか",
+        "level": 3,
+        "meanings": ["높다", "크다", "비싸다"]
+      },
+      {
+        "id": 937,
+        "word": "正しい",
+        "readings": ["ただしい"],
+        "furi": "0:ただ",
+        "level": 3,
+        "meanings": ["옳다", "바르다", "맞다"]
+      },
+      {
+        "id": 938,
+        "word": "楽しい",
+        "readings": ["たのしい"],
+        "furi": "0:たの",
+        "level": 3,
+        "meanings": ["즐겁다"]
+      },
+      {
+        "id": 939,
+        "word": "小さい",
+        "readings": ["ちいさい"],
+        "furi": "0:ちい",
+        "level": 3,
+        "meanings": ["작다", "나이가 어리다"]
+      },
+      {
+        "id": 940,
+        "word": "近い",
+        "readings": ["ちかい"],
+        "furi": "0:ちか",
+        "level": 3,
+        "meanings": ["가깝다"]
+      },
+      {
+        "id": 941,
+        "word": "つまらない",
+        "readings": ["つまらない"],
+        "level": 3,
+        "meanings": ["하찮다", "시시하다", "재미없다"]
+      },
+      {
+        "id": 942,
+        "word": "冷たい",
+        "readings": ["つめたい"],
+        "furi": "0:つめ",
+        "level": 3,
+        "meanings": ["차다", "차갑다", "냉정하다"]
+      },
+      {
+        "id": 943,
+        "word": "強い",
+        "readings": ["つよい"],
+        "furi": "0:つよ",
+        "level": 3,
+        "meanings": ["강하다", "세다"]
+      },
+      {
+        "id": 944,
+        "word": "遠い",
+        "readings": ["とおい"],
+        "furi": "0:とお",
+        "level": 3,
+        "meanings": ["멀다"]
+      },
+      {
+        "id": 945,
+        "word": "長い",
+        "readings": ["ながい"],
+        "furi": "0:なが",
+        "level": 3,
+        "meanings": ["길다"]
+      },
+      {
+        "id": 946,
+        "word": "苦い",
+        "readings": ["にがい"],
+        "furi": "0:にが",
+        "level": 3,
+        "meanings": ["쓰다", "맛이 쓰다"]
+      },
+      {
+        "id": 947,
+        "word": "憎い",
+        "readings": ["にくい"],
+        "furi": "0:にく",
+        "level": 3,
+        "meanings": ["밉다", "얄밉다"]
+      },
+      {
+        "id": 948,
+        "word": "温い",
+        "readings": ["ぬるい"],
+        "furi": "0:ぬる",
+        "level": 3,
+        "meanings": ["미지근하다"]
+      },
+      {
+        "id": 949,
+        "word": "眠い",
+        "readings": ["ねむい"],
+        "furi": "0:ねむ",
+        "level": 3,
+        "meanings": ["졸리다"]
+      },
+      {
+        "id": 950,
+        "word": "恥ずかしい",
+        "readings": ["はずかしい"],
+        "furi": "0:は",
+        "level": 3,
+        "meanings": ["부끄럽다"]
+      },
+      {
+        "id": 951,
+        "word": "速い",
+        "readings": ["はやい"],
+        "furi": "0:はや",
+        "level": 3,
+        "meanings": ["빠르다"],
+        "desc": "걸음·흐름 등의 속도가 빠르다"
+      },
+      {
+        "id": 952,
+        "word": "早い",
+        "readings": ["はやい"],
+        "furi": "0:はや",
+        "level": 3,
+        "meanings": ["이르다", "빠르다"],
+        "desc": "시간적으로 이르거나 빠르다"
+      },
+      {
+        "id": 953,
+        "word": "低い",
+        "readings": ["ひくい"],
+        "furi": "0:ひく",
+        "level": 3,
+        "meanings": ["낮다", "얕다", "키가 작다"]
+      },
+      {
+        "id": 954,
+        "word": "ひどい",
+        "readings": ["ひどい"],
+        "level": 3,
+        "meanings": ["심하다"]
+      },
+      {
+        "id": 955,
+        "word": "広い",
+        "readings": ["ひろい"],
+        "furi": "0:ひろ",
+        "level": 3,
+        "meanings": ["넓다"]
+      },
+      {
+        "id": 956,
+        "word": "深い",
+        "readings": ["ふかい"],
+        "furi": "0:ふか",
+        "level": 3,
+        "meanings": ["깊다", "짙다", "많다"]
+      },
+      {
+        "id": 957,
+        "word": "太い",
+        "readings": ["ふとい"],
+        "furi": "0:ふと",
+        "level": 3,
+        "meanings": ["굵다", "뚱뚱하다"]
+      },
+      {
+        "id": 958,
+        "word": "古い",
+        "readings": ["ふるい"],
+        "furi": "0:ふる",
+        "level": 3,
+        "meanings": ["오래되다", "옛날식이다", "낡다"]
+      },
+      {
+        "id": 959,
+        "word": "欲しい",
+        "readings": ["ほしい"],
+        "furi": "0:ほ",
+        "level": 3,
+        "meanings": ["갖고 싶다", "원하다"]
+      },
+      {
+        "id": 960,
+        "word": "細い",
+        "readings": ["ほそい"],
+        "furi": "0:ほそ",
+        "level": 3,
+        "meanings": ["가늘다", "날씬하다"]
+      },
+      {
+        "id": 961,
+        "word": "まずい",
+        "readings": ["まずい"],
+        "level": 3,
+        "meanings": ["맛이 없다"]
+      },
+      {
+        "id": 962,
+        "word": "丸い",
+        "readings": ["まるい"],
+        "furi": "0:まる",
+        "level": 3,
+        "meanings": ["둥글다"]
+      },
+      {
+        "id": 963,
+        "word": "円い",
+        "readings": ["まるい"],
+        "furi": "0:まる",
+        "level": 3,
+        "meanings": ["둥글다"]
+      },
+      {
+        "id": 964,
+        "word": "短い",
+        "readings": ["みじかい"],
+        "furi": "0:みじか",
+        "level": 3,
+        "meanings": ["짧다"]
+      },
+      {
+        "id": 965,
+        "word": "難しい",
+        "readings": ["むずかしい"],
+        "furi": "0:むずか",
+        "level": 3,
+        "meanings": ["어렵다"]
+      },
+      {
+        "id": 966,
+        "word": "珍しい",
+        "readings": ["めずらしい"],
+        "furi": "0:めずら",
+        "level": 3,
+        "meanings": ["신기하다"]
+      },
+      {
+        "id": 967,
+        "word": "易しい",
+        "readings": ["やさしい"],
+        "furi": "0:やさ",
+        "level": 3,
+        "meanings": ["쉽다"]
+      },
+      {
+        "id": 968,
+        "word": "優しい",
+        "readings": ["やさしい"],
+        "furi": "0:やさ",
+        "level": 3,
+        "meanings": ["상냥하다", "다정하다", "친절하다"]
+      },
+      {
+        "id": 969,
+        "word": "安い",
+        "readings": ["やすい"],
+        "furi": "0:やす",
+        "level": 3,
+        "meanings": ["싸다"]
+      },
+      {
+        "id": 970,
+        "word": "柔らかい",
+        "readings": ["やわらかい"],
+        "furi": "0:やわ",
+        "level": 3,
+        "meanings": ["부드럽다", "포근하다", "푹신하다"]
+      },
+      {
+        "id": 971,
+        "word": "よろしい",
+        "readings": ["よろしい"],
+        "level": 3,
+        "meanings": ["좋다"],
+        "desc": "よい의 공손한 표현"
+      },
+      {
+        "id": 972,
+        "word": "弱い",
+        "readings": ["よわい"],
+        "furi": "0:よわ",
+        "level": 3,
+        "meanings": ["약하다"]
+      },
+      {
+        "id": 973,
+        "word": "若い",
+        "readings": ["わかい"],
+        "furi": "0:わか",
+        "level": 3,
+        "meanings": ["젊다"]
+      },
+      {
+        "id": 974,
+        "word": "悪い",
+        "readings": ["わるい"],
+        "furi": "0:わる",
+        "level": 3,
+        "meanings": ["나쁘다", "미안하다"]
+      }
+    ],
+    "~na": [
+      {
+        "refs": [36]
+      },
+      {
+        "id": 975,
+        "word": "嫌",
+        "readings": ["いや"],
+        "level": 3,
+        "meanings": ["싫음"]
+      },
+      {
+        "id": 976,
+        "word": "厭",
+        "readings": ["いや"],
+        "level": 3,
+        "meanings": ["싫음"]
+      },
+      {
+        "id": 977,
+        "word": "色々",
+        "readings": ["いろいろ"],
+        "furi": "0:いろ;1:いろ",
+        "level": 3,
+        "meanings": ["여러 가지로", "여러 모로"]
+      },
+      {
+        "id": 978,
+        "word": "同じ",
+        "readings": ["おなじ"],
+        "furi": "0:おな",
+        "level": 3,
+        "meanings": ["같음", "동일함"]
+      },
+      {
+        "id": 979,
+        "word": "きれい",
+        "readings": ["きれい"],
+        "level": 3,
+        "meanings": ["예쁨", "아름다움", "청결함"]
+      },
+      {
+        "id": 980,
+        "word": "結構",
+        "readings": ["けっこう"],
+        "furi": "0:けっ;1:こう",
+        "level": 3,
+        "meanings": ["꽤", "상당히", "상당함", "그런대로", "제법", "제법임", "충분히"]
+      },
+      {
+        "id": 981,
+        "word": "元気",
+        "readings": ["げんき"],
+        "furi": "0:げん;1:き",
+        "level": 3,
+        "meanings": ["건강한 모양"]
+      },
+      {
+        "id": 982,
+        "word": "盛ん",
+        "readings": ["さかん"],
+        "furi": "0:さか",
+        "level": 3,
+        "meanings": ["성함", "번성함", "번창함"]
+      },
+      {
+        "id": 983,
+        "word": "残念",
+        "readings": ["ざんねん"],
+        "furi": "0:ざん;1:ねん",
+        "level": 3,
+        "meanings": ["분함", "억울함"]
+      },
+      {
+        "id": 984,
+        "word": "地味",
+        "readings": ["じみ"],
+        "furi": "0:じ;1:み",
+        "level": 3,
+        "meanings": ["수수함"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "~e": [
+      {
+        "refs": [
+          936,
+          969,
+          953,
+          896,
+          942,
+          895,
+          929,
+          897,
+          904
+        ]
+      },
+      {
+        "id": 985,
+        "word": "濃い",
+        "readings": ["こい"],
+        "furi": "0:こ",
+        "level": 3,
+        "meanings": ["짙다", "진하다"]
+      },
+      {
+        "id": 986,
+        "word": "淡い",
+        "readings": ["あわい"],
+        "furi": "0:あわ",
+        "level": 3,
+        "meanings": ["담백하다"]
+      },
+      {
+        "id": 987,
+        "word": "水っぽい",
+        "readings": ["みずっぽい"],
+        "furi": "0:みず",
+        "level": 3,
+        "meanings": ["수분이 많다", "묽다", "싱겁다"]
+      },
+      {
+        "refs": [
+          952,
+          951,
+          913,
+          967,
+          965,
+          968,
+          926,
+          956,
+          892,
+          891,
+          923,
+          924,
+          930,
+          893,
+          933,
+          894,
+          958,
+          908,
+          916,
+          938
+        ]
+      },
+      {
+        "id": 988,
+        "word": "苦しい",
+        "readings": ["くるしい"],
+        "furi": "0:くる",
+        "level": 3,
+        "meanings": ["괴롭다", "답답하다", "고통스럽다"]
+      },
+      {
+        "refs": [
+          910,
+          931,
+          911,
+          939,
+          914,
+          918,
+          909
+        ]
+      },
+      {
+        "id": 989,
+        "word": "まずい",
+        "readings": ["まずい"],
+        "level": 3,
+        "meanings": ["맛없다"]
+      },
+      {
+        "id": 990,
+        "word": "軟らかい",
+        "readings": ["やわらかい"],
+        "furi": "0:やわ",
+        "level": 3,
+        "meanings": ["부드럽다", "연하다", "딱딱하지 않다"]
+      },
+      {
+        "id": 991,
+        "word": "固い",
+        "readings": ["かたい"],
+        "furi": "0:かた",
+        "level": 3,
+        "meanings": ["단단하다", "딱딱하다"]
+      },
+      {
+        "refs": [
+          943,
+          972,
+          955,
+          935,
+          957,
+          960,
+          925
+        ]
+      },
+      {
+        "id": 992,
+        "word": "粗い",
+        "readings": ["あらい"],
+        "furi": "0:あら",
+        "level": 3,
+        "meanings": ["거칠다"]
+      },
+      {
+        "refs": [
+          940,
+          944,
+          945,
+          964,
+          900,
+          901,
+          974
+        ]
+      },
+      {
+        "id": 993,
+        "word": "甘辛い",
+        "readings": ["あまからい"],
+        "furi": "0:あま;1:から",
+        "level": 3,
+        "meanings": ["맛이 짙어 달고도 짭짤하다", "맛이 달면서도 짭잘하다", "맛이 달면서도 맵다"]
+      },
+      {
+        "id": 994,
+        "word": "ほろ苦い",
+        "readings": ["ほろにがい"],
+        "furi": "2:にが",
+        "level": 3,
+        "meanings": ["씁쓰레하다", "쌉쌀하다"]
+      },
+      {
+        "id": 995,
+        "word": "渋い",
+        "readings": ["しぶい"],
+        "furi": "0:しぶ",
+        "level": 3,
+        "meanings": ["떫다"]
+      },
+      {
+        "id": 996,
+        "word": "酸っぱい",
+        "readings": ["すっぱい"],
+        "furi": "0:す",
+        "level": 3,
+        "meanings": ["시다"]
+      },
+      {
+        "id": 997,
+        "word": "甘酸っぱい",
+        "readings": ["あますっぱい"],
+        "furi": "0:あま;1:す",
+        "level": 3,
+        "meanings": ["달콤새콤하다"]
+      },
+      {
+        "id": 998,
+        "word": "しょっぱい",
+        "readings": ["しょっぱい"],
+        "level": 3,
+        "meanings": ["짜다"]
+      },
+      {
+        "id": 999,
+        "word": "塩辛い",
+        "readings": ["しおからい"],
+        "furi": "0:しお;1:から",
+        "level": 3,
+        "meanings": ["짜다"]
+      },
+      {
+        "id": 1000,
+        "word": "生臭い",
+        "readings": ["なまくさい"],
+        "furi": "0:なま;1:くさ",
+        "level": 3,
+        "meanings": ["비린내가 난다"]
+      },
+      {
+        "id": 1001,
+        "word": "香ばしい",
+        "readings": ["こうばしい"],
+        "furi": "0:こう",
+        "level": 3,
+        "meanings": ["향기롭다", "구수하다"]
+      },
+      {
+        "id": 1002,
+        "word": "芳ばしい",
+        "readings": ["こうばしい"],
+        "furi": "0:こう",
+        "level": 3,
+        "meanings": ["향기롭다", "구수하다"]
+      },
+      {
+        "id": 1003,
+        "word": "脂っこい",
+        "readings": ["あぶらっこい"],
+        "furi": "0:あぶら",
+        "level": 3,
+        "meanings": ["기름기가 많고 느끼하다"]
+      }
+    ],
+    "~na": [
+      {
+        "id": 1004,
+        "word": "邪魔",
+        "readings": ["じゃま"],
+        "furi": "0:じゃ;1:ま",
+        "level": 3,
+        "meanings": ["방해", "간섭"]
+      },
+      {
+        "id": 1005,
+        "word": "上手",
+        "readings": ["じょうず"],
+        "furi": "0:じょう;1:ず",
+        "level": 3,
+        "meanings": ["하는 일이 능숙함", "솜씨가 좋음"]
+      },
+      {
+        "id": 1006,
+        "word": "丈夫",
+        "readings": ["じょうぶ"],
+        "furi": "0:じょう;1:ぶ",
+        "level": 3,
+        "meanings": ["건강", "견고", "튼튼함", "단단함"]
+      },
+      {
+        "refs": [411]
+      },
+      {
+        "id": 1007,
+        "word": "親切",
+        "readings": ["しんせつ"],
+        "furi": "0:しん;1:せつ",
+        "level": 3,
+        "meanings": ["친절"]
+      },
+      {
+        "id": 1008,
+        "word": "心配",
+        "readings": ["しんぱい"],
+        "furi": "0:しん;1:ぱい",
+        "level": 3,
+        "meanings": ["걱정", "근심", "격려"]
+      },
+      {
+        "id": 1009,
+        "word": "好き",
+        "readings": ["すき"],
+        "furi": "0:す",
+        "level": 3,
+        "meanings": ["좋아함", "호기심"]
+      },
+      {
+        "id": 1010,
+        "word": "大事",
+        "readings": ["だいじ"],
+        "furi": "0:だい;1:じ",
+        "level": 3,
+        "meanings": ["큰일", "신중함", "소중함"]
+      },
+      {
+        "id": 1011,
+        "word": "大丈夫",
+        "readings": ["だいじょうぶ"],
+        "furi": "0:だい;1:じょう;2:ぶ",
+        "level": 3,
+        "meanings": ["괜찮음", "걱정 없음"]
+      },
+      {
+        "id": 1012,
+        "word": "大好き",
+        "readings": ["だいすき"],
+        "furi": "0:だい;1:す",
+        "level": 3,
+        "meanings": ["매우 좋아하는 모양"]
+      },
+      {
+        "id": 1013,
+        "word": "大切",
+        "readings": ["たいせつ"],
+        "furi": "0:たい;1:せつ",
+        "level": 3,
+        "meanings": ["중요함", "귀중함", "소중함"]
+      },
+      {
+        "id": 1014,
+        "word": "大変",
+        "readings": ["たいへん"],
+        "furi": "0:たい;1:へん",
+        "level": 3,
+        "meanings": ["몹시", "매우", "대단히", "큰일", "대사건"]
+      },
+      {
+        "id": 1015,
+        "word": "確か",
+        "readings": ["たしか"],
+        "furi": "0:たし",
+        "level": 3,
+        "meanings": ["확실함", "확실한"]
+      },
+      {
+        "id": 1016,
+        "word": "駄目",
+        "readings": ["だめ"],
+        "furi": "0:だ;1:め",
+        "level": 3,
+        "meanings": ["안 됨"]
+      },
+      {
+        "id": 1017,
+        "word": "丁寧",
+        "readings": ["ていねい"],
+        "furi": "0:てい;1:ねい",
+        "level": 3,
+        "meanings": ["친절함", "정중함", "공손함"]
+      },
+      {
+        "id": 1018,
+        "word": "得意",
+        "readings": ["とくい"],
+        "furi": "0:とく;1:い",
+        "level": 3,
+        "meanings": ["잘함"]
+      },
+      {
+        "id": 1019,
+        "word": "特別",
+        "readings": ["とくべつ"],
+        "furi": "0:とく;1:べつ",
+        "level": 3,
+        "meanings": ["특별"],
+        "desc": "주로 명사로 사용되지만 な형용사로도 사용"
+      },
+      {
+        "id": 1020,
+        "word": "苦手",
+        "readings": ["にがて"],
+        "furi": "0:にが;1:て",
+        "level": 3,
+        "meanings": ["못함"]
+      },
+      {
+        "id": 1021,
+        "word": "にぎやか",
+        "readings": ["にぎやか"],
+        "level": 3,
+        "meanings": ["번화함", "활기참", "북적임", "명랑하게 떠드는 모양"]
+      },
+      {
+        "id": 1022,
+        "word": "熱心",
+        "readings": ["ねっしん"],
+        "furi": "0:ねっ;1:しん",
+        "level": 3,
+        "meanings": ["열심"]
+      },
+      {
+        "id": 1023,
+        "word": "～筈",
+        "readings": ["はず"],
+        "furi": "1:はず",
+        "level": 3,
+        "meanings": ["~일 터", "~될 것"]
+      },
+      {
+        "id": 1024,
+        "word": "派手",
+        "readings": ["はで"],
+        "furi": "0:は;1:で",
+        "level": 3,
+        "meanings": ["화려함"]
+      },
+      {
+        "id": 1025,
+        "word": "必要",
+        "readings": ["ひつよう"],
+        "furi": "0:ひつ;1:よう",
+        "level": 3,
+        "meanings": ["필요"]
+      },
+      {
+        "id": 1026,
+        "word": "暇",
+        "readings": ["ひま"],
+        "level": 3,
+        "meanings": ["틈", "한가한 시간", "한가함"]
+      },
+      {
+        "id": 1027,
+        "word": "複雑",
+        "readings": ["ふくざつ"],
+        "furi": "0:ふく;1:ざつ",
+        "level": 3,
+        "meanings": ["복잡"]
+      },
+      {
+        "id": 1028,
+        "word": "不便",
+        "readings": ["ふべん"],
+        "furi": "0:ふ;1:べん",
+        "level": 3,
+        "meanings": ["불편"]
+      },
+      {
+        "id": 1029,
+        "word": "下手",
+        "readings": ["へた"],
+        "furi": "0:へ;1:た",
+        "level": 3,
+        "meanings": ["서투룸"]
+      },
+      {
+        "id": 1030,
+        "word": "変",
+        "readings": ["へん"],
+        "level": 3,
+        "meanings": ["보통이 아님", "이상함"]
+      },
+      {
+        "id": 1031,
+        "word": "便利",
+        "readings": ["べんり"],
+        "furi": "0:べん;1:り",
+        "level": 3,
+        "meanings": ["편리"]
+      },
+      {
+        "id": 1032,
+        "word": "真面目",
+        "readings": ["まじめ"],
+        "furi": "0:ま;1:じ;2:め",
+        "level": 3,
+        "meanings": ["성실함"]
+      },
+      {
+        "id": 1033,
+        "word": "楽",
+        "readings": ["らく"],
+        "level": 3,
+        "meanings": ["편안함"]
+      },
+      {
+        "id": 1034,
+        "word": "立派",
+        "readings": ["りっぱ"],
+        "furi": "0:りっ;1:ぱ",
+        "level": 3,
+        "meanings": ["훌륭함", "더 말할 나위 없음"]
+      },
+      {
+        "id": 1035,
+        "word": "静かだ",
+        "readings": ["しずかだ"],
+        "furi": "0:しず",
+        "level": 3,
+        "meanings": ["조용하다", "고요하다"]
+      },
+      {
+        "id": 1036,
+        "word": "賑やかだ",
+        "readings": ["しんやかだ"],
+        "furi": "0:しん",
+        "level": 3,
+        "meanings": ["번화하다", "활기차다"]
+      },
+      {
+        "id": 1037,
+        "word": "好きだ",
+        "readings": ["すきだ"],
+        "furi": "0:す",
+        "level": 3,
+        "meanings": ["좋아하다"]
+      },
+      {
+        "id": 1038,
+        "word": "嫌いだ",
+        "readings": ["きらいだ"],
+        "furi": "0:きら",
+        "level": 3,
+        "meanings": ["싫어하다"]
+      },
+      {
+        "id": 1039,
+        "word": "便利だ",
+        "readings": ["べんりだ"],
+        "furi": "0:べん;1:り",
+        "level": 3,
+        "meanings": ["편리하다"]
+      },
+      {
+        "id": 1040,
+        "word": "楽だ",
+        "readings": ["らくだ"],
+        "furi": "0:らく",
+        "level": 3,
+        "meanings": ["편안하다"]
+      },
+      {
+        "id": 1041,
+        "word": "不便だ",
+        "readings": ["ふべんだ"],
+        "furi": "0:ふ;1:べん",
+        "level": 3,
+        "meanings": ["불편하다"]
+      },
+      {
+        "id": 1042,
+        "word": "上手だ",
+        "readings": ["じょうずだ"],
+        "furi": "0:じょう;1:ず",
+        "level": 3,
+        "meanings": ["잘하다"]
+      },
+      {
+        "id": 1043,
+        "word": "下手だ",
+        "readings": ["へただ"],
+        "furi": "0:へ;1:た",
+        "level": 3,
+        "meanings": ["못하다"]
+      },
+      {
+        "id": 1044,
+        "word": "得意だ",
+        "readings": ["とくいだ"],
+        "furi": "0:とく;1:い",
+        "level": 3,
+        "meanings": ["잘하다", "특기다"]
+      },
+      {
+        "id": 1045,
+        "word": "苦手だ",
+        "readings": ["にがてだ"],
+        "furi": "0:にが;1:て",
+        "level": 3,
+        "meanings": ["못하다", "서툴다"]
+      },
+      {
+        "id": 1046,
+        "word": "派手だ",
+        "readings": ["はでだ"],
+        "furi": "0:は;1:で",
+        "level": 3,
+        "meanings": ["화려하다"]
+      },
+      {
+        "id": 1047,
+        "word": "地味だ",
+        "readings": ["じみだ"],
+        "furi": "0:じ;1:み",
+        "level": 3,
+        "meanings": ["수수하다"]
+      }
+    ],
+    "a": [
+      {
+        "id": 1048,
+        "word": "あっさりした味",
+        "readings": ["あっさりしたあじ"],
+        "furi": "6:あじ",
+        "level": 3,
+        "meanings": ["산뜻한 맛", "얕은 맛"]
+      },
+      {
+        "id": 1049,
+        "word": "挨拶する",
+        "readings": ["あいさつする"],
+        "furi": "0:あい;1:さつ",
+        "level": 3,
+        "meanings": ["인사하다"]
+      },
+      {
+        "id": 1050,
+        "word": "愛する",
+        "readings": ["あいする"],
+        "furi": "0:あい",
+        "level": 3,
+        "meanings": ["사랑하다"]
+      },
+      {
+        "id": 1051,
+        "word": "合図する",
+        "readings": ["あいずする"],
+        "furi": "0:あい;1:ず",
+        "level": 3,
+        "meanings": ["신호하다"]
+      },
+      {
+        "id": 1052,
+        "word": "合う",
+        "readings": ["あう"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["맞다", "일치하다", "조화되다"]
+      },
+      {
+        "id": 1053,
+        "word": "会う",
+        "readings": ["あう"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["만나다"]
+      },
+      {
+        "id": 1054,
+        "word": "上がる",
+        "readings": ["あがる"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["오르다", "올라가다"]
+      },
+      {
+        "id": 1055,
+        "word": "開く",
+        "readings": ["あく"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["열리다", "구멍이 뚫리다"]
+      },
+      {
+        "id": 1056,
+        "word": "空く",
+        "readings": ["あく"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["비다", "자리가 나다"]
+      },
+      {
+        "id": 1057,
+        "word": "開ける",
+        "readings": ["あける"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["열다", "책을 펴다", "눈을 뜨다"]
+      },
+      {
+        "id": 1058,
+        "word": "あげる",
+        "readings": ["あげる"],
+        "level": 3,
+        "meanings": ["주다", "드리다"]
+      },
+      {
+        "id": 1059,
+        "word": "～てあげる",
+        "readings": ["てあげる"],
+        "level": 3,
+        "meanings": ["~해주다", "~여 주다", "~여 드리다"]
+      },
+      {
+        "id": 1060,
+        "word": "上げる",
+        "readings": ["あげる"],
+        "furi": "0:あ",
+        "level": 3,
+        "meanings": ["올리다", "주다", "드리다"]
+      },
+      {
+        "id": 1061,
+        "word": "朝寝坊する",
+        "readings": ["あさねぼうする"],
+        "furi": "0:あさ;1:ね;2:ぼう",
+        "level": 3,
+        "meanings": ["늦잠을 자다"]
+      },
+      {
+        "id": 1062,
+        "word": "遊ぶ",
+        "readings": ["あそぶ"],
+        "furi": "0:あそ",
+        "level": 3,
+        "meanings": ["놀다"]
+      }
+    ],
+    "ko": [
+      {
+        "id": 1063,
+        "word": "こってりした味",
+        "readings": ["こってりしたあじ"],
+        "furi": "6:あじ",
+        "level": 3,
+        "meanings": ["진한 맛", "담백하지 않고 짙은 맛"]
+      }
+    ],
+    "sa": [
+      {
+        "id": 1064,
+        "word": "さっぱりした味",
+        "readings": ["さっぱりしたあじ"],
+        "furi": "6:あじ",
+        "level": 3,
+        "meanings": ["산뜻한 맛", "담백한 맛"]
+      }
+    ],
+    "ma": [
+      {
+        "id": 1065,
+        "word": "まろやかな味",
+        "readings": ["まろやかなあじ"],
+        "furi": "5:あじ",
+        "level": 3,
+        "meanings": ["순한 맛", "부드러운 맛"]
+      }
+    ]
+  }
+]

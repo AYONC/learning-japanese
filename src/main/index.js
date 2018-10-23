@@ -2,8 +2,6 @@ import aesjs from 'aes-js';
 import { app, Menu, ipcMain } from 'electron';
 import settings from 'electron-settings';
 import fs from 'fs';
-import API from 'main/API';
-import { dataPath } from 'main/Path';
 import Event from 'Event';
 import Window from 'main/Window';
 
@@ -34,40 +32,20 @@ const loadDevToolsIfNeeded = () => {
 };
 
 const fetchData = completion => {
-  const dataSHA = settings.get('app.dataSHA');
-  API.fetchData(
-    dataSHA,
-    (updated, sha) => {
-      if (updated) {
-        settings.set('app', {
-          dataSHA: sha,
-        });
-      }
-      fs.readFile(dataPath, (error, encryptedBytes) => {
-        if (error) {
-          settings.set('app', {
-            dataSHA: null,
-          });
-          completion([], error);
-          return;
-        }
-        const secretKeyBytes = aesjs.utils.utf8.toBytes('9fd6591ffc2f42e7');
-        // eslint-disable-next-line new-cap
-        const aes = new aesjs.ModeOfOperation.cbc(secretKeyBytes);
-        const decryptedBytes = aes.decrypt(encryptedBytes);
-        const strippedbytes = aesjs.padding.pkcs7.strip(decryptedBytes);
-        const decryptedString = aesjs.utils.utf8.fromBytes(strippedbytes);
-        try {
-          completion(JSON.parse(decryptedString));
-        } catch (e) {
-          completion([], e);
-        }
+  fs.readFile('data/data.json', (error, data) => {
+    if (error) {
+      settings.set('app', {
+        dataSHA: null,
       });
-    },
-    error => {
       completion([], error);
-    },
-  );
+      return;
+    }
+    try {
+      completion(JSON.parse(data));
+    } catch (e) {
+      completion([], e);
+    }
+  });
 };
 
 const subscribeEvents = () => {

@@ -20,7 +20,7 @@ const cryptor = (type, key, src, dist) => {
       bytes = aes.encrypt(aesjs.padding.pkcs7.pad(data));
       message = 'encrtyped.';
     }
-    fs.writeFile(dist, bytes, (err) => {
+    fs.writeFile(dist, bytes, err => {
       if (err) {
         console.log(err);
       } else {
@@ -28,12 +28,12 @@ const cryptor = (type, key, src, dist) => {
       }
     });
   });
-}
+};
 
 const rl = readline.createInterface(process.stdin, process.stdout);
 rl.setPrompt('key> ');
 rl.prompt();
-rl.on('line', (line) => {
+rl.on('line', line => {
   rl.close();
   const path1 = './data/data.json';
   const path2 = './data/data.dat';
@@ -42,4 +42,4 @@ rl.on('line', (line) => {
   } else if (type === '--e') {
     cryptor(type, line, path1, path2);
   }
-})
+});

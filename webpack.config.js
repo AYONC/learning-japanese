@@ -41,10 +41,6 @@ if (isDev) {
           },
         },
         compress: true,
-        output: {
-          comments: false,
-          beautify: false,
-        },
       },
     }),
   ];
